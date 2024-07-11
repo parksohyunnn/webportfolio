@@ -1,0 +1,2403 @@
+#section1 {
+    background-color: #00D675;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/*폰트 */
+.middleTitle {
+    font-family: var(--fontP);
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+
+.mainText {
+    font-family: var(--fontB);
+    text-align: center;
+    font-size: 16px;
+}
+
+.mainTitle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    font-size: 10vw;
+    font-family: var(--fontF);
+    font-weight: 300;
+    /* letter-spacing: -0.7vw; */
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    display: block;
+}
+
+
+/* 왼쪽 배경 꽃 */
+.sec1-inner .left-img {
+    position: absolute;
+    left: 0;
+    bottom: 220px;
+    width: 1980px;
+    height: 1080px;
+    background-image: url(../flower-left/left-bg.svg);
+    background-position: left -10px bottom 20px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* 1번 꽃 */
+.sec1-inner .left-img .flower1 {
+    position: absolute;
+    top: 316px;
+    left: 206px;
+    width: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 200px;
+    background-image: url(../flower-left/ㅣ_left-flower-1-b.svg);
+    animation: flower1 2.5s infinite;
+}
+
+@keyframes flower1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-15deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* 두번쨰 꽃 */
+.sec1-inner .left-img .flower2 {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    left: 206px;
+    top: 132px;
+}
+
+@keyframes flower2-1 {
+    0% {
+        fill: #FF6A37;
+        /* 시작 색상 */
+    }
+
+    50% {
+        fill: #FFEC2D;
+        /* 중간 색상 */
+    }
+
+    100% {
+        fill: #FF6A37;
+        /* 종료 색상 (시작 색상과 동일) */
+    }
+}
+
+.cls-7 {
+    fill: #FF6A37;
+    animation: flower2-1 4s infinite alternate;
+}
+
+.fl-1 {
+    animation: flower2-2 5s ease-in-out infinite;
+}
+
+@keyframes flower2-2 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 3번 꽃 */
+.sec1-inner .left-img .flower3 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 180px;
+    height: 300px;
+    top: 210px;
+    left: -30px;
+    background-image: url(../flower-left/ㅣ_left-flower-3-v.svg);
+    animation: flower3 4s ease-in-out infinite;
+}
+
+@keyframes flower3 {
+    0% {
+        transform: translateX(0) rotate(4deg);
+    }
+
+    25% {
+        transform: translateX(-3px) rotate(-2deg);
+    }
+
+    50% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    75% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 4번 꽃 */
+.sec1-inner .left-img .flower4 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 180px;
+    height: 300px;
+    top: 380px;
+    left: 90px;
+    background-image: url(../flower-left/ㅣ_left-flower-4-y.svg);
+    animation: flower4 3s ease-in-out infinite;
+}
+
+@keyframes flower4 {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateY(-5px) rotate(-2deg);
+    }
+
+    50% {
+        transform: translateY(5px) rotate(2deg);
+    }
+
+    75% {
+        transform: translateY(-5px) rotate(-2deg);
+    }
+
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+/* 5번 꽃 */
+.sec1-inner .left-img .flower5 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 130px;
+    height: 300px;
+    top: 360px;
+    left: 350px;
+    background-image: url(../flower-left/ㅣ_left-flower-5-y.svg);
+    animation: flower5 3s ease-in-out infinite;
+}
+
+@keyframes flower5 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(8deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+/* 6번 꽃 */
+.sec1-inner .left-img .flower6 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 120px;
+    height: 200px;
+    top: 450px;
+    left: -35px;
+    background-image: url(../flower-left/ㅣ_left-flower-6-b.svg);
+    animation: flower6 3s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* 7번 꽃 */
+.sec1-inner .left-img .flower7 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 110px;
+    height: 200px;
+    top: 560px;
+    left: 280px;
+    background-image: url(../flower-left/ㅣ_left-flower-7-p.svg);
+    animation: flower6 3s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* 8번 꽃 */
+.sec1-inner .left-img .flower8 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 110px;
+    height: 200px;
+    top: 514px;
+    left: 400px;
+    background-image: url(../flower-left/ㅣ_left-flower-8-r.svg);
+    animation: flower8 3s ease-in-out infinite;
+}
+
+@keyframes flower8 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(4deg);
+    }
+
+    50% {
+        transform: rotate(8deg);
+    }
+
+    75% {
+        transform: rotate(4deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 9번 꽃 */
+.sec1-inner .left-img .flower9 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 85px;
+    height: 200px;
+    top: 540px;
+    left: 500px;
+    background-image: url(../flower-left/ㅣ_left-flower-9-v.svg);
+    animation: flower17 5s ease-in-out infinite;
+}
+
+@keyframes flower17 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 10번 꽃 */
+.sec1-inner .left-img .flower10 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 400px;
+    bottom: 100px;
+    left: 80px;
+    background-image: url(../flower-left/ㅣ_left-flower-10-r.svg);
+    animation: flower17 5s ease-in-out infinite;
+}
+
+@keyframes flower17 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 11번 꽃 */
+.sec1-inner .left-img .flower11 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 110px;
+    height: 200px;
+    bottom: 240px;
+    left: 540px;
+    background-image: url(../flower-left/ㅣ_left-flower-11-r.svg);
+    animation: flower11 5s ease-in-out infinite;
+}
+
+@keyframes flower11 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-3px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 12번 꽃 */
+.sec1-inner .left-img .flower12 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 100px;
+    bottom: 280px;
+    left: 280px;
+    background-image: url(../flower-left/ㅣ_left-flower-12-v.svg);
+    animation: flower6 3s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* 13번 꽃 */
+.sec1-inner .left-img .flower13 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 130px;
+    height: 300px;
+    bottom: 105px;
+    left: -40px;
+    background-image: url(../flower-left/ㅣ_left-flower-13-r.svg);
+    animation: flower13 5s ease-in-out infinite;
+}
+
+@keyframes flower13 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 14번 꽃 */
+.sec1-inner .left-img .flower14 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 60px;
+    height: 110px;
+    bottom: 0px;
+    left: 240px;
+    z-index: 1000;
+    background-image: url(../flower-left/ㅣ_left-flower-14-p.svg);
+    animation: flower6 3s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* 15번 꽃 */
+.sec1-inner .left-img .flower15 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 300px;
+    bottom: 140px;
+    left: 330px;
+    background-image: url(../flower-left/ㅣ_left-flower-15-p.svg);
+    animation: flower15 5s ease-in-out infinite;
+}
+
+@keyframes flower15 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 16번 꽃 */
+.sec1-inner .left-img .flower16 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 60px;
+    height: 300px;
+    bottom: -140px;
+    left: 10px;
+    background-image: url(../flower-left/ㅣ_left-flower-16-b.svg);
+    animation: flower16 5s ease-in-out infinite;
+}
+
+@keyframes flower16 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 17번 꽃 */
+.sec1-inner .left-img .flower17 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 120px;
+    height: 300px;
+    bottom: -20px;
+    left: 40px;
+    z-index: 1000;
+    background-image: url(../flower-left/ㅣ_left-flower-17-v.svg);
+    animation: flower17 5s ease-in-out infinite;
+}
+
+@keyframes flower17 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 18번 꽃 */
+.sec1-inner .left-img .flower18 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 130px;
+    height: 300px;
+    bottom: -100px;
+    left: 130px;
+    background-image: url(../flower-left/ㅣ_left-flower-18-b.svg);
+    animation: flower18 5s ease-in-out infinite;
+}
+
+@keyframes flower18 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 19번 꽃 */
+.sec1-inner .left-img .flower19 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 130px;
+    height: 300px;
+    bottom: -5px;
+    left: 280px;
+    z-index: 1000;
+    background-image: url(../flower-left/ㅣ_left-flower-19-y.svg);
+    animation: flower19 5s ease-in-out infinite;
+}
+
+@keyframes flower19 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 20번 꽃 */
+.sec1-inner .left-img .flower20 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 300px;
+    bottom: -170px;
+    left: 380px;
+    z-index: 1000;
+    background-image: url(../flower-left/ㅣ_left-flower-20-y.svg);
+    animation: flower20 5s ease-in-out infinite;
+}
+
+@keyframes flower20 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 21번 꽃 */
+.sec1-inner .left-img .flower21 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    top: 480px;
+    left: 260px;
+    background-image: url(../flower-left/ㅣ_left-flower-16-b.svg);
+    animation: flower21 5s ease-in-out infinite;
+}
+
+@keyframes flower21 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 오른쪽 배경 꽃 */
+.sec1-inner .right-img {
+    right: -60px;
+    top: 0px;
+    width: 1980px;
+    height: 1080px;
+    background-image: url(../flower-right/right-bg.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+/* 1번 꽃 */
+.sec1-inner .right-img .flowers1 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    top: 84px;
+    right: 574px;
+    background-image: url(../flower-right/r-_right-flower-1.svg);
+    animation: rotate 4s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 2번 꽃 */
+.sec1-inner .right-img .flowers2 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 65px;
+    height: 65px;
+    top: 140px;
+    right: 200px;
+    background-image: url(../flower-right/r-_right-flower-2.svg);
+    animation: rotate1 4s infinite;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 3번 꽃 */
+.sec1-inner .right-img .flowers3 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 96px;
+    height: 200px;
+    top: 440px;
+    right: 380px;
+    background-image: url(../flower-right/r-_right-flower-3.svg);
+    animation: flower5 2s ease-in-out infinite;
+}
+
+@keyframes flower5 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(9deg);
+    }
+
+    100% {
+        transform: rotate(deg);
+    }
+}
+
+/* 4번 꽃 */
+.sec1-inner .right-img .flowers4 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 500px;
+    top: 315px;
+    right: 500px;
+    background-image: url(../flower-right/r-_right-flower-4.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 5번 꽃 */
+.sec1-inner .right-img .flowers5 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 180px;
+    height: 500px;
+    top: 400px;
+    right: 800px;
+    background-image: url(../flower-right/r-_right-flower-5.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 6번 꽃 */
+.sec1-inner .right-img .flowers6 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 130px;
+    height: 500px;
+    top: 600px;
+    right: 50px;
+    background-image: url(../flower-right/r-_right-flower-6.svg);
+    animation: rotate2 4s infinite;
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 8번 꽃 */
+.sec1-inner .right-img .flowers8 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 500px;
+    top: 550px;
+    right: 390px;
+    background-image: url(../flower-right/r-_right-flower-8.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 7번 꽃 */
+.sec1-inner .right-img .flowers7 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 100px;
+    top: 520px;
+    right: 70px;
+    background-image: url(../flower-right/r-_right-flower-7.svg);
+    animation: rotate 4s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 9번 꽃 */
+.sec1-inner .right-img .flowers9 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 160px;
+    height: 300px;
+    top: 620px;
+    right: 310px;
+    background-image: url(../flower-right/r-_right-flower-9.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 10번 꽃 */
+.sec1-inner .right-img .flowers10 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 200px;
+    top: 630px;
+    right: 510px;
+    background-image: url(../flower-right/r-_right-flower-10.svg);
+    animation: flower10 2s ease-in-out infinite;
+}
+
+@keyframes flower10 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-9deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 11번 꽃 */
+.sec1-inner .right-img .flowers11 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 60px;
+    height: 150px;
+    top: 650px;
+    right: 880px;
+    background-image: url(../flower-right/r-_right-flower-11.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 12번 꽃 */
+.sec1-inner .right-img .flowers12 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 150px;
+    top: 690px;
+    right: 150px;
+    background-image: url(../flower-right/r-_right-flower-12.svg);
+    animation: rotate1 4s infinite;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 13번 꽃 */
+.sec1-inner .right-img .flowers13 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90px;
+    height: 150px;
+    top: 660px;
+    right: 770px;
+    background-image: url(../flower-right/r-_right-flower-13.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 14번 꽃 */
+.sec1-inner .right-img .flowers14 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 120px;
+    height: 250px;
+    top: 660px;
+    right: 960px;
+    background-image: url(../flower-right/r-_right-flower-14.svg);
+    animation: rightleft1 4s ease-in-out infinite;
+}
+
+@keyframes rightleft1 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 15번 꽃 */
+.sec1-inner .right-img .flowers15 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 350px;
+    top: 580px;
+    right: 620px;
+    background-image: url(../flower-right/r-_right-flower-15.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 16번 꽃 */
+.sec1-inner .right-img .flowers16 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 60px;
+    height: 150px;
+    top: 760px;
+    right: 570px;
+    background-image: url(../flower-right/r-_right-flower-16.svg);
+    animation: rotate4 2.5s infinite;
+}
+
+@keyframes rotate4 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 17번 꽃 */
+.sec1-inner .right-img .flowers17 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 99px;
+    height: 250px;
+    top: 740px;
+    right: 440px;
+    background-image: url(../flower-right/r-_right-flower-17.svg);
+    animation: flower9 2s ease-in-out infinite;
+}
+
+@keyframes flower9 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(6deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 18번 꽃 */
+.sec1-inner .right-img .flowers18 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 110px;
+    height: 250px;
+    top: 750px;
+    right: 880px;
+    background-image: url(../flower-right/r-_right-flower-18.svg);
+    animation: rightleft1 4s ease-in-out infinite;
+}
+
+@keyframes rightleft1 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 19번 꽃 */
+.sec1-inner .right-img .flowers19 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 160px;
+    height: 300px;
+    top: 760px;
+    right: 760px;
+    background-image: url(../flower-right/r-_right-flower-19.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-2px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 20번 꽃 */
+.sec1-inner .right-img .flowers20 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 120px;
+    height: 200px;
+    top: 780px;
+    right: 200px;
+    background-image: url(../flower-right/r-_right-flower-20.svg);
+    animation: rightleft1 4s ease-in-out infinite;
+}
+
+@keyframes rightleft1 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 21번 꽃 */
+.sec1-inner .right-img .flowers21 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 170px;
+    height: 300px;
+    top: 740px;
+    right: 20px;
+    background-image: url(../flower-right/r-_right-flower-21.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-3px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 22번 꽃 */
+.sec1-inner .right-img .flowers22 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 120px;
+    height: 200px;
+    top: 890px;
+    right: 320px;
+    background-image: url(../flower-right/r-_right-flower-22.svg);
+    animation: rightleft1 4s ease-in-out infinite;
+}
+
+@keyframes rightleft1 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 23번 꽃 */
+.sec1-inner .right-img .flowers23 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 200px;
+    top: 859px;
+    right: 550px;
+    background-image: url(../flower-right/r-_right-flower-23.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-3px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 24번 꽃 */
+.sec1-inner .right-img .flowers24 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 60px;
+    height: 200px;
+    top: 840px;
+    right: 980px;
+    background-image: url(../flower-right/r-_right-flower-24.svg);
+    animation: rightleft1 4s ease-in-out infinite;
+}
+
+@keyframes rightleft1 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 25번 꽃 */
+.sec1-inner .right-img .flowers25 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 95px;
+    height: 200px;
+    top: 870px;
+    right: 880px;
+    background-image: url(../flower-right/r-_right-flower-25.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-3px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 26번 꽃 */
+.sec1-inner .right-img .flowers26 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 90px;
+    height: 200px;
+    top: 580px;
+    right: 920px;
+    background-image: url(../flower-right/r-_right-flower-26.svg);
+    animation: rotate1 4s infinite;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 27번 꽃 */
+.sec1-inner .right-img .flowers27 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 180px;
+    height: 290px;
+    top: 730px;
+    right: 606px;
+    background-image: url(../flower-right/r-_right-flower-27.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-3px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 28번 꽃 */
+.sec1-inner .right-img .flowers28 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 190px;
+    top: 880px;
+    right: 130px;
+    background-image: url(../flower-right/r-_right-flower-28.svg);
+    animation: rightleft1 4s ease-in-out infinite;
+}
+
+@keyframes rightleft1 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 29번 꽃 */
+.sec1-inner .right-img .flowers29 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 70px;
+    height: 190px;
+    z-index: 1000;
+    top: 940px;
+    right: 710px;
+    background-image: url(../flower-right/r-_right-flower-29.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateX(-3px) rotate(-2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 30번 꽃 */
+.sec1-inner .right-img .flowers30 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 70px;
+    height: 190px;
+    z-index: 1000;
+    top: 960px;
+    right: 180px;
+    background-image: url(../flower-right/r-_right-flower-30.svg);
+    animation: rightleft1 6s ease-in-out infinite;
+}
+
+@keyframes rightleft1 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(4px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(0px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(4px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 31번 꽃 */
+.sec1-inner .right-img .flowers31 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 55px;
+    height: 190px;
+    z-index: 1000;
+    top: 980px;
+    right: 330px;
+    background-image: url(../flower-right/r-_right-flower-31.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-3px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 32번 꽃 */
+.sec1-inner .right-img .flowers32 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 190px;
+    top: 920px;
+    z-index: 1000;
+    right: 280px;
+    background-image: url(../flower-right/r-_right-flower-32.svg);
+    animation: rotate1 4s infinite;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-3deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* 33번 꽃 */
+.sec1-inner .right-img .flowers33 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 190px;
+    top: 1010px;
+    right: 100px;
+    background-image: url(../flower-right/r-_right-flower-33.svg);
+    animation: rightleft 5s ease-in-out infinite;
+}
+
+@keyframes rightleft {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateX(-3px) rotate(-1deg);
+    }
+
+    75% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 34번 꽃 */
+.sec1-inner .right-img .flowers34 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 140px;
+    height: 200px;
+    top: 900px;
+    right: 430px;
+    background-image: url(../flower-right/r-.39svg.svg);
+    animation: rightleft1 4s ease-in-out infinite;
+}
+
+@keyframes rightleft1 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 나무1 */
+.sec1-inner .right-img .tree1 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    right: 320px;
+    background-image: url(../flower-right/r-_right-tree-1.svg);
+    animation: rightleft4 2s ease-in-out infinite;
+}
+
+@keyframes rightleft4 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(1px) rotate(0.5deg);
+    }
+
+    50% {
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    75% {
+        transform: translateX(1px) rotate(0.5deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/*  나무2 */
+.sec1-inner .right-img .tree2 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    top: 140px;
+    right: 390px;
+    background-image: url(../flower-right/r-_right-tree-2.svg);
+    animation: rightleft4 2s ease-in-out infinite;
+}
+
+@keyframes rightleft4 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(1px) rotate(0.5deg);
+    }
+
+    50% {
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    75% {
+        transform: translateX(1px) rotate(0.5deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 35번 나무2 */
+.sec1-inner .right-img .tree2 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    top: 140px;
+    right: 390px;
+    background-image: url(../flower-right/r-_right-tree-2.svg);
+    animation: rightleft4 2s ease-in-out infinite;
+}
+
+@keyframes rightleft4 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(1px) rotate(0.5deg);
+    }
+
+    50% {
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    75% {
+        transform: translateX(1px) rotate(0.5deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* 나뭇잎1 */
+.leaf1 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 100px;
+    top: 116px;
+    right: 500px;
+    z-index: 1000;
+    background-image: url(../flower-right/r-_-leaf-1.svg);
+    animation: leaf1 2s infinite;
+}
+
+@keyframes leaf1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.leaf2 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 100px;
+    top: 100px;
+    right: 620px;
+    z-index: 1000;
+    background-image: url(../flower-right/r-_-leaf-2.svg);
+    animation: leaf2 2s infinite;
+}
+
+@keyframes leaf2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.leaf3 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 100px;
+    top: 230px;
+    right: 290px;
+    z-index: 1000;
+    background-image: url(../flower-right/r-_-leaf-3.svg);
+    animation: leaf3 2s infinite;
+}
+
+@keyframes leaf3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.leaf4 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 70px;
+    height: 100px;
+    top: 230px;
+    right: 290px;
+    z-index: 1000;
+    background-image: url(../flower-right/r-_-leaf-3.svg);
+    animation: leaf4 12s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes leaf4 {
+    0% {
+        top: 30px;
+        right: 600px;
+        transform: rotate(0deg) scale(0.5);
+    }
+
+    20% {
+        top: 100px;
+        right: 1800px;
+        transform: rotate(70deg) scale(0.6);
+    }
+
+    40% {
+        top: 400px;
+        right: 500px;
+        transform: rotate(20deg) scale(0.7);
+    }
+
+    60% {
+        top: 680px;
+        right: 1800px;
+        transform: rotate(0deg) scale(0.8);
+    }
+
+    100% {
+        top: 1110px;
+        right: 2000px;
+        transform: rotate(30deg) scale(1);
+    }
+}
+
+/* 꽃잎1 */
+.flowerLeaf1 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 100px;
+    top: 130px;
+    right: 690px;
+    z-index: 1000;
+    background-image: url(../flower-left/ㅣ_flower-1.svg);
+    transform: rotate(100deg) scale(1);
+    animation: fallingLeaf 12s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes fallingLeaf {
+    0% {
+        top: 130px;
+        right: 690px;
+        transform: rotate(100deg) scale(0.5);
+    }
+
+    20% {
+        top: 200px;
+        right: 1900px;
+        transform: rotate(70deg) scale(0.6);
+        filter: hue-rotate(45deg);
+    }
+
+    40% {
+        top: 500px;
+        right: 900px;
+        transform: rotate(120deg) scale(0.7);
+    }
+
+    60% {
+        top: 780px;
+        right: 1800px;
+        transform: rotate(100deg) scale(0.8);
+    }
+
+    80% {
+        top: 930px;
+        right: 690px;
+        transform: rotate(120deg) scale(0.9);
+        filter: hue-rotate(45deg);
+    }
+
+    100% {
+        top: 1000px;
+        right: 1600px;
+        transform: rotate(100deg) scale(1);
+    }
+}
+
+/* flowerLeaf2 */
+.flowerLeaf2 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 100px;
+    top: 130px;
+    right: 690px;
+    z-index: 1000;
+    background-image: url(../flower-left/ㅣ_flower-2.svg);
+    transform: rotate(-0deg) scale(1);
+
+    animation: fallingLeaf2 17s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes fallingLeaf2 {
+    0% {
+        top: 230px;
+        left: 400px;
+        transform: rotate(0deg) scale(0.5);
+    }
+
+    100% {
+        top: 1000px;
+        left: 1800px;
+        transform: rotate(300deg) scale(1);
+    }
+}
+
+/* 꽃잎 */
+.flowerLeaf3 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 100px;
+    top: 130px;
+    right: 690px;
+    z-index: 1000;
+    background-image: url(../flower-left/ㅣ_flower-3.svg);
+    transform: rotate(-0deg) scale(1);
+
+    animation: fallingLeaf3 18s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes fallingLeaf3 {
+    0% {
+        top: 230px;
+        left: 1600px;
+        transform: rotate(0deg) scale(0.5);
+    }
+
+    50% {
+        top: 530px;
+        left: 200px;
+        transform: rotate(-20deg) scale(0.8);
+    }
+
+    100% {
+        top: 1000px;
+        left: 1400px;
+        transform: rotate(-250deg) scale(1);
+    }
+}
+
+/* 꽃잎 */
+.flowerLeaf4 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 100px;
+    top: 130px;
+    right: 690px;
+    z-index: 1000;
+    background-image: url(../flower-left/ㅣ_flower-3.svg);
+    transform: rotate(-0deg) scale(1);
+
+    animation: fallingLeaf4 20s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes fallingLeaf4 {
+    0% {
+        top: 50px;
+        left: 1300px;
+        transform: rotate(0deg) scale(0.5);
+    }
+
+    50% {
+        top: 300px;
+        left: 400px;
+        transform: rotate(15deg) scale(0.8);
+    }
+
+    100% {
+        top: 1200px;
+        left: 1000px;
+        transform: rotate(200deg) scale(1);
+    }
+}
+
+/* 꽃잎 */
+.flowerLeaf5 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 100px;
+    top: 130px;
+    right: 690px;
+    z-index: 1000;
+    background-image: url(../flower-left/ㅣ_flower-2.svg);
+    transform: rotate(-0deg) scale(1);
+
+    animation: fallingLeaf5 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes fallingLeaf5 {
+    0% {
+        top: 50px;
+        left: 1300px;
+        transform: rotate(0deg) scale(0.5);
+    }
+
+    50% {
+        top: 300px;
+        left: 400px;
+        transform: rotate(15deg) scale(0.8);
+    }
+
+    100% {
+        top: 1200px;
+        left: 700px;
+        transform: rotate(200deg) scale(1);
+    }
+}
+
+/* flowerLeaf6 */
+.flowerLeaf6 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 100px;
+    top: 130px;
+    right: 690px;
+    z-index: 1000;
+    background-image: url(../flower-left/ㅣ_flower-1.svg);
+    transform: rotate(100deg) scale(1);
+    animation: flowerLeaf6 16s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes flowerLeaf6 {
+    0% {
+        top: 100px;
+        left: 690px;
+        transform: rotate(100deg) scale(0.5);
+    }
+
+    20% {
+        top: 150px;
+        left: 1900px;
+        transform: rotate(70deg) scale(0.6);
+        filter: hue-rotate(45deg);
+    }
+
+    40% {
+        top: 300px;
+        left: 300px;
+        transform: rotate(120deg) scale(0.7);
+    }
+
+    60% {
+        top: 680px;
+        left: 1800px;
+        transform: rotate(100deg) scale(0.8);
+    }
+
+    80% {
+        top: 900px;
+        right: 590px;
+        transform: rotate(120deg) scale(0.9);
+        filter: hue-rotate(45deg);
+    }
+
+    100% {
+        top: 1000px;
+        right: 1600px;
+        transform: rotate(100deg) scale(1);
+    }
+}
+
+/* flowerLeaf27*/
+.flowerLeaf7 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 100px;
+    top: 130px;
+    right: 690px;
+    z-index: 1000;
+    background-image: url(../flower-left/ㅣ_flower-2.svg);
+    transform: rotate(-200deg) scale(1);
+
+    animation: fallingLeaf2 13s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes fallingLeaf2 {
+    0% {
+        top: 230px;
+        left: 200px;
+        transform: rotate(0deg) scale(0.5);
+    }
+
+    100% {
+        top: 1000px;
+        left: 1500px;
+        transform: rotate(300deg) scale(1);
+    }
+}

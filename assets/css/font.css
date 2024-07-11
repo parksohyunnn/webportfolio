@@ -1,0 +1,99 @@
+/* Fabringo */
+@font-face {
+    font-family: 'Fabringo';
+    font-weight: 100;
+    font-style: normal;
+    src: url('/assets/fonts/fabringo/Fabringo.ttf') format('truetype'),
+        url('/assets/fonts/fabringo/Fabringo.otf') format('opentype');
+    font-display: swap;
+}
+
+/* gegant */
+@font-face {
+    font-family: 'gegant';
+    font-weight: 300;
+    font-style: normal;
+    src: url('/assets/fonts/gegant/Gegant-Bold-iF668e35f62d5cc.ttf') format('truetype'),
+        url('/assets/fonts/gegant/Gegant-Bold-iF668e35f626ea4.otf') format('opentype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gegant';
+    font-weight: 200;
+    font-style: normal;
+    src: url('/assets/fonts/gegant/Gegant-Medium-iF668e35f6ceba2.otf') format('opentype');
+    font-display: swap;
+}
+
+/* Poppins */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/CabinetGrotesk-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+}

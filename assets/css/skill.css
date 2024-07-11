@@ -1,0 +1,66 @@
+/*스킬 부분 영역 설정 */
+#section3 {
+    background-color: var(--mainR);
+    width: 100%;
+    height: 180vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.section3-1 {
+    width: 100%;
+    height: 30vh;
+    background-color: var(--mainP);
+    position: absolute;
+    bottom: 0;
+}
+
+/* 스킬 상단 타이틀 */
+.subTittle {
+    margin-top: 200px;
+    text-align: center;
+    color: var(--mainY);
+    font-weight: 700;
+    font-size: 26px;
+    font-family: var(--fontp);
+}
+
+.middleTitle2 {
+    font-family: var(--fontP);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    margin-top: 50px;
+}
+
+/* 배경선 */
+.castleLineContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.castleLineSvg {
+    width: 130%;
+    height: 130%;
+    position: absolute;
+    top: -240px;
+    left: -100px;
+}
+
+.castleLinePath {
+    stroke-width: 0.5;
+    /* 선의 굵기를 0.5로 설정 */
+    stroke-dasharray: 5000;
+    /* 경로의 길이에 따라 조정 (경로의 전체 길이와 동일하거나 더 길게 설정) */
+    stroke-dashoffset: 5000;
+    /* 초기 상태에서 경로를 숨기기 위해 설정 (경로의 길이와 동일하게 설정) */
+    transition: stroke-dashoffset 6s ease-out;
+    /* stroke-dashoffset이 변경될 때 애니메이션을 적용 (2초 동안 서서히 나타남) */
+}
