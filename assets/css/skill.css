@@ -62,5 +62,5 @@
     stroke-dashoffset: 5000;
     /* 초기 상태에서 경로를 숨기기 위해 설정 (경로의 길이와 동일하게 설정) */
     transition: stroke-dashoffset 6s ease-out;
-    /* stroke-dashoffset이 변경될 때 애니메이션을 적용 (2초 동안 서서히 나타남) */
+    /* stroke-dashoffset이 변경될 때 애니메이션을 적용 (6초 동안 서서히 나타남) */
 }
