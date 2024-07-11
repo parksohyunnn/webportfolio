@@ -2,7 +2,7 @@
 #section3 {
     background-color: var(--mainR);
     width: 100%;
-    height: 140vh;
+    height: 145vh;
     overflow: hidden;
     position: relative;
 }
@@ -109,7 +109,7 @@
 /* castle3 */
 .castle3 {
     position: absolute;
-    width: 60px;
+    width: 50px;
     height: 300px;
     background-repeat: no-repeat;
     background-image: url(../castle/castle-2.svg);
