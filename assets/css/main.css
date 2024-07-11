@@ -28,7 +28,7 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 20px;
-    font-size: 10vw;
+    font-size: 9vw;
     font-family: var(--fontF);
     font-weight: 300;
     /* letter-spacing: -0.7vw; */
