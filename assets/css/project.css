@@ -179,7 +179,7 @@
 
 /* balloon */
 .pr-Img3 {
-    width: 190px;
+    width: 180px;
     position: absolute;
     top: 0;
     left: 180px;
@@ -190,6 +190,20 @@
     display: block;
     height: auto;
 }
+
+/* 가차2-left */
+.pr-Img4 {
+    width: 400px;
+    position: absolute;
+    top: 400px;
+    left: 204px;
+}
+
+.pr-gacha2 {
+    display: block;
+    height: auto;
+}
+
 
 /* pr__Textwrap */
 .pr__Textwrap {
