@@ -1,9 +1,10 @@
-#skillsSection1 {
+#skillBg {
     background-color: var(--mainR);
     width: 100%;
     height: 100vh;
     padding: 30px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* skillsTextwrap */
@@ -23,6 +24,7 @@
     line-height: 1.2;
     letter-spacing: -1px;
     font-weight: 600;
+    z-index: 500;
 }
 
 .skillsText {
@@ -116,6 +118,25 @@
     background-color: var(--mainB);
     transform: rotate(2deg);
 }
+
+/* skillSection1 */
+.skillSection1 {}
+
+.skill-Img1 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 150px;
+    margin-top: -70px;
+}
+
+.sk-castle1 {
+    display: block;
+    width: 620px;
+}
+
+. {}
 
 .skillsTittle {
     text-transform: uppercase;
