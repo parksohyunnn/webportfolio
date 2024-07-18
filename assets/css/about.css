@@ -180,13 +180,13 @@
     margin-top: 88px;
 }
 
-.aboutTextwrap {
+/* .aboutTextwrap {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     overflow: hidden;
-}
+} */
 
 .aboutTittle {
     text-transform: uppercase;

@@ -3,7 +3,7 @@
     background-color: var(--mainB);
     width: 100%;
     padding: 60px;
-    height: 1600px;
+    height: 1480px;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -144,12 +144,36 @@
     transform: rotate(-2deg);
 }
 
+/* projectSection1 */
+.projectSection1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* 가차 */
+.pr-Img1 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pr-gacha {
+    display: block;
+    height: auto;
+}
+
+/* pr__Textwrap */
 .pr__Textwrap {
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    align-items: flex-end;
     overflow: hidden;
+    position: relative;
 }
 
 .projectTittle {
@@ -158,8 +182,9 @@
     font-family: 'gegant';
     font-weight: 300;
     line-height: 1;
-    margin-top: 50px;
     display: block;
     white-space: nowrap;
     z-index: 1000;
+    position: absolute;
+    bottom: -670px;
 }
