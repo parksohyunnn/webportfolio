@@ -1,45 +1,13 @@
-/*스킬 부분 영역 설정 */
-#section4 {
-    background-color: var(--mainB);
-    width: 100%;
-    height: 130vh;
-    overflow: hidden;
-    position: relative;
-}
-
-.section4-1 {}
-
-/* 스킬 상단 타이틀 */
-.subTittle {
-    margin-top: 200px;
-    text-align: center;
-    color: var(--mainY);
-    font-weight: 700;
-    font-size: 26px;
-    font-family: var(--fontp);
-}
-
-.middleTitle2 {
-    font-family: var(--fontP);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 24px;
-    margin-top: 50px;
-}
-
-/* project */
-#projectSection1 {
-    background-color: var(--mainB);
+#skillsSection1 {
+    background-color: var(--mainR);
     width: 100%;
     height: 100vh;
     padding: 30px;
     box-sizing: border-box;
 }
 
-/* projectTextwrap */
-.projectTextwrap {
+/* skillsTextwrap */
+.skillsTextwrap {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -47,7 +15,7 @@
     text-align: center;
 }
 
-.projectSubtittle {
+.skillsSubtittle {
     font-family: var(--fontA);
     margin-top: 15px;
     margin-bottom: 10px;
@@ -57,7 +25,7 @@
     font-weight: 600;
 }
 
-.projectText {
+.skillsText {
     font-family: var(--fontNa);
     margin-top: 24px;
     font-size: 14px;
@@ -66,7 +34,7 @@
     color: var(--black300);
 }
 
-.prTextbold {
+.skTextbold {
     font-family: var(--fontNa);
     margin-top: 24px;
     font-size: 14px;
@@ -75,19 +43,13 @@
     color: black;
 }
 
-/* skillsUl */
-.navLi {
-    margin-right: 10px;
-    /* 리스트 항목 간의 간격 */
-}
-
 .navLi:last-child {
     margin-right: 0;
     /* 마지막 항목에 대한 간격 제거 */
 }
 
 /* linkHome */
-.project-linkHome {
+.skills-linkHome {
     padding: 4px 16px;
     border: 1px solid var(--black100);
     font-size: 15px;
@@ -98,13 +60,13 @@
     transition: background-color 0.6s, transform 0.3s;
 }
 
-.project-linkHome:hover {
+.skills-linkHome:hover {
     background-color: var(--mainG);
     transform: rotate(2deg);
 }
 
 /* linkAbout */
-.project-linkAbout {
+.skills-linkAbout {
     padding: 4px 16px;
     border: 1px solid var(--black100);
     font-size: 15px;
@@ -115,28 +77,12 @@
     transition: background-color 0.6s, transform 0.3s;
 }
 
-.project-linkAbout:hover {
+.skills-linkAbout:hover {
     background-color: var(--mainY);
     transform: rotate(2deg);
 }
 
-.project-linkSkill {
-    padding: 4px 16px;
-    border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
-    border-radius: 50px;
-    display: block;
-    transition: background-color 0.6s, transform 0.3s;
-}
-
-.project-linkSkill:hover {
-    background-color: var(--mainR);
-    transform: rotate(2deg);
-}
-
-.project-linkProject {
+.skills-linkSkill {
     padding: 4px 16px;
     border: 1px solid var(--black100);
     font-size: 15px;
@@ -146,16 +92,32 @@
     border-radius: 50px;
     display: block;
     transition: background-color 0.6s;
-    background-color: #53CBFF;
+    background-color: #FF834E;
     text-decoration: underline;
 }
 
-.project-linkProject:hover {
+.skills-linkSkill:hover {
+    background-color: var(--mainR);
+    text-decoration: underline;
+}
+
+.skills-linkProject {
+    padding: 4px 16px;
+    border: 1px solid var(--black100);
+    font-size: 15px;
+    font-family: var(--fontA);
+    letter-spacing: -1px;
+    border-radius: 50px;
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.skills-linkProject:hover {
     background-color: var(--mainB);
-    text-decoration: underline;
+    transform: rotate(2deg);
 }
 
-.projectTittle {
+.skillsTittle {
     text-transform: uppercase;
     font-size: 110px;
     font-family: 'gegant';

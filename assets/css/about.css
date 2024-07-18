@@ -1,45 +1,13 @@
-/*스킬 부분 영역 설정 */
-#section4 {
-    background-color: var(--mainB);
-    width: 100%;
-    height: 130vh;
-    overflow: hidden;
-    position: relative;
-}
-
-.section4-1 {}
-
-/* 스킬 상단 타이틀 */
-.subTittle {
-    margin-top: 200px;
-    text-align: center;
-    color: var(--mainY);
-    font-weight: 700;
-    font-size: 26px;
-    font-family: var(--fontp);
-}
-
-.middleTitle2 {
-    font-family: var(--fontP);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 24px;
-    margin-top: 50px;
-}
-
-/* project */
-#projectSection1 {
-    background-color: var(--mainB);
+#aboutBg {
+    background-color: var(--mainY);
     width: 100%;
     height: 100vh;
     padding: 30px;
     box-sizing: border-box;
 }
 
-/* projectTextwrap */
-.projectTextwrap {
+/* aboutTextwrap */
+.aboutTextwrap {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -47,7 +15,7 @@
     text-align: center;
 }
 
-.projectSubtittle {
+.aboutSubtittle {
     font-family: var(--fontA);
     margin-top: 15px;
     margin-bottom: 10px;
@@ -57,7 +25,7 @@
     font-weight: 600;
 }
 
-.projectText {
+.aboutText {
     font-family: var(--fontNa);
     margin-top: 24px;
     font-size: 14px;
@@ -66,7 +34,7 @@
     color: var(--black300);
 }
 
-.prTextbold {
+.abTextbold {
     font-family: var(--fontNa);
     margin-top: 24px;
     font-size: 14px;
@@ -75,19 +43,8 @@
     color: black;
 }
 
-/* skillsUl */
-.navLi {
-    margin-right: 10px;
-    /* 리스트 항목 간의 간격 */
-}
-
-.navLi:last-child {
-    margin-right: 0;
-    /* 마지막 항목에 대한 간격 제거 */
-}
-
 /* linkHome */
-.project-linkHome {
+.about-linkHome {
     padding: 4px 16px;
     border: 1px solid var(--black100);
     font-size: 15px;
@@ -98,45 +55,13 @@
     transition: background-color 0.6s, transform 0.3s;
 }
 
-.project-linkHome:hover {
+.about-linkHome:hover {
     background-color: var(--mainG);
     transform: rotate(2deg);
 }
 
 /* linkAbout */
-.project-linkAbout {
-    padding: 4px 16px;
-    border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
-    border-radius: 50px;
-    display: block;
-    transition: background-color 0.6s, transform 0.3s;
-}
-
-.project-linkAbout:hover {
-    background-color: var(--mainY);
-    transform: rotate(2deg);
-}
-
-.project-linkSkill {
-    padding: 4px 16px;
-    border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
-    border-radius: 50px;
-    display: block;
-    transition: background-color 0.6s, transform 0.3s;
-}
-
-.project-linkSkill:hover {
-    background-color: var(--mainR);
-    transform: rotate(2deg);
-}
-
-.project-linkProject {
+.about-linkAbout {
     padding: 4px 16px;
     border: 1px solid var(--black100);
     font-size: 15px;
@@ -146,16 +71,116 @@
     border-radius: 50px;
     display: block;
     transition: background-color 0.6s;
-    background-color: #53CBFF;
+    background-color: #FFD600;
     text-decoration: underline;
 }
 
-.project-linkProject:hover {
+.about-linkAbout:hover {
+    background-color: var(--mainY);
+    text-decoration: underline;
+}
+
+.about-linkSkill {
+    padding: 4px 16px;
+    border: 1px solid var(--black100);
+    font-size: 15px;
+    font-family: var(--fontA);
+    letter-spacing: -1px;
+    border-radius: 50px;
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.about-linkSkill:hover {
+    background-color: var(--mainR);
+    transform: rotate(2deg);
+}
+
+.about-linkProject {
+    padding: 4px 16px;
+    border: 1px solid var(--black100);
+    font-size: 15px;
+    font-family: var(--fontA);
+    letter-spacing: -1px;
+    border-radius: 50px;
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.about-linkProject:hover {
     background-color: var(--mainB);
-    text-decoration: underline;
+    transform: rotate(2deg);
 }
 
-.projectTittle {
+/* aboutSection1 */
+.aboutSection1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* 액자 */
+.ab-Img1 {
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -3%;
+}
+
+.ab-frame {
+    display: block;
+    height: auto;
+}
+
+/* 프로필 */
+.ab-Img2 {
+    width: 463px;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3E98D;
+    margin-top: 20px;
+    background: linear-gradient(0deg, #F3E98D, #FF83A7);
+    /* 초기 그라데이션 설정 */
+    animation: gradient-animation 3s infinite;
+    /* 애니메이션 적용 */
+}
+
+/* 그라데이션 애니메이션 키프레임 정의 */
+@keyframes gradient-animation {
+    0% {
+        background: linear-gradient(-0deg, #FF83A7, #F3E98D);
+    }
+
+    25% {
+        background: linear-gradient(-10deg, #FF83A7, #F3E98D);
+    }
+
+    50% {
+        background: linear-gradient(-20deg, #FF83A7, #F3E98D);
+    }
+
+    75% {
+        background: linear-gradient(-30deg, #FF7774, #F3E98D);
+    }
+
+    100% {
+        background: linear-gradient(-50deg, #FFA6B6, #F3E98D);
+    }
+}
+
+.ab-pofile {
+    display: block;
+    width: 380px;
+    height: auto;
+    margin-top: 60px;
+}
+
+.about-flowerTittle {
     text-transform: uppercase;
     font-size: 110px;
     font-family: 'gegant';
