@@ -1,9 +1,10 @@
 #aboutBg {
     background-color: var(--mainY);
     width: 100%;
-    height: 100vh;
-    padding: 30px;
+    height: 144vh;
+    padding: 60px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* aboutTextwrap */
@@ -17,9 +18,7 @@
 
 .aboutSubtittle {
     font-family: var(--fontA);
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.2;
     letter-spacing: -1px;
     font-weight: 600;
@@ -71,13 +70,13 @@
     border-radius: 50px;
     display: block;
     transition: background-color 0.6s;
-    background-color: #FFD600;
-    text-decoration: underline;
+    background-color: var(--mainP);
+    transition: background-color 0.6s, transform 0.3s;
 }
 
 .about-linkAbout:hover {
     background-color: var(--mainY);
-    text-decoration: underline;
+    transform: rotate(-2deg);
 }
 
 .about-linkSkill {
@@ -122,7 +121,7 @@
 
 /* 액자 */
 .ab-Img1 {
-    width: 550px;
+    width: 670px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,13 +136,13 @@
 
 /* 프로필 */
 .ab-Img2 {
-    width: 463px;
-    height: 610px;
+    width: 560px;
+    height: 745px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F3E98D;
-    margin-top: 20px;
+    margin-top: 18px;
     background: linear-gradient(0deg, #F3E98D, #FF83A7);
     /* 초기 그라데이션 설정 */
     animation: gradient-animation 3s infinite;
@@ -175,23 +174,26 @@
 
 .ab-pofile {
     display: block;
-    width: 380px;
+    width: 470px;
     height: auto;
-    margin-top: 60px;
+    margin-top: 88px;
 }
 
-.about-flowerTittle {
+.aboutTittle {
+    display: block;
     text-transform: uppercase;
     font-size: 110px;
     font-family: 'gegant';
     font-weight: 300;
     position: absolute;
-    bottom: -0.8vw;
+    bottom: -400px;
     line-height: 1;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
     display: block;
     white-space: nowrap;
+    overflow: hidden;
+    z-index: 1000;
     /* 텍스트가 한 줄로 유지되도록 설정 */
 }
