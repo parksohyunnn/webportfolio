@@ -1,8 +1,8 @@
 #skillBg {
     background-color: var(--mainR);
     width: 100%;
-    height: 100vh;
-    padding: 30px;
+    height: 1600px;
+    padding: 60px;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -18,9 +18,7 @@
 
 .skillsSubtittle {
     font-family: var(--fontA);
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.2;
     letter-spacing: -1px;
     font-weight: 600;
@@ -84,6 +82,7 @@
     transform: rotate(2deg);
 }
 
+/* linkSkill */
 .skills-linkSkill {
     padding: 4px 16px;
     border: 1px solid var(--black100);
@@ -93,14 +92,13 @@
     font-weight: 700;
     border-radius: 50px;
     display: block;
-    transition: background-color 0.6s;
-    background-color: #FF834E;
-    text-decoration: underline;
+    background-color: var(--mainV);
+    transition: background-color 0.6s, transform 0.3s;
 }
 
 .skills-linkSkill:hover {
     background-color: var(--mainR);
-    text-decoration: underline;
+    transform: rotate(-2deg);
 }
 
 .skills-linkProject {
@@ -129,13 +127,13 @@
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 150px;
-    margin-top: -70px;
+    padding-right: 60px;
+    margin-top: 30px;
 }
 
 .sk-castle1 {
     display: block;
-    width: 620px;
+    width: 660px;
 }
 
 .skill-Img2 {
@@ -146,9 +144,17 @@
     display: block;
     width: 180px;
     position: absolute;
-    top: 20%;
+    top: 80%;
     left: 13%;
     transform: scaleX(-1) rotate(-15deg);
+}
+
+.sk__Textwrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .skillsTittle {
@@ -156,13 +162,9 @@
     font-size: 110px;
     font-family: 'gegant';
     font-weight: 300;
-    position: absolute;
-    bottom: -0.8vw;
     line-height: 1;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
+    margin-top: 50px;
     display: block;
     white-space: nowrap;
-    /* 텍스트가 한 줄로 유지되도록 설정 */
+    z-index: 1000;
 }

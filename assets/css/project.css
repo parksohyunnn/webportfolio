@@ -1,41 +1,11 @@
-/*스킬 부분 영역 설정 */
-#section4 {
-    background-color: var(--mainB);
-    width: 100%;
-    height: 130vh;
-    overflow: hidden;
-    position: relative;
-}
-
-.section4-1 {}
-
-/* 스킬 상단 타이틀 */
-.subTittle {
-    margin-top: 200px;
-    text-align: center;
-    color: var(--mainY);
-    font-weight: 700;
-    font-size: 26px;
-    font-family: var(--fontp);
-}
-
-.middleTitle2 {
-    font-family: var(--fontP);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 24px;
-    margin-top: 50px;
-}
-
 /* project */
-#projectSection1 {
+#projectBg {
     background-color: var(--mainB);
     width: 100%;
-    height: 100vh;
-    padding: 30px;
+    padding: 60px;
+    height: 1600px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* projectTextwrap */
@@ -49,9 +19,7 @@
 
 .projectSubtittle {
     font-family: var(--fontA);
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.2;
     letter-spacing: -1px;
     font-weight: 600;
@@ -120,6 +88,7 @@
     transform: rotate(2deg);
 }
 
+/* linkSkill */
 .project-linkSkill {
     padding: 4px 16px;
     border: 1px solid var(--black100);
@@ -136,6 +105,7 @@
     transform: rotate(2deg);
 }
 
+/* linkProject */
 .project-linkProject {
     padding: 4px 16px;
     border: 1px solid var(--black100);
@@ -145,14 +115,21 @@
     font-weight: 700;
     border-radius: 50px;
     display: block;
-    transition: background-color 0.6s;
-    background-color: #53CBFF;
-    text-decoration: underline;
+    background-color: var(--mainP);
+    transition: background-color 0.6s, transform 0.3s;
 }
 
 .project-linkProject:hover {
     background-color: var(--mainB);
-    text-decoration: underline;
+    transform: rotate(-2deg);
+}
+
+.pr__Textwrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .projectTittle {
@@ -160,13 +137,9 @@
     font-size: 110px;
     font-family: 'gegant';
     font-weight: 300;
-    position: absolute;
-    bottom: -0.8vw;
     line-height: 1;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
+    margin-top: 50px;
     display: block;
     white-space: nowrap;
-    /* 텍스트가 한 줄로 유지되도록 설정 */
+    z-index: 1000;
 }
