@@ -43,6 +43,26 @@
     color: black;
 }
 
+/* pointText */
+.pointText {
+    margin-top: 1px;
+    display: inline-block;
+    font-size: 14px;
+    animation: blinkText 4s infinite;
+}
+
+@keyframes blinkText {
+
+    0%,
+    100% {
+        color: black;
+    }
+
+    50% {
+        color: var(--mainY);
+    }
+}
+
 /* skillsUl */
 .navLi {
     margin-right: 10px;
