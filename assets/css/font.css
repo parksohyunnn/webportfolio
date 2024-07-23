@@ -97,3 +97,18 @@
     font-display: swap;
     font-style: normal;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+@font-face {
+    font-family: "IropkeBatang";
+    font-weight: normal;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.eot") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/webfontworld/iropke/IropkeBatang.ttf") format("truetype");
+    font-display: swap;
+}

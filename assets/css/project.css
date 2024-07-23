@@ -1,16 +1,16 @@
 /* project */
 #projectBg {
-    background-color: #8DBCFF;
+    /* background-color: #8DBCFF; */
+    background-color: var(--mainB);
     width: 100%;
-    padding: 60px;
-    height: 1480px;
+    height: 100vh;
+    padding: 30px;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
-    /* 부모 요소에 상대 위치 설정 */
 }
 
-#projectBg::before {
+/* #projectBg::before {
     content: "";
     position: absolute;
     top: 0;
@@ -36,7 +36,7 @@
         50px 50px,
         50px 50px;
     pointer-events: none;
-}
+} */
 
 /* projectTextwrap */
 .projectTextwrap {
@@ -45,21 +45,22 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    z-index: 100000;
 }
 
 .projectSubtittle {
-    font-family: var(--fontA);
-    font-size: 40px;
-    line-height: 1.2;
+    font-family: var(--fontP);
+    font-size: 35px;
+    line-height: 1.1;
     letter-spacing: -1px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .projectText {
     font-family: var(--fontNa);
-    margin-top: 24px;
+    margin-top: 20px;
     font-size: 14px;
-    line-height: 1.8;
+    line-height: 1.7;
     letter-spacing: -1.2px;
     color: var(--black300);
 }
@@ -68,7 +69,7 @@
     font-family: var(--fontNa);
     margin-top: 24px;
     font-size: 14px;
-    line-height: 1.8;
+    line-height: 1.7;
     letter-spacing: -1.2px;
     color: black;
 }
@@ -85,11 +86,11 @@
 
     0%,
     100% {
-        color: black;
+        color: var(--mainR);
     }
 
     50% {
-        color: var(--mainY);
+        color: var(--black100);
     }
 }
 
@@ -106,15 +107,15 @@
 
 /* linkHome */
 .project-linkHome {
-    padding: 4px 16px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
-    background-color: var(--mainB);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
     display: block;
     transition: background-color 0.6s, transform 0.3s;
+    background-color: #53CBFF;
 }
 
 .project-linkHome:hover {
@@ -124,13 +125,13 @@
 
 /* linkAbout */
 .project-linkAbout {
-    padding: 4px 16px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
-    background-color: var(--mainB);
+    background-color: #53CBFF;
     display: block;
     transition: background-color 0.6s, transform 0.3s;
 }
@@ -142,13 +143,13 @@
 
 /* linkSkill */
 .project-linkSkill {
-    padding: 4px 16px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
-    background-color: var(--mainB);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
+    background-color: #53CBFF;
     display: block;
     transition: background-color 0.6s, transform 0.3s;
 }
@@ -160,15 +161,14 @@
 
 /* linkProject */
 .project-linkProject {
-    padding: 4px 16px;
+    padding: 2px 14px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
-    font-weight: 700;
+    font-size: 13px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
     display: block;
-    background-color: var(--mainV);
+    background-color: var(--mainR);
     transition: background-color 0.6s, transform 0.3s;
 }
 
@@ -183,70 +183,92 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    width: 100%;
 }
 
-/* 가차 */
-.pr-Img1 {
-    width: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    flex-direction: column;
-    margin-left: -300px;
-}
-
-.pr-gacha {
-    display: block;
-    height: auto;
+/* 가차배경워랩 */
+.prGachaBg {
+    width: 580px;
+    position: absolute;
+    top: -26px;
+    left: 22%;
+    margin-top: -40px;
 }
 
 /*  배경 뽑기 공 */
-.pr-Img2 {
+.prGacha2 {
     position: absolute;
-    width: 440px;
-    top: 170px;
+    width: 310px;
+    top: 15%;
+    left: 39%;
 }
 
-#ballBg {}
-
+.prGacha3 {
+    position: absolute;
+    width: 320px;
+    top: 110px;
+    left: 41%;
+}
 
 /* balloon */
-.pr-Img3 {
-    width: 180px;
+.pr-Img1 {
+    width: 130px;
     position: absolute;
-    top: 0;
-    left: 180px;
+    top: 22%;
+    left: 15%;
 
 }
 
-.balloon {
-    display: block;
-    height: auto;
+/* 가차2-right */
+.pr-Img2 {
+    width: 190px;
+    position: absolute;
+    top: 17%;
+    left: 68%;
+}
+
+.pr-Img5 {
+    width: 30px;
+    position: absolute;
+    top: 23%;
+    left: 62%;
+}
+
+.pr-Img6 {
+    width: 22px;
+    position: absolute;
+    top: 40%;
+    left: 67%;
+}
+
+.pr-Img7 {
+    width: 1160px;
+    position: absolute;
+    top: -12%;
+    left: -40%;
+    /* background-color: aqua; */
 }
 
 /* 가차2-left */
-.pr-Img4 {
-    width: 400px;
+.pr-Img3 {
+    width: 30px;
     position: absolute;
-    top: 400px;
-    left: 204px;
+    top: 36%;
+    left: 28%;
 }
 
-.pr-gacha2 {
-    display: block;
-    height: auto;
+.pr-Img4 {
+    width: 30px;
+    position: absolute;
+    top: 30%;
+    left: 34%;
 }
-
 
 /* pr__Textwrap */
 .pr__Textwrap {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: flex-end;
-    overflow: hidden;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    bottom: -1vw;
 }
 
 .projectTittle {
@@ -254,10 +276,9 @@
     font-size: 110px;
     font-family: 'gegant';
     font-weight: 300;
-    line-height: 1.5;
-    display: block;
+    line-height: 1;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    letter-spacing: -0.3vw;
     white-space: nowrap;
-    z-index: 1000;
-    position: absolute;
-    top: 1310px;
 }

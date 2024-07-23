@@ -1,11 +1,11 @@
 #skillBg {
     background-color: #FFB3BA;
-    /* background-color: var(--mainR); */
     width: 100%;
-    height: 1600px;
-    padding: 60px;
+    height: 100vh;
+    padding: 30px;
     box-sizing: border-box;
     overflow: hidden;
+    position: relative;
 }
 
 /* skillsTextwrap */
@@ -18,30 +18,31 @@
 }
 
 .skillsSubtittle {
-    font-family: var(--fontA);
-    font-size: 40px;
-    line-height: 1.2;
+    font-family: var(--fontP);
+    font-size: 35px;
+    line-height: 1.1;
     letter-spacing: -1px;
-    font-weight: 600;
-    z-index: 500;
+    font-weight: 800;
 }
 
 .skillsText {
     font-family: var(--fontNa);
-    margin-top: 24px;
+    margin-top: 20px;
     font-size: 14px;
-    line-height: 1.8;
+    line-height: 1.7;
     letter-spacing: -1.2px;
     color: var(--black300);
+    z-index: 100000;
 }
 
 .skTextbold {
     font-family: var(--fontNa);
     margin-top: 24px;
     font-size: 14px;
-    line-height: 1.8;
+    line-height: 1.7;
     letter-spacing: -1.2px;
     color: black;
+    z-index: 100000;
 }
 
 .navLi:last-child {
@@ -51,14 +52,13 @@
 
 /* linkHome */
 .skills-linkHome {
-    padding: 4px 16px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
     display: block;
-    background-color: var(--mainP);
     transition: background-color 0.6s, transform 0.3s;
 }
 
@@ -69,14 +69,13 @@
 
 /* linkAbout */
 .skills-linkAbout {
-    padding: 4px 16px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
     display: block;
-    background-color: var(--mainP);
     transition: background-color 0.6s, transform 0.3s;
 }
 
@@ -87,15 +86,14 @@
 
 /* linkSkill */
 .skills-linkSkill {
-    padding: 4px 16px;
+    padding: 2px 14px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
-    font-weight: 700;
+    font-size: 13px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
     display: block;
-    background-color: var(--mainR);
+    background-color: var(--mainV);
     transition: background-color 0.6s, transform 0.3s;
 }
 
@@ -105,13 +103,12 @@
 }
 
 .skills-linkProject {
-    padding: 4px 16px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
-    background-color: var(--mainP);
     display: block;
     transition: background-color 0.6s, transform 0.3s;
 }
@@ -122,43 +119,79 @@
 }
 
 /* skillSection1 */
-.skillSection1 {
-    position: relative;
+.skillSection1 {}
+
+.skillLine {
+    width: 120%;
+    position: absolute;
+    left: -8%;
+    top: 14%;
 }
 
 .skill-Img1 {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 60px;
-    margin-top: 30px;
+    position: absolute;
+    width: 600px;
+    right: 3%;
+    top: 3%;
 }
 
-.sk-castle1 {
-    display: block;
-    width: 660px;
-}
+.sk-castle1 {}
 
 .skill-Img2 {
-    width: 100%;
-}
-
-.sk-castle2 {
     display: block;
-    width: 180px;
+    width: 170px;
     position: absolute;
-    top: 150px;
+    top: 24%;
     left: 250px;
     transform: scaleX(-1) rotate(-15deg);
 }
 
+.skill-Img3 {
+    width: 50px;
+    position: absolute;
+    top: 36%;
+    left: 40%;
+}
+
+.skill-Img4 {
+    width: 160px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+.skill-Img5 {
+    width: 90px;
+    position: absolute;
+    top: 60%;
+    left: 48%;
+}
+
+.skill-Img6 {
+    width: 70px;
+    position: absolute;
+    top: 66%;
+    left: 90%;
+}
+
+.skill-Img7 {
+    width: 20px;
+    position: absolute;
+    top: 36%;
+    left: 90%;
+}
+
+.skill-Img8 {
+    width: 55px;
+    position: absolute;
+    top: 26%;
+    left: 66%;
+}
+
 .sk__Textwrap {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    bottom: -1vw;
 }
 
 .skillsTittle {
@@ -167,8 +200,8 @@
     font-family: 'gegant';
     font-weight: 300;
     line-height: 1;
-    margin-top: 50px;
-    display: block;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    letter-spacing: -0.3vw;
     white-space: nowrap;
-    z-index: 1000;
 }

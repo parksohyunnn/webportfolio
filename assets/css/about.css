@@ -1,11 +1,11 @@
 #aboutBg {
     background-color: #FFDE49;
-    /* background-color: var(--mainY); */
     width: 100%;
-    height: 1330px;
-    padding: 60px;
+    height: 100vh;
+    padding: 30px;
     box-sizing: border-box;
     overflow: hidden;
+    position: relative;
 }
 
 /* aboutTextwrap */
@@ -18,18 +18,18 @@
 }
 
 .aboutSubtittle {
-    font-family: var(--fontA);
-    font-size: 40px;
-    line-height: 1.2;
+    font-family: var(--fontP);
+    font-size: 35px;
+    line-height: 1.1;
     letter-spacing: -1px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .aboutText {
     font-family: var(--fontNa);
     margin-top: 24px;
     font-size: 14px;
-    line-height: 1.8;
+    line-height: 1.7;
     letter-spacing: -1.2px;
     color: var(--black300);
 }
@@ -38,18 +38,18 @@
     font-family: var(--fontNa);
     margin-top: 24px;
     font-size: 14px;
-    line-height: 1.8;
+    line-height: 1.7;
     letter-spacing: -1.2px;
     color: black;
 }
 
 /* linkHome */
 .about-linkHome {
-    padding: 4px 16px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
     display: block;
     background-color: var(--mainY);
@@ -63,15 +63,14 @@
 
 /* linkAbout */
 .about-linkAbout {
-    padding: 4px 16px;
+    padding: 2px 14px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
-    font-weight: 700;
+    font-size: 13px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
     display: block;
-    background-color: var(--mainV);
+    background-color: var(--mainR);
     transition: background-color 0.6s, transform 0.3s;
 }
 
@@ -82,11 +81,11 @@
 
 /* linkSkill */
 .about-linkSkill {
-    padding: 4px 16px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
     display: block;
     background-color: var(--mainY);
@@ -100,11 +99,11 @@
 
 /* linkProject */
 .about-linkProject {
-    padding: 4px 16px;
     border: 1px solid var(--black100);
-    font-size: 15px;
-    font-family: var(--fontA);
-    letter-spacing: -1px;
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
     border-radius: 50px;
     background-color: var(--mainY);
     display: block;
@@ -122,16 +121,997 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: -6px;
 }
 
-/* 액자 */
-.ab-Img1 {
-    width: 670px;
+/* ab-Img3 */
+.ab-Img3 {
+    width: 35px;
+    position: absolute;
+    top: 15px;
+    left: 60%;
+    z-index: 100;
+}
+
+.abFlower1 {
+    animation: abflower1 2.5s infinite;
+}
+
+@keyframes abflower1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-8deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img4 */
+.ab-Img4 {
+    width: 30px;
+    position: absolute;
+    top: -12px;
+    left: 37%;
+    z-index: 100;
+}
+
+.abFlower2 {
+    animation: flower2 2.5s infinite;
+}
+
+@keyframes flower2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(8deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img5 */
+.ab-Img5 {
+    width: 28px;
+    position: absolute;
+    top: -2px;
+    left: 78%;
+    z-index: 100;
+}
+
+.abFlower3 {
+    animation: flower3 2.5s infinite;
+}
+
+@keyframes flower3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img6 */
+.ab-Img6 {
+    width: 43px;
+    position: absolute;
+    top: 3%;
+    left: 89%;
+    z-index: 100;
+}
+
+.abFlower4 {
+    animation: flower4 2.5s infinite;
+}
+
+@keyframes flower4 {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(5deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img7 */
+.ab-Img7 {
+    width: 60px;
+    position: absolute;
+    top: 7%;
+    left: 82%;
+    z-index: 90;
+}
+
+.abFlower5 {
+    animation: flower4 2.5s infinite;
+}
+
+@keyframes flower4 {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(5deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img8 */
+.ab-Img8 {
+    width: 55px;
+    position: absolute;
+    top: 16%;
+    left: 94%;
+    z-index: 90;
+}
+
+.abFlower6 {
+    animation: flower4 2.5s infinite;
+}
+
+@keyframes flower4 {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(5deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img9 */
+.ab-Img9 {
+    width: 90px;
+    position: absolute;
+    top: 28%;
+    left: 90%;
+    z-index: 90;
+}
+
+.abFlower10 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img10 */
+.ab-Img10 {
+    width: 98px;
+    position: absolute;
+    top: 58%;
+    left: 73%;
+    z-index: 0;
+}
+
+.abFlower11 {
+    animation: flower2-2 5s ease-in-out infinite;
+}
+
+@keyframes flower2-2 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
+/* ab-Img11 */
+.ab-Img11 {
+    width: 58px;
+    position: absolute;
+    top: 92%;
+    left: 20%;
+    z-index: 1;
+}
+
+.abFlower12 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img12*/
+.ab-Img12 {
+    width: 48px;
+    position: absolute;
+    top: 87%;
+    left: 37%;
+    z-index: 1;
+    transform: rotate(120deg);
+}
+
+.abFlower13 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img13*/
+.ab-Img13 {
+    width: 58px;
+    position: absolute;
+    top: 80%;
+    left: 74%;
+    z-index: 0;
+    transform: rotate(120deg);
+}
+
+.abFlower14 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img14*/
+.ab-Img14 {
+    width: 40px;
+    position: absolute;
+    top: 87%;
+    left: 96%;
+    z-index: 90;
+    transform: rotate(90deg);
+}
+
+.abFlower15 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img15*/
+.ab-Img15 {
+    width: 40px;
+    position: absolute;
+    top: 87%;
+    left: 8%;
+    z-index: 90;
+    transform: rotate(90deg);
+}
+
+.abFlower16 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img16*/
+.ab-Img16 {
+    width: 60px;
+    position: absolute;
+    top: 79%;
+    left: 16%;
+    z-index: 60;
+}
+
+.abFlower17 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img17*/
+.ab-Img17 {
+    width: 60px;
+    position: absolute;
+    top: 63%;
+    left: -2%;
+    z-index: 60;
+}
+
+.abFlower18 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img18*/
+.ab-Img18 {
+    width: 110px;
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    z-index: 0;
+}
+
+.abFlower19 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img19*/
+.ab-Img19 {
+    width: 40px;
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    z-index: 100;
+}
+
+.abFlower20 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img20*/
+.ab-Img20 {
+    width: 55px;
+    position: absolute;
+    top: 3.8%;
+    left: 28%;
+    z-index: 0;
+    transform: rotate(100deg);
+}
+
+.abFlower21 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img21*/
+.ab-Img21 {
+    width: 40px;
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    z-index: 100;
+    transform: rotate(100deg);
+}
+
+.abFlower22 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img22*/
+.ab-Img22 {
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    z-index: 100;
+    transform: rotate(100deg);
+}
+
+.abFlower23 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img23*/
+.ab-Img23 {
+    width: 35px;
+    position: absolute;
+    top: 24%;
+    left: 108%;
+    z-index: 0;
+    transform: rotate(50deg);
+}
+
+.abFlower24 {
+    animation: abLeaf 2.5s infinite;
+}
+
+@keyframes abLeaf {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-12deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img24*/
+.ab-Img24 {
+    width: 25px;
+    position: absolute;
+    top: 36%;
+    left: 87%;
+    z-index: 0;
+    transform: rotate(-110deg);
+}
+
+.abFlower25 {
+    animation: abLeaf 2.5s infinite;
+}
+
+@keyframes abLeaf {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-12deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img25*/
+.ab-Img25 {
+    width: 25px;
+    position: absolute;
+    top: 23%;
+    left: -2%;
+    z-index: 0;
+    transform: rotate(-80deg);
+}
+
+.abFlower26 {
+    animation: abLeaf 2.5s infinite;
+}
+
+@keyframes abLeaf {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-12deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img26*/
+.ab-Img26 {
+    width: 40px;
+    position: absolute;
+    top: 30%;
+    left: -2%;
+    z-index: 0;
+    transform: rotate(-60deg);
+}
+
+.abFlower27 {
+    animation: abLeaf 2.5s infinite;
+}
+
+@keyframes abLeaf {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-12deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img27*/
+.ab-Img27 {
+    width: 40px;
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    z-index: 1;
+    transform: rotate(-130deg);
+}
+
+.abFlower28 {
+    animation: abLeaf 2.5s infinite;
+}
+
+@keyframes abLeaf {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-12deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img28*/
+.ab-Img28 {
+    width: 35px;
+    position: absolute;
+    top: 66%;
+    left: 106%;
+    z-index: 1;
+    transform: rotate(70deg);
+}
+
+.abFlower29 {
+    animation: abLeaf1 2.5s infinite;
+}
+
+@keyframes abLeaf1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img29*/
+.ab-Img29 {
+    width: 35px;
+    position: absolute;
+    top: 34%;
+    left: -7%;
+    z-index: 0;
+    transform: rotate(-70deg) scaleX(-1);
+    /* 좌우 반전 추가 */
+}
+
+.abFlower30 {
+    animation: abLeaf1 2.5s infinite;
+}
+
+@keyframes abLeaf1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img30*/
+.ab-Img30 {
+    width: 75px;
+    position: absolute;
+    top: 60%;
+    left: 11%;
+    z-index: 30;
+    transform: rotate(300deg) scaleX(-1);
+    /* 좌우 반전 추가 */
+}
+
+.abFlower31 {
+    animation: abLeaf1 2.5s infinite;
+}
+
+@keyframes abLeaf1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img31*/
+.ab-Img31 {
+    width: 55px;
+    position: absolute;
+    top: 54%;
+    left: 9%;
+    z-index: 1;
+    transform: rotate(60deg) scaleX(-1);
+    /* 좌우 반전 추가 */
+}
+
+.abFlower32 {
+    animation: abLeaf1 2.5s infinite;
+}
+
+@keyframes abLeaf1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img32*/
+.ab-Img32 {
+    width: 40px;
+    position: absolute;
+    top: 56%;
+    left: 8%;
+    z-index: 1;
+    transform: rotate(60deg) scaleX(-1);
+    /* 좌우 반전 추가 */
+}
+
+.abFlower33 {
+    animation: abLeaf1 2.5s infinite;
+}
+
+@keyframes abLeaf1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img33*/
+.ab-Img33 {
+    width: 37px;
+    position: absolute;
+    top: -4%;
+    left: -1%;
+    z-index: 0;
+    transform: rotate(-40deg);
+    /* 좌우 반전 추가 */
+}
+
+.abFlower34 {
+    animation: abLeaf1 2.5s infinite;
+}
+
+@keyframes abLeaf1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img34*/
+.ab-Img34 {
+    width: 30px;
+    position: absolute;
+    top: 51%;
+    left: -5%;
+    z-index: 100;
+    transform: rotate(-130deg);
+    /* 좌우 반전 추가 */
+}
+
+.abFlower35 {
+    animation: abLeaf1 2.5s infinite;
+}
+
+@keyframes abLeaf1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img35*/
+.ab-Img35 {
+    width: 240px;
+    position: absolute;
+    top: 0%;
+    left: -40%;
+    z-index: 0;
+    transform: rotate(-0deg);
+}
+
+.abFlower36 {
+    width: 100%;
+}
+
+.pofile {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: -3%;
+    flex-direction: column;
+    position: relative;
+}
+
+/* 액자 */
+.ab-Img1 {
+    width: 500px;
+    top: -6%;
+    left: -4%;
+    position: absolute;
 }
 
 .ab-frame {
@@ -141,13 +1121,14 @@
 
 /* 프로필 */
 .ab-Img2 {
-    width: 560px;
-    height: 745px;
+    width: 420px;
+    height: 557px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F3E98D;
-    margin-top: 18px;
+    margin-top: -2px;
+    margin-left: 9%;
     background: linear-gradient(0deg, #F3E98D, #FF83A7);
     /* 초기 그라데이션 설정 */
     animation: gradient-animation 3s infinite;
@@ -179,9 +1160,118 @@
 
 .ab-pofile {
     display: block;
-    width: 470px;
+    width: 360px;
     height: auto;
-    margin-top: 88px;
+    margin-top: 50px;
+}
+
+/* abtextWrap */
+.abtextWrap1 {
+    position: absolute;
+    text-align: right;
+    top: 6%;
+    left: 6%;
+}
+
+.abmainText {
+    font-family: var(--fontNa);
+    font-size: 32px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.ab__Text {
+    font-family: var(--fontNa);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    margin-top: 6px;
+    color: var(--black300);
+}
+
+.abText {
+    font-family: var(--fontNa);
+    font-size: 26px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+/* 왼쪽 */
+.persona1 {
+    position: absolute;
+    /* top: 38%; */
+    left: 5%;
+    width: 190px;
+}
+
+
+.persona2 {
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    width: 180px;
+}
+
+/* abtextWrap2 */
+.abtextWrap2 {
+    position: absolute;
+    text-align: left;
+    top: 6%;
+    left: 68%;
+}
+
+.abmainText2 {
+    font-family: var(--fontNa);
+    font-size: 32px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.ab__Text2 {
+    font-family: var(--fontNa);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    margin-top: 6px;
+    color: var(--black300);
+}
+
+.abText2 {
+    font-family: var(--fontNa);
+    font-size: 26px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+/* abtextWrap3 */
+.abtextWrap3 {
+    position: absolute;
+    text-align: left;
+    top: 40%;
+    left: 70%;
+}
+
+.abmainText3 {
+    font-family: var(--fontNa);
+    font-size: 32px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.ab__Text3 {
+    font-family: var(--fontNa);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    margin-top: 6px;
+    color: var(--black300);
+}
+
+.abText3 {
+    font-family: var(--fontNa);
+    font-size: 26px;
+    font-weight: 800;
+    display: inline-block;
 }
 
 /* .aboutTextwrap {
@@ -198,8 +1288,10 @@
     font-family: 'gegant';
     font-weight: 300;
     line-height: 1;
-    margin-top: 50px;
-    display: block;
+    text-align: center;
+    letter-spacing: -0.3vw;
     white-space: nowrap;
-    z-index: 1000;
+    z-index: 10000;
+    transform: translate(-50%, -50%);
+    position: relative;
 }
