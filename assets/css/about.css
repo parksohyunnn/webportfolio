@@ -36,11 +36,21 @@
 
 .abTextbold {
     font-family: var(--fontNa);
-    margin-top: 24px;
+    margin-top: 20px;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: -1.2px;
-    color: black;
+    color: var(--black300);
+}
+
+.ab__Text {
+    font-family: var(--fontNa);
+    padding-top: 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    color: var(--black300);
 }
 
 /* linkHome */
@@ -114,6 +124,7 @@
     background-color: var(--mainB);
     transform: rotate(2deg);
 }
+
 
 /* aboutSection1 */
 .aboutSection1 {
@@ -1032,6 +1043,7 @@
     /* 좌우 반전 추가 */
 }
 
+
 .abFlower34 {
     animation: abLeaf1 2.5s infinite;
 }
@@ -1170,7 +1182,7 @@
     position: absolute;
     text-align: right;
     top: 6%;
-    left: 6%;
+    left: 10%;
 }
 
 .abmainText {
@@ -1196,11 +1208,14 @@
     display: inline-block;
 }
 
+
+
 /* 왼쪽 */
 .persona1 {
     position: absolute;
     /* top: 38%; */
-    left: 5%;
+    left: 10%;
+    top: 35%;
     width: 190px;
 }
 
@@ -1208,7 +1223,7 @@
 .persona2 {
     position: absolute;
     top: 40%;
-    left: 19%;
+    left: 22%;
     width: 180px;
 }
 
@@ -1289,9 +1304,10 @@
     font-weight: 300;
     line-height: 1;
     text-align: center;
-    letter-spacing: -0.3vw;
+    /* letter-spacing: -0.3vw; */
     white-space: nowrap;
     z-index: 10000;
     transform: translate(-50%, -50%);
     position: relative;
+    overflow: hidden;
 }
