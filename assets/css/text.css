@@ -1,6 +1,6 @@
 /* 홈 텍스트 */
 /* 홈 상단 텍스트 */
-.flowerTextwrap {
+/* .flowerTextwrap {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -32,7 +32,7 @@
     line-height: 1.7;
     letter-spacing: -1.2px;
     color: black;
-}
+} */
 
 /* 홈 하단 텍스트 */
 /* .h2Textwrap {
@@ -124,7 +124,7 @@
 
 /* 스킬 텍스트 */
 /* 스킬 상단 텍스트 */
-.skillsTextwrap {
+/* .skillsTextwrap {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -158,10 +158,10 @@
     letter-spacing: -1.2px;
     color: black;
     z-index: 100000;
-}
+} */
 
 /* 스킬 하단 텍스트 */
-.sk__Textwrap {
+/* .sk__Textwrap {
     position: absolute;
     left: 50%;
     bottom: -1vw;
@@ -177,11 +177,11 @@
     transform: translate(-50%, -50%);
     letter-spacing: -0.3vw;
     white-space: nowrap;
-}
+} */
 
 /* 프로젝트 텍스트 */
 /* 프로젝트 상단 텍스트 */
-.projectTextwrap {
+/* .projectTextwrap {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -214,7 +214,7 @@
     line-height: 1.7;
     letter-spacing: -1.2px;
     color: black;
-}
+} */
 
 /* pointText */
 .pointText {
@@ -237,7 +237,7 @@
 }
 
 /* 프로젝트 하단 텍스트 */
-.pr__Textwrap {
+/* .pr__Textwrap {
     position: absolute;
     left: 50%;
     bottom: -1vw;
@@ -253,4 +253,4 @@
     transform: translate(-50%, -50%);
     letter-spacing: -0.3vw;
     white-space: nowrap;
-}
+} */
