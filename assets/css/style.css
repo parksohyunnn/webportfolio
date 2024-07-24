@@ -6,10 +6,11 @@
 @import "resets.css";
 
 /* 섹션 설정 */
-@import "main.css";
 @import "aboutme.css";
 @import "skill.css";
 @import "project.css";
 @import "home.css";
 @import "about.css";
 @import "skills.css";
+@import "nav.css";
+@import "text.css";

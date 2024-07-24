@@ -1,0 +1,256 @@
+/* 홈 텍스트 */
+/* 홈 상단 텍스트 */
+.flowerTextwrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.flowerSubtittle {
+    font-family: var(--fontP);
+    font-size: 35px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    font-weight: 800;
+}
+
+.flowerText {
+    font-family: var(--fontNa);
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    color: var(--black300);
+}
+
+.flTextbold {
+    font-family: var(--fontNa);
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    color: black;
+}
+
+/* 홈 하단 텍스트 */
+.h2Textwrap {
+    position: absolute;
+    left: 50%;
+    bottom: 0vw;
+}
+
+.flowerTittle {
+    text-transform: uppercase;
+    font-size: 110px;
+    font-family: 'gegant';
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    letter-spacing: -0.3vw;
+    white-space: nowrap;
+}
+
+/* 어바웃 텍스트 */
+/* 어바웃 상단 텍스트 */
+.aboutTextwrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutSubtittle {
+    font-family: var(--fontP);
+    font-size: 35px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    font-weight: 800;
+    position: relative;
+    z-index: 10000;
+}
+
+.aboutText {
+    font-family: var(--fontNa);
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    color: var(--black300);
+}
+
+.abTextbold {
+    font-family: var(--fontNa);
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    color: var(--black300);
+}
+
+.ab__Text {
+    font-family: var(--fontNa);
+    padding-top: 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    color: var(--black300);
+}
+
+/* 어바웃 하단 텍스트 */
+.h2Textwrap {
+    position: absolute;
+    top: 90%;
+}
+
+.aboutTittle {
+    text-transform: uppercase;
+    font-size: 110px;
+    font-family: 'gegant';
+    font-weight: 300;
+    /* line-height: 1; */
+    text-align: center;
+    /* letter-spacing: -0.3vw; */
+    white-space: nowrap;
+    z-index: 10000;
+    transform: translate(-50%, -50%);
+    position: relative;
+    overflow: hidden;
+}
+
+/* 스킬 텍스트 */
+/* 스킬 상단 텍스트 */
+.skillsTextwrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skillsSubtittle {
+    font-family: var(--fontP);
+    font-size: 35px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    font-weight: 800;
+}
+
+.skillsText {
+    font-family: var(--fontNa);
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    color: var(--black300);
+    z-index: 100000;
+}
+
+.skTextbold {
+    font-family: var(--fontNa);
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    color: black;
+    z-index: 100000;
+}
+
+/* 스킬 하단 텍스트 */
+.sk__Textwrap {
+    position: absolute;
+    left: 50%;
+    bottom: -1vw;
+}
+
+.skillsTittle {
+    text-transform: uppercase;
+    font-size: 110px;
+    font-family: 'gegant';
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    letter-spacing: -0.3vw;
+    white-space: nowrap;
+}
+
+/* 프로젝트 텍스트 */
+/* 프로젝트 상단 텍스트 */
+.projectTextwrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 100000;
+}
+
+.projectSubtittle {
+    font-family: var(--fontP);
+    font-size: 35px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    font-weight: 800;
+}
+
+.projectText {
+    font-family: var(--fontNa);
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    color: var(--black300);
+}
+
+.prTextbold {
+    font-family: var(--fontNa);
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    color: black;
+}
+
+/* pointText */
+.pointText {
+    margin-top: 1px;
+    display: inline-block;
+    font-size: 14px;
+    animation: blinkText 4s infinite;
+}
+
+@keyframes blinkText {
+
+    0%,
+    100% {
+        color: var(--mainR);
+    }
+
+    50% {
+        color: var(--black100);
+    }
+}
+
+/* 프로젝트 하단 텍스트 */
+.pr__Textwrap {
+    position: absolute;
+    left: 50%;
+    bottom: -1vw;
+}
+
+.projectTittle {
+    text-transform: uppercase;
+    font-size: 110px;
+    font-family: 'gegant';
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    letter-spacing: -0.3vw;
+    white-space: nowrap;
+}

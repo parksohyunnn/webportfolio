@@ -1,0 +1,308 @@
+/* flowerUl */
+.navUl {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000;
+    position: relative;
+}
+
+.navLi {
+    margin-right: 10px;
+    /* 리스트 항목 간의 간격 */
+}
+
+.navLi:last-child {
+    margin-right: 0;
+    /* 마지막 항목에 대한 간격 제거 */
+}
+
+/* linkHome 홈 섹션 네비 */
+.linkHome {
+    padding: 2px 14px;
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    background-color: var(--mainV);
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.linkHome:hover {
+    background-color: var(--mainG);
+    transform: rotate(-2deg);
+}
+
+/* linkAbout */
+.linkAbout {
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+    /* 전환 효과 추가 */
+    background-color: #09EA84;
+}
+
+.linkAbout:hover {
+    background-color: #FFEC2D;
+    transform: rotate(2deg);
+    /* 크기와 회전 변환 효과 추가 */
+}
+
+.linkSkill {
+    padding: 4px 16px;
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    background-color: #09EA84;
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.linkSkill:hover {
+    background-color: var(--mainP);
+    transform: rotate(2deg);
+}
+
+.linkProject {
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    background-color: #09EA84;
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.linkProject:hover {
+    background-color: var(--mainB);
+    transform: rotate(2deg);
+}
+
+/* 어바웃 섹션 네비 */
+/* linkHome */
+.about-linkHome {
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    background-color: var(--mainY);
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.about-linkHome:hover {
+    background-color: var(--mainG);
+    transform: rotate(2deg);
+}
+
+/* linkAbout */
+.about-linkAbout {
+    padding: 2px 14px;
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    background-color: var(--mainR);
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.about-linkAbout:hover {
+    background-color: var(--mainY);
+    transform: rotate(-2deg);
+}
+
+/* linkSkill */
+.about-linkSkill {
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    background-color: var(--mainY);
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.about-linkSkill:hover {
+    background-color: var(--mainP);
+    transform: rotate(2deg);
+}
+
+/* linkProject */
+.about-linkProject {
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    background-color: var(--mainY);
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.about-linkProject:hover {
+    background-color: var(--mainB);
+    transform: rotate(2deg);
+}
+
+/* 스킬 섹션 네비 */
+/* linkHome */
+.skills-linkHome {
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.skills-linkHome:hover {
+    background-color: var(--mainG);
+    transform: rotate(2deg);
+}
+
+/* linkAbout */
+.skills-linkAbout {
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.skills-linkAbout:hover {
+    background-color: var(--mainY);
+    transform: rotate(2deg);
+}
+
+/* linkSkill */
+.skills-linkSkill {
+    padding: 2px 14px;
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    background-color: var(--mainV);
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.skills-linkSkill:hover {
+    background-color: var(--mainR);
+    transform: rotate(-2deg);
+}
+
+.skills-linkProject {
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.skills-linkProject:hover {
+    background-color: var(--mainB);
+    transform: rotate(2deg);
+}
+
+/* 프로젝트 섹션 네비 */
+/* linkHome */
+.project-linkHome {
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+    background-color: #53CBFF;
+}
+
+.project-linkHome:hover {
+    background-color: var(--mainG);
+    transform: rotate(2deg);
+}
+
+/* linkAbout */
+.project-linkAbout {
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    background-color: #53CBFF;
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.project-linkAbout:hover {
+    background-color: var(--mainY);
+    transform: rotate(2deg);
+}
+
+/* linkSkill */
+.project-linkSkill {
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    padding: 2px 14px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    background-color: #53CBFF;
+    display: block;
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.project-linkSkill:hover {
+    background-color: var(--mainP);
+    transform: rotate(2deg);
+}
+
+/* linkProject */
+.project-linkProject {
+    padding: 2px 14px;
+    border: 1px solid var(--black100);
+    font-size: 13px;
+    font-family: var(--fontK);
+    font-weight: 400;
+    border-radius: 50px;
+    display: block;
+    background-color: var(--mainR);
+    transition: background-color 0.6s, transform 0.3s;
+}
+
+.project-linkProject:hover {
+    background-color: var(--mainB);
+    transform: rotate(-2deg);
+}

@@ -8,149 +8,113 @@
     position: relative;
 }
 
-/* skillsTextwrap */
-.skillsTextwrap {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
 
-.skillsSubtittle {
-    font-family: var(--fontP);
-    font-size: 35px;
-    line-height: 1.1;
-    letter-spacing: -1px;
-    font-weight: 800;
-}
-
-.skillsText {
-    font-family: var(--fontNa);
-    margin-top: 20px;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: -1.2px;
-    color: var(--black300);
-    z-index: 100000;
-}
-
-.skTextbold {
-    font-family: var(--fontNa);
-    margin-top: 24px;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: -1.2px;
-    color: black;
-    z-index: 100000;
-}
-
-.navLi:last-child {
-    margin-right: 0;
-    /* 마지막 항목에 대한 간격 제거 */
-}
-
-/* linkHome */
-.skills-linkHome {
-    border: 1px solid var(--black100);
-    font-size: 13px;
-    padding: 2px 14px;
-    font-family: var(--fontK);
-    font-weight: 400;
-    border-radius: 50px;
-    display: block;
-    transition: background-color 0.6s, transform 0.3s;
-}
-
-.skills-linkHome:hover {
-    background-color: var(--mainG);
-    transform: rotate(2deg);
-}
-
-/* linkAbout */
-.skills-linkAbout {
-    border: 1px solid var(--black100);
-    font-size: 13px;
-    padding: 2px 14px;
-    font-family: var(--fontK);
-    font-weight: 400;
-    border-radius: 50px;
-    display: block;
-    transition: background-color 0.6s, transform 0.3s;
-}
-
-.skills-linkAbout:hover {
-    background-color: var(--mainY);
-    transform: rotate(2deg);
-}
-
-/* linkSkill */
-.skills-linkSkill {
-    padding: 2px 14px;
-    border: 1px solid var(--black100);
-    font-size: 13px;
-    font-family: var(--fontK);
-    font-weight: 400;
-    border-radius: 50px;
-    display: block;
-    background-color: var(--mainV);
-    transition: background-color 0.6s, transform 0.3s;
-}
-
-.skills-linkSkill:hover {
-    background-color: var(--mainR);
-    transform: rotate(-2deg);
-}
-
-.skills-linkProject {
-    border: 1px solid var(--black100);
-    font-size: 13px;
-    padding: 2px 14px;
-    font-family: var(--fontK);
-    font-weight: 400;
-    border-radius: 50px;
-    display: block;
-    transition: background-color 0.6s, transform 0.3s;
-}
-
-.skills-linkProject:hover {
-    background-color: var(--mainB);
-    transform: rotate(2deg);
-}
 
 /* skillSection1 */
 .skillSection1 {}
 
 .skillLine {
-    width: 120%;
+    width: 110%;
     position: absolute;
     left: -8%;
-    top: 14%;
+    top: 12%;
 }
 
+/* 메인 성 */
 .skill-Img1 {
     position: absolute;
-    width: 600px;
-    right: 3%;
+    width: 680px;
+    right: 5%;
     top: 3%;
 }
 
-.sk-castle1 {}
+/* 아이콘 */
+/* skIco1_html */
+.skIco1 {
+    width: 50px;
+    position: absolute;
+    top: 42px;
+    right: 48%;
+}
+
+/* skIco2_css */
+.skIco2 {
+    width: 50px;
+    position: absolute;
+    top: 86px;
+    right: 35%;
+}
+
+/* skIco3_figma */
+.skIco3 {
+    width: 50px;
+    position: absolute;
+    top: 228px;
+    right: 73%;
+    z-index: 100;
+}
+
+/* skIco4_javascript */
+.skIco4 {
+    width: 50px;
+    position: absolute;
+    top: 126px;
+    right: 67%;
+    z-index: 100;
+}
+
+/* skIco5_git */
+.skIco5 {
+    width: 50px;
+    position: absolute;
+    top: 227px;
+    right: 9.4%;
+    z-index: 100;
+    transform: rotate(8deg);
+}
+
+/* skIco6_ai */
+.skIco6 {
+    width: 50px;
+    position: absolute;
+    top: 13.7%;
+    right: 110%;
+    z-index: 100;
+}
+
+/* skIco7_id */
+.skIco7 {
+    width: 50px;
+    position: absolute;
+    top: 18.8%;
+    right: 4%;
+    z-index: 100;
+}
+
+/* skIco8_br  */
+.skIco8 {
+    width: 50px;
+    position: absolute;
+    top: 14.1%;
+    right: 40%;
+    z-index: 100;
+    transform: rotate(-6deg);
+}
 
 .skill-Img2 {
     display: block;
-    width: 170px;
+    width: 180px;
     position: absolute;
-    top: 24%;
-    left: 250px;
+    top: 25%;
+    right: 65%;
     transform: scaleX(-1) rotate(-15deg);
 }
 
 .skill-Img3 {
     width: 50px;
     position: absolute;
-    top: 36%;
-    left: 40%;
+    top: 39%;
+    left: 50%;
 }
 
 .skill-Img4 {
@@ -160,18 +124,20 @@
     left: 40%;
 }
 
+.skill-Img6 {
+    width: 105px;
+    position: absolute;
+    top: 14.6%;
+    right: 105%;
+}
+
+/* 일러스트 구름 */
 .skill-Img5 {
     width: 90px;
     position: absolute;
-    top: 60%;
-    left: 48%;
-}
-
-.skill-Img6 {
-    width: 70px;
-    position: absolute;
-    top: 66%;
-    left: 90%;
+    top: 0%;
+    right: 0%;
+    background-color: aqua;
 }
 
 .skill-Img7 {
@@ -181,27 +147,10 @@
     left: 90%;
 }
 
+/* 피그마 구름 */
 .skill-Img8 {
-    width: 55px;
+    width: 92px;
     position: absolute;
-    top: 26%;
-    left: 66%;
-}
-
-.sk__Textwrap {
-    position: absolute;
-    left: 50%;
-    bottom: -1vw;
-}
-
-.skillsTittle {
-    text-transform: uppercase;
-    font-size: 110px;
-    font-family: 'gegant';
-    font-weight: 300;
-    line-height: 1;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    letter-spacing: -0.3vw;
-    white-space: nowrap;
+    top: 254px;
+    right: 69%;
 }
