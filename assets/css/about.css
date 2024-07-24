@@ -197,7 +197,7 @@
     width: 90px;
     position: absolute;
     top: 28%;
-    left: 90%;
+    left: 86%;
     z-index: 90;
 }
 
@@ -409,8 +409,8 @@
 .ab-Img16 {
     width: 60px;
     position: absolute;
-    top: 79%;
-    left: 16%;
+    top: 74%;
+    left: 5%;
     z-index: 60;
 }
 
@@ -468,7 +468,7 @@
     width: 110px;
     position: absolute;
     top: 19%;
-    left: 6%;
+    left: 4%;
     z-index: 0;
 }
 
@@ -525,7 +525,7 @@
 .ab-Img20 {
     width: 55px;
     position: absolute;
-    top: 3.8%;
+    top: 3%;
     left: 28%;
     z-index: 0;
     transform: rotate(100deg);
@@ -586,7 +586,7 @@
     width: 40px;
     position: absolute;
     top: 50%;
-    left: 98%;
+    left: 92%;
     z-index: 100;
     transform: rotate(100deg);
 }
@@ -615,8 +615,8 @@
 .ab-Img23 {
     width: 35px;
     position: absolute;
-    top: 24%;
-    left: 108%;
+    top: 9%;
+    left: 103%;
     z-index: 0;
     transform: rotate(50deg);
 }

@@ -53,7 +53,7 @@ gsap.set(".pofile .ab-Img34", { opacity: 0 });
 const tl = gsap.timeline();
 
 setTimeout(() => {
-    tl.to(".aboutTextwrap .aboutSubtittle .char", { opacity: 1, y: 0, stagger: 0.03, duration: 0.5, ease: "power4.out" });
+    tl.to(".aboutTextwrap .aboutSubtittle .char", { opacity: 1, y: 0, stagger: 0.03, duration: 0.3, ease: "power4.out" });
     tl.to(".flowerTextwrap .ab__Text .line", { opacity: 1, y: 0, stagger: 0.5, duration: 0.5, ease: "power2.out" });
     tl.to(".navUl li", { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" });
     tl.to(".h2Textwrap .aboutTittle .char", { y: 0, stagger: 0.02, duration: 0.5, ease: "power4.out" });
