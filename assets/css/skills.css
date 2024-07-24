@@ -14,10 +14,10 @@
 .skillSection1 {}
 
 .skillLine {
-    width: 110%;
+    width: 2200px;
     position: absolute;
-    left: -8%;
-    top: 12%;
+    right: -140px;
+    top: 0%;
 }
 
 /* 메인 성 */
@@ -28,6 +28,12 @@
     top: 3%;
 }
 
+/* 메인 성img */
+.sk-castle1 {
+    position: relative;
+    z-index: 10;
+}
+
 /* 아이콘 */
 /* skIco1_html */
 .skIco1 {
@@ -35,6 +41,7 @@
     position: absolute;
     top: 42px;
     right: 48%;
+    z-index: 11;
 }
 
 /* skIco2_css */
@@ -43,6 +50,7 @@
     position: absolute;
     top: 86px;
     right: 35%;
+    z-index: 11;
 }
 
 /* skIco3_figma */
@@ -95,8 +103,8 @@
 .skIco8 {
     width: 50px;
     position: absolute;
-    top: 300px;
-    right: 40%;
+    top: 298px;
+    right: 35.2%;
     z-index: 100;
     /* transform: rotate(-6deg); */
 }
@@ -111,6 +119,33 @@
     /* transform: rotate(-6deg); */
 }
 
+/* skIco10_php  */
+.skIco10 {
+    width: 50px;
+    position: absolute;
+    top: 596px;
+    right: 39%;
+    z-index: 100;
+}
+
+/* skIco11_notion  */
+.skIco11 {
+    width: 50px;
+    position: absolute;
+    top: 416px;
+    right: 26%;
+    z-index: 100;
+}
+
+/* skIco12_slack  */
+.skIco12 {
+    width: 50px;
+    position: absolute;
+    top: 370px;
+    right: 65%;
+    z-index: 100;
+}
+
 .skill-Img2 {
     display: block;
     width: 180px;
@@ -120,18 +155,22 @@
     transform: scaleX(-1) rotate(-15deg);
 }
 
+/* 열기구 */
 .skill-Img3 {
-    width: 50px;
+    width: 60px;
     position: absolute;
-    top: 39%;
-    left: 50%;
+    top: 280px;
+    right: 130%;
+    z-index: 10;
 }
 
+/* 큰구름 */
 .skill-Img4 {
-    width: 160px;
+    width: 210px;
     position: absolute;
-    top: 70%;
-    left: 40%;
+    top: 610px;
+    right: 120%;
+    z-index: 10;
 }
 
 /* 일러스트 구름 */
