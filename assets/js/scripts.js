@@ -1,8 +1,30 @@
-//팝업_어바웃
+//팝업_어바웃_1_왼쪽 디자인 부분
 document.addEventListener('DOMContentLoaded', (event) => {
     const button = document.querySelector('.button');
     const popup = document.querySelector('.abtextWrap1');
     const close = document.querySelector('.close');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
+
+//팝업_어바웃_2_왼쪽 
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.button2');
+    const popup = document.querySelector('.persona1');
+    const close = document.querySelector('.close2');
 
     button.addEventListener('click', () => {
         popup.style.display = 'flex';
@@ -70,6 +92,8 @@ gsap.set(".pofile .ab-Img31", { opacity: 0 });
 gsap.set(".pofile .ab-Img32", { opacity: 0 });
 gsap.set(".pofile .ab-Img33", { opacity: 0 });
 gsap.set(".pofile .ab-Img34", { opacity: 0 });
+//버튼
+gsap.set(".button-container .button", { opacity: 0 });
 
 const tl = gsap.timeline();
 
@@ -116,5 +140,7 @@ setTimeout(() => {
     tl.to(".pofile .ab-Img31", { opacity: 1, duration: 0.1 });
     tl.to(".pofile .ab-Img32", { opacity: 1, duration: 0.1 });
     tl.to(".pofile .ab-Img33", { opacity: 1, duration: 0.1 });
-    tl.to(".pofile .ab-Img34", { opacity: 1, duration: 0.1 });
+    tl.to(".pofile .ab-Img34", { opacity: 1, duration: 1 });
+    //버튼
+    tl.to(".button-container .button", { opacity: 1, duration: 0.1 });
 }, 1000);
