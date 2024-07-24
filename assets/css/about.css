@@ -52,7 +52,7 @@
     width: 30px;
     position: absolute;
     top: -12px;
-    left: 37%;
+    left: 35%;
     z-index: 100;
 }
 
@@ -78,10 +78,10 @@
 
 /* ab-Img5 */
 .ab-Img5 {
-    width: 28px;
+    width: 33px;
     position: absolute;
-    top: -2px;
-    left: 78%;
+    top: -7px;
+    left: 71%;
     z-index: 100;
 }
 
@@ -110,7 +110,7 @@
     width: 43px;
     position: absolute;
     top: 3%;
-    left: 89%;
+    left: 87%;
     z-index: 100;
 }
 
@@ -138,9 +138,9 @@
 .ab-Img7 {
     width: 60px;
     position: absolute;
-    top: 7%;
-    left: 82%;
-    z-index: 90;
+    top: 8%;
+    left: 74%;
+    z-index: 0;
 }
 
 .abFlower5 {
@@ -167,8 +167,8 @@
 .ab-Img8 {
     width: 55px;
     position: absolute;
-    top: 16%;
-    left: 94%;
+    top: 15%;
+    left: 90%;
     z-index: 90;
 }
 
@@ -497,7 +497,7 @@
     width: 40px;
     position: absolute;
     top: 15%;
-    left: 3%;
+    left: 1%;
     z-index: 100;
 }
 
@@ -586,7 +586,7 @@
     width: 40px;
     position: absolute;
     top: 50%;
-    left: 92%;
+    left: 94%;
     z-index: 100;
     transform: rotate(100deg);
 }
@@ -615,7 +615,7 @@
 .ab-Img23 {
     width: 35px;
     position: absolute;
-    top: 9%;
+    top: 10.5%;
     left: 103%;
     z-index: 0;
     transform: rotate(50deg);
@@ -645,8 +645,8 @@
 .ab-Img24 {
     width: 25px;
     position: absolute;
-    top: 36%;
-    left: 87%;
+    top: 35%;
+    left: 82%;
     z-index: 0;
     transform: rotate(-110deg);
 }
@@ -676,7 +676,7 @@
     width: 25px;
     position: absolute;
     top: 23%;
-    left: -2%;
+    left: -7%;
     z-index: 0;
     transform: rotate(-80deg);
 }
@@ -706,7 +706,7 @@
     width: 40px;
     position: absolute;
     top: 30%;
-    left: -2%;
+    left: -7%;
     z-index: 0;
     transform: rotate(-60deg);
 }
@@ -735,8 +735,8 @@
 .ab-Img27 {
     width: 40px;
     position: absolute;
-    top: 65%;
-    left: 12%;
+    top: 69%;
+    left: 9%;
     z-index: 1;
     transform: rotate(-130deg);
 }
@@ -765,8 +765,8 @@
 .ab-Img28 {
     width: 35px;
     position: absolute;
-    top: 66%;
-    left: 106%;
+    top: 60%;
+    left: 102%;
     z-index: 1;
     transform: rotate(70deg);
 }
@@ -796,7 +796,7 @@
     width: 35px;
     position: absolute;
     top: 34%;
-    left: -7%;
+    left: -12%;
     z-index: 0;
     transform: rotate(-70deg) scaleX(-1);
     /* 좌우 반전 추가 */
@@ -824,10 +824,10 @@
 
 /* ab-Img30*/
 .ab-Img30 {
-    width: 75px;
+    width: 85px;
     position: absolute;
-    top: 60%;
-    left: 11%;
+    top: 54%;
+    left: 14%;
     z-index: 30;
     transform: rotate(300deg) scaleX(-1);
     /* 좌우 반전 추가 */
@@ -857,8 +857,8 @@
 .ab-Img31 {
     width: 55px;
     position: absolute;
-    top: 54%;
-    left: 9%;
+    top: 50%;
+    left: 6%;
     z-index: 1;
     transform: rotate(60deg) scaleX(-1);
     /* 좌우 반전 추가 */
@@ -888,8 +888,8 @@
 .ab-Img32 {
     width: 40px;
     position: absolute;
-    top: 56%;
-    left: 8%;
+    top: 55%;
+    left: 3%;
     z-index: 1;
     transform: rotate(60deg) scaleX(-1);
     /* 좌우 반전 추가 */
@@ -919,8 +919,8 @@
 .ab-Img33 {
     width: 37px;
     position: absolute;
-    top: -4%;
-    left: -1%;
+    top: -6%;
+    left: -7%;
     z-index: 0;
     transform: rotate(-40deg);
     /* 좌우 반전 추가 */
@@ -951,9 +951,9 @@
 .ab-Img34 {
     width: 30px;
     position: absolute;
-    top: 51%;
-    left: -5%;
-    z-index: 100;
+    top: 62%;
+    left: -10%;
+    z-index: 0;
     transform: rotate(-130deg);
     /* 좌우 반전 추가 */
 }
@@ -1344,9 +1344,54 @@
     }
 }
 
+@media (max-width: 684px) {
+    .aboutSubtittle {
+        font-size: 28px !important;/
+    }
+}
+
 @media (max-width: 670px) {
     .flowerTextwrap {
         display: none !important;/
+    }
+
+    .aboutSubtittle {
+        font-size: 26px !important;/
+    }
+
+    .abtextWrap1 {
+        display: none;
+    }
+
+    .abtextWrap2 {
+        display: none;
+    }
+
+    .abtextWrap3 {
+        display: none;
+    }
+
+    .persona1 {
+        display: none;
+    }
+
+    .persona2 {
+        display: none;
+    }
+
+    .aboutTittle {
+        display: inline-block;
+        font-size: 50px !important;/
+    }
+}
+
+@media (max-width: 515px) {
+    .flowerTextwrap {
+        display: none !important;/
+    }
+
+    .aboutSubtittle {
+        font-size: 20px !important;/
     }
 
     .abtextWrap1 {
