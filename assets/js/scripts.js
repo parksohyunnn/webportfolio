@@ -1,3 +1,24 @@
+//팝업_어바웃
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.button');
+    const popup = document.querySelector('.abtextWrap1');
+    const close = document.querySelector('.close');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
 
 const targets = gsap.utils.toArray(".split");
 let SplitClient = new SplitType(targets, { type: "lines, words, chars" });
