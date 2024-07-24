@@ -70,14 +70,14 @@
     top: 227px;
     right: 9.4%;
     z-index: 100;
-    transform: rotate(8deg);
+    /* transform: rotate(8deg); */
 }
 
 /* skIco6_ai */
 .skIco6 {
     width: 50px;
     position: absolute;
-    top: 13.7%;
+    top: 540px;
     right: 110%;
     z-index: 100;
 }
@@ -86,8 +86,8 @@
 .skIco7 {
     width: 50px;
     position: absolute;
-    top: 18.8%;
-    right: 4%;
+    top: 424px;
+    right: 4.2%;
     z-index: 100;
 }
 
@@ -95,10 +95,20 @@
 .skIco8 {
     width: 50px;
     position: absolute;
-    top: 14.1%;
+    top: 300px;
     right: 40%;
     z-index: 100;
-    transform: rotate(-6deg);
+    /* transform: rotate(-6deg); */
+}
+
+/* skIco9_photoshop  */
+.skIco9 {
+    width: 50px;
+    position: absolute;
+    top: 487px;
+    right: 45.5%;
+    z-index: 100;
+    /* transform: rotate(-6deg); */
 }
 
 .skill-Img2 {
@@ -124,20 +134,20 @@
     left: 40%;
 }
 
+/* 일러스트 구름 */
 .skill-Img6 {
     width: 105px;
     position: absolute;
-    top: 14.6%;
-    right: 105%;
+    top: 560px;
+    right: 105.5%;
 }
 
-/* 일러스트 구름 */
+
 .skill-Img5 {
-    width: 90px;
+    width: 110px;
     position: absolute;
-    top: 0%;
+    top: 700px;
     right: 0%;
-    background-color: aqua;
 }
 
 .skill-Img7 {
