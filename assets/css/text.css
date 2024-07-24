@@ -35,7 +35,7 @@
 }
 
 /* 홈 하단 텍스트 */
-.h2Textwrap {
+/* .h2Textwrap {
     position: absolute;
     left: 50%;
     bottom: 0vw;
@@ -51,7 +51,7 @@
     transform: translate(-50%, -50%);
     letter-spacing: -0.3vw;
     white-space: nowrap;
-}
+} */
 
 /* 어바웃 텍스트 */
 /* 어바웃 상단 텍스트 */
