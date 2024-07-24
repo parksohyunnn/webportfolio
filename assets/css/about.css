@@ -1109,6 +1109,30 @@
     width: 180px;
 }
 
+/* abtextWrap1 */
+.abtextWrap1 {
+    position: absolute;
+    text-align: right;
+    top: 8%;
+    left: 13%;
+}
+
+.abmainText1 {
+    font-family: var(--fontNa);
+    font-size: 32px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.ab__Text1 {
+    font-family: var(--fontNa);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: -1.2px;
+    margin-top: 6px;
+    color: var(--black300);
+}
+
 /* abtextWrap2 */
 .abtextWrap2 {
     position: absolute;
