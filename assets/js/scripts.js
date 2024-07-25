@@ -165,6 +165,12 @@ gsap.set(".button-container2 .button2", { opacity: 0, y: 10 });
 gsap.set(".button-container3 .button3", { opacity: 0, y: 10 });
 gsap.set(".button-container4 .button4", { opacity: 0, y: 10 });
 gsap.set(".button-container5 .button5", { opacity: 0, y: 10 });
+//꽃 깜빡임
+gsap.set(".pofile .ab-Img8-1", { opacity: 0 });
+gsap.set(".pofile .ab-Img17-1", { opacity: 0 });
+gsap.set(".pofile .ab-Img19-1", { opacity: 0 });
+gsap.set(".pofile .ab-Img22-1", { opacity: 0 });
+gsap.set(".pofile .ab-Img33-1", { opacity: 0 });
 
 const tl = gsap.timeline();
 
@@ -218,4 +224,10 @@ setTimeout(() => {
     tl.to(".button-container3 .button3", { opacity: 1, y: 0, stagger: 0.03, duration: 0.3, ease: "power4.out" });
     tl.to(".button-container4 .button4", { opacity: 1, y: 0, stagger: 0.03, duration: 0.3, ease: "power4.out" });
     tl.to(".button-container5 .button5", { opacity: 1, y: 0, stagger: 0.03, duration: 0.3, ease: "power4.out" });
+    //꽃 깜빡임
+    tl.to(".pofile .ab-Img8-1", { opacity: 1, duration: 0.01 });
+    tl.to(".pofile .ab-Img17-1", { opacity: 1, duration: 0.01 });
+    tl.to(".pofile .ab-Img19-1", { opacity: 1, duration: 0.01 });
+    tl.to(".pofile .ab-Img22-1", { opacity: 1, duration: 0.01 });
+    tl.to(".pofile .ab-Img33-1", { opacity: 1, duration: 0.01 });
 }, 1000);

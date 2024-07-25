@@ -846,15 +846,18 @@
 
 /* ab-Img17-1*/
 .ab-Img17-1 {
-    width: 64px;
+    width: 60px;
     position: absolute;
     top: 63%;
-    left: -2%;
+    left: -8px;
     z-index: 50;
+    transform: rotate(-59deg) scaleX(-1);
 }
 
 .abFlower18-1 {
-    animation: flower6 2.5s infinite;
+    animation: flower6 2.5s infinite, blink 1s infinite;
+    ;
+
 }
 
 @keyframes flower6 {
@@ -870,6 +873,19 @@
     100% {
         transform: rotate(0deg);
         /* 원래 위치로 회전 */
+    }
+}
+
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
     }
 }
 
@@ -928,6 +944,48 @@
     100% {
         transform: rotate(0deg);
         /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img19-1*/
+.ab-Img19-1 {
+    width: 44px;
+    position: absolute;
+    top: 81px;
+    left: 2px;
+    z-index: 10;
+}
+
+.abFlower20-1 {
+    animation: flower6 2.5s infinite, blink 1s infinite;
+    ;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
     }
 }
 
@@ -1027,7 +1085,7 @@
     width: 44px;
     position: absolute;
     top: 276px;
-    left: 392px;
+    left: 393px;
     z-index: 1;
     transform: rotate(100deg);
 }
@@ -1620,6 +1678,7 @@
     left: 66%;
     display: none;
     width: 390px;
+    z-index: 0;
 }
 
 .abmainText2 {
@@ -1682,122 +1741,153 @@
     display: inline-block;
 }
 
+
+/* 미디어쿼리 */
+@media (max-width: 1780px) {
+    .abtextWrap1 {
+        left: 4%;
+        top: -20%;
+    }
+
+    .abtextWrap2 {
+        left: 66%;
+    }
+
+    .abtextWrap3 {
+        left: 68%;
+    }
+
+    .persona1 {
+        top: 30%;
+        left: 3%;
+        width: 270px;
+    }
+
+    .persona2 {
+        left: 19%;
+        top: 46%;
+        width: 250px;
+    }
+}
+
 @media (max-width: 1670px) {
     .abtextWrap1 {
         left: 6%;
     }
 
-    .persona1 {
-        top: 40%;
-        left: 3%;
-    }
-
-    .persona2 {
-        left: 19%;
-        top: 46%;
-    }
-}
-
-@media (max-width: 1530px) {
-    .abtextWrap1 {
-        left: 7%;
-    }
-
-    .persona1 {
-        top: 40%;
-        left: 2%;
-    }
-
-    .persona2 {
-        left: 19%;
-        top: 46%;
-    }
-}
-
-@media (max-width: 1440px) {
-    .abtextWrap1 {
-        left: 3%;
-    }
-
     .abtextWrap2 {
-        top: 6%;
-        left: 72%;
+        left: 66%;
     }
 
     .abtextWrap3 {
-        top: 38%;
-        left: 72%;
+        left: 68%;
     }
 
     .persona1 {
-        top: 30%;
+        top: 40%;
         left: 2%;
+    }
+
+    .persona2 {
+        left: 19%;
+        top: 46%;
+    }
+}
+
+@media (max-width: 1580px) {
+    .abtextWrap1 {
+        left: 3%;
+        top: -34%;
+        width: 350px;
+    }
+
+    .abtextWrap2 {
+        left: 66%;
+        top: -10%;
+        width: 330px;
+    }
+
+    .abtextWrap3 {
+        left: 68%;
+        width: 390px;
+        top: 42%;
+    }
+
+    .persona1 {
+        top: 8%;
+        left: 6%;
+        width: 210px;
+    }
+
+    .persona2 {
+        left: 10%;
+        top: 46%;
+        width: 220px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .abtextWrap1 {
+        left: 3%;
+        top: -34%;
+        width: 310px;
+    }
+
+    .abtextWrap2 {
+        left: 72%;
+        top: -17%;
+        width: 300px;
+    }
+
+    .abtextWrap3 {
+        left: 71%;
+        width: 340px;
+        top: 33%;
+    }
+
+    .persona1 {
+        top: 4%;
+        left: 6%;
+        width: 190px;
+    }
+
+    .persona2 {
+        left: 10%;
+        top: 40%;
         width: 180px;
     }
-
-    .persona2 {
-        left: 17%;
-        top: 35%;
-        width: 170px;
-    }
 }
 
-@media (max-width: 1320px) {
-    .abtextWrap1 {
-        left: 1.5%;
-    }
-
-    .ab__Text1 {
-        word-wrap: break-word;
-        /* 오래된 브라우저 호환성을 위해 사용 */
-        overflow-wrap: break-word;
-        /* 최신 브라우저에서 사용 */
-        white-space: normal;
-        /* 텍스트가 자동으로 줄바꿈되도록 설정 */
-    }
-
-    .abtextWrap2 {
-        top: 6%;
-        left: 72%;
-    }
-
-    .abtextWrap3 {
-        top: 45%;
-        left: 72%;
-    }
-
-    .persona1 {
-        top: 25%;
-        left: 9.8%;
-        width: 173px;
-    }
-
-    .persona2 {
-        top: 58%;
-        left: 10%;
-        width: 160px;
-    }
-}
 
 @media (max-width: 1150px) {
     .abtextWrap1 {
-        display: none;
+        left: 0%;
+        top: 4%;
+        width: 310px;
     }
 
     .abtextWrap2 {
-        display: none;
+        left: 72%;
+        top: -8%;
+        width: 290px;
     }
 
     .abtextWrap3 {
-        display: none;
+        left: 72%;
+        top: 0%;
+        width: 290px;
     }
 
     .persona1 {
-        display: none;
+        top: 4%;
+        left: 5%;
+        width: 220px;
     }
 
     .persona2 {
-        display: none;
+        top: 4%;
+        left: 5%;
+        width: 220px;
     }
 
     .aboutTittle {
