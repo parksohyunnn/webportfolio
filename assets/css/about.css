@@ -355,7 +355,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: -6px;
+    top: 50px;
 }
 
 /* ab-Img3 */
@@ -389,10 +389,10 @@
 
 /* ab-Img4 */
 .ab-Img4 {
-    width: 30px;
+    width: 40px;
     position: absolute;
-    top: -12px;
-    left: 35%;
+    top: -24px;
+    left: 31%;
     z-index: 100;
 }
 
@@ -534,7 +534,7 @@
 
 /* ab-Img8-1 */
 .ab-Img8-1 {
-    width: 58px;
+    width: 57px;
     position: absolute;
     top: 81px;
     left: 377px;
@@ -698,10 +698,10 @@
 
 /* ab-Img13*/
 .ab-Img13 {
-    width: 58px;
+    width: 68px;
     position: absolute;
-    top: 80%;
-    left: 74%;
+    top: 78%;
+    left: 54%;
     z-index: 0;
     transform: rotate(120deg);
 }
@@ -1556,6 +1556,96 @@
     position: absolute;
     flex-direction: column;
     position: relative;
+}
+
+/* ab-Img35 */
+.ab-Img35 {
+    width: 38px;
+    position: absolute;
+    top: -30px;
+    left: 90%;
+    z-index: 100;
+    transform: scaleX(-1);
+}
+
+.abFlower36 {
+    animation: flower3 2.5s infinite;
+}
+
+@keyframes flower3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img36 */
+.ab-Img36 {
+    width: 30px;
+    position: absolute;
+    top: -52px;
+    left: 76%;
+    z-index: 0;
+    transform: rotate(-10deg) scaleX(-1);
+}
+
+.abFlower37 {
+    animation: flower3 2.5s infinite;
+}
+
+@keyframes flower3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+/* ab-Img37 */
+.ab-Img37 {
+    width: 50px;
+    position: absolute;
+    top: 520px;
+    left: 73%;
+    z-index: 100;
+    transform: rotate(-10deg) scaleX(-1);
+}
+
+.abFlower38 {
+    animation: flower3 2.5s infinite;
+}
+
+@keyframes flower3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
 }
 
 /* 액자 */

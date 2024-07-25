@@ -8,7 +8,19 @@
     position: relative;
 }
 
+/* skillSection11 */
+.skillSection11 {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
 
+.skill-Img11 {}
+
+.sk-castle11 {
+    width: 700px;
+    margin-top: -50px;
+}
 
 /* skillSection1 */
 .skillSection1 {}
@@ -24,8 +36,8 @@
 .skill-Img1 {
     position: absolute;
     width: 680px;
-    right: 5%;
-    top: 3%;
+    right: 6%;
+    top: 10%;
 }
 
 /* 메인 성img */
@@ -202,4 +214,153 @@
     position: absolute;
     top: 254px;
     right: 69%;
+}
+
+/* 미디어쿼리 */
+
+@media (max-width: 1770px) {
+    .skill-Img1 {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1620px) {
+    .skill-Img1 {
+        width: 590px;
+    }
+
+    /* 새 */
+    .skill-Img2 {
+        width: 160px;
+        top: 250px;
+    }
+
+    .skill-Img3 {
+        width: 50px;
+        top: 260px;
+    }
+
+    .skill-Img4 {
+        width: 160px;
+        top: 484px;
+        right: 130%;
+    }
+
+    .skill-Img6 {
+        width: 90px;
+        top: 440px;
+        right: 110%;
+    }
+
+    .skIco6 {
+        top: 418px;
+        right: 113%;
+    }
+
+    .skill-Img5 {
+        width: 80px;
+        top: 560px;
+        right: 5%;
+    }
+}
+
+@media (max-width: 1580px) {
+    .skill-Img1 {
+        width: 560px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .skill-Img1 {
+        width: 560px;
+        top: 10%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .skill-Img1 {
+        width: 530px;
+        top: 20%;
+        right: 10%;
+    }
+
+    .skill-Img2 {
+        width: 140px;
+        top: 250px;
+        left: 20%;
+    }
+
+    .skill-Img3 {
+        width: 40px;
+        top: 210px;
+    }
+
+    .skill-Img4 {
+        width: 140px;
+        top: 440px;
+        right: 130%;
+    }
+
+    .skill-Img6 {
+        width: 90px;
+        top: 400px;
+        right: 110%;
+    }
+
+    .skIco6 {
+        top: 380px;
+        right: 113%;
+    }
+
+    .skill-Img5 {
+        width: 80px;
+        top: 560px;
+        right: 5%;
+    }
+}
+
+@media (max-width: 1140px) {
+    .skill-Img1 {
+        width: 500px;
+        top: 25%;
+        right: 20%;
+    }
+
+    .skill-Img2 {
+        width: 120px;
+        top: 250px;
+        left: 20%;
+    }
+
+    .skill-Img3 {
+        width: 40px;
+        top: 210px;
+    }
+
+    .skill-Img4 {
+        width: 120px;
+        top: 420px;
+        right: 120%;
+    }
+
+    .skill-Img6 {
+        width: 80px;
+        top: 360px;
+        right: 108%;
+    }
+
+    .skill-Img7 {
+        display: none;
+    }
+
+    .skIco6 {
+        top: 330px;
+        right: 111%;
+    }
+
+    .skill-Img5 {
+        width: 80px;
+        top: 380px;
+        right: -16%;
+    }
 }

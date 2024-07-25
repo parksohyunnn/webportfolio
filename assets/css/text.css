@@ -102,6 +102,8 @@
     color: var(--black300);
     display: block;
     text-align: center;
+    position: relative;
+    z-index: 100000;
 }
 
 /* 어바웃 하단 텍스트 */
