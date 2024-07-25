@@ -160,6 +160,8 @@ gsap.set(".pofile .ab-Img32", { opacity: 0 });
 gsap.set(".pofile .ab-Img33", { opacity: 0 });
 gsap.set(".pofile .ab-Img34", { opacity: 0 });
 gsap.set(".pofile .ab-Img35", { opacity: 0 });
+gsap.set(".pofile .ab-Img36", { opacity: 0 });
+gsap.set(".pofile .ab-Img37", { opacity: 0 });
 //버튼
 gsap.set(".button-container .button", { opacity: 0, y: 10 });
 gsap.set(".button-container2 .button2", { opacity: 0, y: 10 });
@@ -220,6 +222,8 @@ setTimeout(() => {
     tl.to(".pofile .ab-Img33", { opacity: 1, duration: 0.1 });
     tl.to(".pofile .ab-Img34", { opacity: 1, duration: 1 });
     tl.to(".pofile .ab-Img35", { opacity: 1, duration: 1 });
+    tl.to(".pofile .ab-Img36", { opacity: 1, duration: 1 });
+    tl.to(".pofile .ab-Img37", { opacity: 1, duration: 1 });
     //버튼
     tl.to(".button-container .button", { opacity: 1, y: 0, stagger: 0.03, duration: 0.3, ease: "power4.out" });
     tl.to(".button-container2 .button2", { opacity: 1, y: 0, stagger: 0.03, duration: 0.3, ease: "power4.out" });

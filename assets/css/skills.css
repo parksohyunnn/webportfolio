@@ -364,3 +364,315 @@
         right: -16%;
     }
 }
+
+@media (max-width: 940px) {
+    .skill-Img1 {
+        width: 480px;
+        top: 26%;
+        right: 20%;
+    }
+
+    .skill-Img2 {
+        width: 100px;
+        top: 250px;
+        left: 16%;
+    }
+
+    .skill-Img3 {
+        width: 36px;
+        top: 180px;
+        left: -31%;
+    }
+
+    .skill-Img4 {
+        width: 120px;
+        top: 420px;
+        right: 120%;
+    }
+
+    .skill-Img6 {
+        width: 80px;
+        top: 360px;
+        right: 108%;
+    }
+
+    .skill-Img7 {
+        display: none;
+    }
+
+    .skIco6 {
+        top: 330px;
+        right: 111%;
+    }
+
+    .skill-Img5 {
+        width: 80px;
+        top: 380px;
+        right: -16%;
+    }
+}
+
+@media (max-width: 800px) {
+    .skill-Img1 {
+        width: 480px;
+        top: 26%;
+        right: 12%;
+    }
+
+    .skill-Img2 {
+        width: 90px;
+        top: 290px;
+        left: 12%;
+    }
+
+    .skill-Img3 {
+        display: none;
+    }
+
+    .skill-Img4 {
+        width: 100px;
+        top: 450px;
+        right: 98%;
+    }
+
+    .skill-Img6 {
+        width: 80px;
+        top: 360px;
+        right: 102%;
+    }
+
+    .skill-Img7 {
+        display: none;
+    }
+
+    .skIco6 {
+        top: 330px;
+        right: 105%;
+    }
+
+    .skill-Img5 {
+        width: 80px;
+        top: 380px;
+        right: -16%;
+    }
+}
+
+@media (max-width: 670px) {
+    .skill-Img1 {
+        width: 460px;
+        top: 20%;
+        right: 12%;
+    }
+
+    .skill-Img2 {
+        width: 68px;
+        top: 260px;
+        left: 17%;
+    }
+
+    .skill-Img3 {
+        display: none;
+    }
+
+    .skill-Img4 {
+        width: 100px;
+        top: 480px;
+        right: 82%;
+    }
+
+    .skill-Img6 {
+        width: 70px;
+        top: 420px;
+        right: 102%;
+    }
+
+    .skill-Img7 {
+        display: none;
+    }
+
+    .skIco6 {
+        top: 330px;
+        right: 105%;
+    }
+
+    .skill-Img5 {
+        width: 80px;
+        top: 480px;
+        right: -4%;
+    }
+}
+
+@media (max-width: 580px) {
+    .skill-Img1 {
+        width: 440px;
+        top: 20%;
+        right: 10%;
+    }
+
+    .skill-Img2 {
+        width: 68px;
+        top: 260px;
+        left: 17%;
+    }
+
+    .skill-Img3 {
+        display: none;
+    }
+
+    .skill-Img4 {
+        width: 80px;
+        top: 500px;
+        right: 82%;
+    }
+
+    .skill-Img6 {
+        width: 60px;
+        top: 420px;
+        right: 90%;
+    }
+
+    .skill-Img7 {
+        display: none;
+    }
+
+    .skIco6 {
+        top: 330px;
+        right: 105%;
+    }
+
+    .skill-Img5 {
+        width: 60px;
+        top: 460px;
+        right: -4%;
+    }
+}
+
+@media (max-width: 510px) {
+    .skill-Img1 {
+        width: 410px;
+        top: 20%;
+        right: 10%;
+    }
+
+    .skill-Img2 {
+        width: 68px;
+        top: 260px;
+        left: 17%;
+    }
+
+    .skill-Img3 {
+        display: none;
+    }
+
+    .skill-Img4 {
+        width: 80px;
+        top: 500px;
+        right: 82%;
+    }
+
+    .skill-Img6 {
+        width: 60px;
+        top: 420px;
+        right: 90%;
+    }
+
+    .skill-Img7 {
+        display: none;
+    }
+
+    .skIco6 {
+        top: 330px;
+        right: 105%;
+    }
+
+    .skill-Img5 {
+        width: 60px;
+        top: 460px;
+        right: -4%;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-Img1 {
+        width: 350px;
+        top: 20%;
+        right: 11%;
+    }
+
+    .skill-Img2 {
+        width: 50px;
+        top: 200px;
+        left: 17%;
+    }
+
+    .skill-Img3 {
+        display: none;
+    }
+
+    .skill-Img4 {
+        width: 60px;
+        top: 400px;
+        right: 82%;
+    }
+
+    .skill-Img6 {
+        width: 40px;
+        top: 360px;
+        right: 92%;
+    }
+
+    .skill-Img7 {
+        display: none;
+    }
+
+    .skIco6 {
+        top: 330px;
+        right: 105%;
+    }
+
+    .skill-Img5 {
+        width: 60px;
+        top: 380px;
+        right: 0%;
+    }
+}
+
+@media (max-width: 400px) {
+    .skill-Img1 {
+        width: 280px;
+        top: 22%;
+        right: 9%;
+    }
+
+    .skill-Img2 {
+        display: none;
+    }
+
+    .skill-Img3 {
+        display: none;
+    }
+
+    .skill-Img4 {
+        display: none;
+    }
+
+    .skill-Img6 {
+        display: none;
+    }
+
+    .skill-Img5 {
+        display: none;
+    }
+
+    .skill-Img7 {
+        display: none;
+    }
+
+    .skIco6 {
+        display: none;
+    }
+
+    .skill-Img5 {
+        display: none;
+    }
+}
