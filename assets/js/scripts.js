@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 document.addEventListener('DOMContentLoaded', (event) => {
     const button = document.querySelector('.button4');
     const popup = document.querySelector('.abtextWrap2');
-    const close = document.querySelector('.close3');
+    const close = document.querySelector('.close4');
 
     button.addEventListener('click', () => {
         popup.style.display = 'flex';
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 document.addEventListener('DOMContentLoaded', (event) => {
     const button = document.querySelector('.button5');
     const popup = document.querySelector('.abtextWrap3');
-    const close = document.querySelector('.close3');
+    const close = document.querySelector('.close5');
 
     button.addEventListener('click', () => {
         popup.style.display = 'flex';

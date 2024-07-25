@@ -532,6 +532,47 @@
     }
 }
 
+/* ab-Img8-1 */
+.ab-Img8-1 {
+    width: 58px;
+    position: absolute;
+    top: 81px;
+    left: 377px;
+    z-index: 1;
+}
+
+.abFlower6-1 {
+    animation: flower4 2.5s infinite, blink 1s infinite;
+}
+
+@keyframes flower4 {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+        /* 왼쪽으로 10도 회전 */
+    }
+
+    100% {
+        transform: rotate(5deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
 /* ab-Img9 */
 .ab-Img9 {
     width: 90px;
@@ -803,6 +844,35 @@
     }
 }
 
+/* ab-Img17-1*/
+.ab-Img17-1 {
+    width: 64px;
+    position: absolute;
+    top: 63%;
+    left: -2%;
+    z-index: 50;
+}
+
+.abFlower18-1 {
+    animation: flower6 2.5s infinite;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
 /* ab-Img18*/
 .ab-Img18 {
     width: 110px;
@@ -948,6 +1018,50 @@
     100% {
         transform: rotate(0deg);
         /* 원래 위치로 회전 */
+    }
+}
+
+/* 꽃 깜박임 */
+/* ab-Img22-1*/
+.ab-Img22-1 {
+    width: 44px;
+    position: absolute;
+    top: 276px;
+    left: 392px;
+    z-index: 1;
+    transform: rotate(100deg);
+}
+
+.abFlower23-1 {
+    animation: flower6 2.5s infinite, blink 1s infinite;
+    ;
+}
+
+@keyframes flower6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
     }
 }
 
@@ -1287,6 +1401,51 @@
     }
 }
 
+/* ab-Img33-1*/
+.ab-Img33-1 {
+    width: 44px;
+    position: absolute;
+    top: -39.25px;
+    left: -7%;
+    z-index: 0;
+    transform: rotate(-40deg);
+    /* 좌우 반전 추가 */
+}
+
+
+.abFlower34-1 {
+    animation: abLeaf1 2.5s infinite, blink 1s infinite;
+    ;
+}
+
+@keyframes abLeaf1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-4deg);
+        /* 왼쪽으로 45도 회전 */
+    }
+
+    100% {
+        transform: rotate(0deg);
+        /* 원래 위치로 회전 */
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
 /* ab-Img34*/
 .ab-Img34 {
     width: 30px;
@@ -1421,7 +1580,6 @@
 /* abtextWrap1 */
 .abtextWrap1 {
     position: absolute;
-    text-align: right;
     top: -25%;
     left: 9%;
     width: 400px;
@@ -1458,15 +1616,10 @@
 /* abtextWrap2 */
 .abtextWrap2 {
     position: absolute;
-    text-align: left;
-    top: 6%;
-    left: 68%;
-    background-color: #FFDC24;
-    padding: 30px 30px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 1px solid #DCC035;
+    top: -16%;
+    left: 66%;
     display: none;
+    width: 390px;
 }
 
 .abmainText2 {
@@ -1498,14 +1651,9 @@
 /* abtextWrap3 */
 .abtextWrap3 {
     position: absolute;
-    text-align: left;
-    top: 50%;
-    left: 70%;
-    background-color: #FFDC24;
-    padding: 30px 30px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 1px solid #DCC035;
+    width: 440px;
+    top: 46%;
+    left: 68%;
     display: none;
 }
 
