@@ -115,7 +115,7 @@
 .skIco8 {
     width: 50px;
     position: absolute;
-    top: 298px;
+    top: 320px;
     right: 35.2%;
     z-index: 100;
     /* transform: rotate(-6deg); */
@@ -222,11 +222,145 @@
     .skill-Img1 {
         width: 600px;
     }
+
+    .skI {
+        width: 45px;
+    }
+
+    .skIco1 {
+        top: 32px;
+        right: 48%;
+    }
+
+    .skIco2 {
+        top: 76px;
+        right: 35%;
+    }
+
+    .skIco3 {
+        top: 230px;
+        right: 73%;
+    }
+
+    .skIco4 {
+        top: 100px;
+        right: 67%;
+    }
+
+    .skIco5 {
+        top: 212px;
+        right: 9.4%;
+    }
+
+    .skIco6 {
+        top: 550px;
+        right: 111%;
+    }
+
+    .skIco7 {
+        top: 373px;
+        right: 4.2%;
+    }
+
+    .skIco8 {
+        top: 281px;
+        right: 35.2%;
+    }
+
+    .skIco9 {
+        top: 430px;
+        right: 45.5%;
+    }
+
+    .skIco10 {
+        top: 525px;
+        right: 39%;
+    }
+
+    .skIco11 {
+        top: 370px;
+        right: 26%;
+    }
+
+    .skIco12 {
+        top: 340px;
+        right: 64%;
+    }
 }
 
 @media (max-width: 1620px) {
     .skill-Img1 {
         width: 590px;
+    }
+
+    .skI {
+        width: 45px;
+    }
+
+
+    .skIco1 {
+        top: 32px;
+        right: 48%;
+    }
+
+    .skIco2 {
+        top: 76px;
+        right: 35%;
+    }
+
+    .skIco3 {
+        top: 230px;
+        right: 73%;
+    }
+
+    .skIco4 {
+        top: 100px;
+        right: 67%;
+    }
+
+    .skIco5 {
+        top: 202px;
+        right: 9.4%;
+    }
+
+    .skIco6 {
+        top: 424px;
+        right: 114%;
+    }
+
+    .skIco7 {
+        top: 350px;
+        right: 4.2%;
+    }
+
+    .skIco8 {
+        top: 260px;
+        right: 35.2%;
+    }
+
+    .skIco9 {
+        top: 400px;
+        right: 45.5%;
+    }
+
+    .skIco9 {
+        top: 400px;
+        right: 45.5%;
+    }
+
+    .skIco10 {
+        top: 490px;
+        right: 39%;
+    }
+
+    .skIco11 {
+        top: 344px;
+        right: 26%;
+    }
+
+    .skIco12 {
+        top: 320px;
+        right: 64%;
     }
 
     /* 새 */
@@ -252,11 +386,6 @@
         right: 110%;
     }
 
-    .skIco6 {
-        top: 418px;
-        right: 113%;
-    }
-
     .skill-Img5 {
         width: 80px;
         top: 560px;
@@ -268,12 +397,85 @@
     .skill-Img1 {
         width: 560px;
     }
+
+    .skI {
+        width: 43px;
+    }
+
+    .skIco1 {
+        top: 32px;
+        right: 48%;
+    }
+
+    .skIco2 {
+        top: 76px;
+        right: 35%;
+    }
+
+    .skIco3 {
+        top: 230px;
+        right: 73%;
+    }
+
+    .skIco4 {
+        top: 100px;
+        right: 67%;
+    }
+
+    .skIco5 {
+        top: 202px;
+        right: 9.4%;
+    }
+
+    .skIco6 {
+        top: 424px;
+        right: 114%;
+    }
+
+    .skIco7 {
+        top: 350px;
+        right: 4.2%;
+    }
+
+    .skIco8 {
+        top: 260px;
+        right: 35.2%;
+    }
+
+    .skIco9 {
+        top: 400px;
+        right: 45.5%;
+    }
+
+    .skIco9 {
+        top: 400px;
+        right: 45.5%;
+    }
+
+    .skIco10 {
+        top: 490px;
+        right: 39%;
+    }
+
+    .skIco11 {
+        top: 344px;
+        right: 26%;
+    }
+
+    .skIco12 {
+        top: 320px;
+        right: 64%;
+    }
 }
 
 @media (max-width: 1440px) {
     .skill-Img1 {
         width: 560px;
         top: 10%;
+    }
+
+    .skI {
+        width: 43px;
     }
 }
 
@@ -326,6 +528,10 @@
         right: 20%;
     }
 
+    .skI {
+        width: 40px;
+    }
+
     .skill-Img2 {
         width: 120px;
         top: 250px;
@@ -370,6 +576,10 @@
         width: 480px;
         top: 26%;
         right: 20%;
+    }
+
+    .skI {
+        width: 39px;
     }
 
     .skill-Img2 {
@@ -419,6 +629,10 @@
         right: 12%;
     }
 
+    .skI {
+        width: 37px;
+    }
+
     .skill-Img2 {
         width: 90px;
         top: 290px;
@@ -462,6 +676,10 @@
         width: 460px;
         top: 20%;
         right: 12%;
+    }
+
+    .skI {
+        width: 35px;
     }
 
     .skill-Img2 {
@@ -509,6 +727,10 @@
         right: 10%;
     }
 
+    .skI {
+        width: 34px;
+    }
+
     .skill-Img2 {
         width: 68px;
         top: 260px;
@@ -552,6 +774,10 @@
         width: 410px;
         top: 20%;
         right: 10%;
+    }
+
+    .skI {
+        width: 32px;
     }
 
     .skill-Img2 {
