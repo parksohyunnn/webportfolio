@@ -309,8 +309,8 @@
 /* 클릭유도버튼 container_js */
 .button-container_js {
     position: absolute;
-    top: 10%;
-    left: 57%;
+    top: 14%;
+    left: 25%;
     z-index: 100000;
 }
 
@@ -375,6 +375,545 @@
 }
 
 .sk__popup5 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 클릭유도버튼 container_id */
+.button-container_id {
+    position: absolute;
+    top: 47%;
+    left: 88%;
+    z-index: 100000;
+}
+
+.button_sk6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk6 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk6 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup6 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 클릭유도버튼 container_css */
+.button-container_css {
+    position: absolute;
+    top: 9.5%;
+    left: 57.5%;
+    z-index: 100000;
+}
+
+.button_sk7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk7 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk7 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup7 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 클릭유도버튼 container_html*/
+.button-container_html {
+    position: absolute;
+    top: 4.5%;
+    left: 44.5%;
+    z-index: 100000;
+}
+
+.button_sk8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk8 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk8 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup8 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 클릭유도버튼 container_git*/
+.button-container_git {
+    position: absolute;
+    top: 25%;
+    left: 83%;
+    z-index: 100000;
+}
+
+.button_sk9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk9 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk9 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup9 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 클릭유도버튼 container_notion*/
+.button-container_notion {
+    position: absolute;
+    top: 45%;
+    left: 56%;
+    z-index: 100000;
+}
+
+.button_sk10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk10 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk10 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup10 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 클릭유도버튼 container_slack*/
+.button-container_slack {
+    position: absolute;
+    top: 4.5%;
+    left: 44.5%;
+    z-index: 100000;
+}
+
+.button_sk11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk11 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk11 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup11 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 클릭유도버튼 container_mysql*/
+.button-container_mysql {
+    position: absolute;
+    top: 4.5%;
+    left: 44.5%;
+    z-index: 100000;
+}
+
+.button_sk12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk12 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk12 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup12 {
     width: 330px;
     position: absolute;
     top: 22%;
