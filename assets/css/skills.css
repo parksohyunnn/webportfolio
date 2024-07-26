@@ -87,8 +87,9 @@
     width: 330px;
     position: absolute;
     top: 25%;
-    left: 32%;
+    left: 26%;
     z-index: 1000;
+    display: none;
 }
 
 .sk-castle11 {
