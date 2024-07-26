@@ -1,0 +1,384 @@
+/* 클릭유도버튼 container_ai */
+.button-container_ai {
+    position: absolute;
+    top: 540px;
+    left: -120px;
+    z-index: 100000;
+}
+
+.button_sk1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk1 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk1 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup1 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 클릭유도버튼 container_ps */
+.button-container_ps {
+    position: absolute;
+    top: 54.5%;
+    left: 47%;
+    z-index: 100000;
+}
+
+.button_sk2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk2 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk2 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup2 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 클릭유도버튼 container_figma */
+.button-container_figma {
+    position: absolute;
+    top: 25.5%;
+    left: 19%;
+    z-index: 100000;
+}
+
+.button_sk3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk3 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk3 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup3 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 클릭유도버튼 container_br */
+.button-container_br {
+    position: absolute;
+    top: 35.5%;
+    left: 57%;
+    z-index: 100000;
+}
+
+.button_sk4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk4 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk4 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup4 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
+
+/* 클릭유도버튼 container_js */
+.button-container_js {
+    position: absolute;
+    top: 10%;
+    left: 57%;
+    z-index: 100000;
+}
+
+.button_sk5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk5 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk5 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup5 {
+    width: 330px;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    z-index: 1000;
+    display: none;
+}
