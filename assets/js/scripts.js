@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 //팝업_스킬_1_일러스트 
 document.addEventListener('DOMContentLoaded', (event) => {
     const button = document.querySelector('.button_sk1');
-    const popup = document.querySelector('.skillPopup');
+    const popup = document.querySelector('.sk__popup1');
     const close = document.querySelector('.closeSk1');
 
     button.addEventListener('click', () => {
