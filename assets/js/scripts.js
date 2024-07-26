@@ -108,6 +108,28 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
+//팝업_스킬_1_일러스트 
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.button_sk1');
+    const popup = document.querySelector('.skillPopup');
+    const close = document.querySelector('.closeSk1');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
+
 //gsap시작
 const targets = gsap.utils.toArray(".split");
 let SplitClient = new SplitType(targets, { type: "lines, words, chars" });

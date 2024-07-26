@@ -15,7 +15,81 @@
     justify-content: end;
 }
 
-.skill-Img11 {}
+/* 클릭유도버튼 1 */
+.button-container_sk1 {
+    position: absolute;
+    top: 540px;
+    left: -120px;
+    z-index: 100000;
+}
+
+.button_sk1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle_sk1 {
+    /* width: 8px;
+    height: 8px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite; */
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.outer-circle_sk1 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+.sk__popup1 {
+    width: 330px;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    z-index: 1000;
+}
 
 .sk-castle11 {
     width: 700px;
