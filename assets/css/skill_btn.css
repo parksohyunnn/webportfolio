@@ -1,9 +1,9 @@
 /* 클릭유도버튼 container_ai */
 .button-container_ai {
     position: absolute;
-    top: 540px;
-    left: -120px;
-    z-index: 100000;
+    top: 500px;
+    left: -70px;
+    z-index: 10000;
 }
 
 .button_sk1 {
@@ -694,8 +694,8 @@
 /* 클릭유도버튼 container_notion*/
 .button-container_notion {
     position: absolute;
-    top: 45%;
-    left: 56%;
+    top: 46.5%;
+    left: 66.5%;
     z-index: 100000;
 }
 
@@ -771,8 +771,8 @@
 /* 클릭유도버튼 container_slack*/
 .button-container_slack {
     position: absolute;
-    top: 4.5%;
-    left: 44.5%;
+    top: 41%;
+    left: 27.5%;
     z-index: 100000;
 }
 
@@ -848,7 +848,7 @@
 /* 클릭유도버튼 container_mysql*/
 .button-container_mysql {
     position: absolute;
-    top: 4.5%;
+    top: 70%;
     left: 44.5%;
     z-index: 100000;
 }
