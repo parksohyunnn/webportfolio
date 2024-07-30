@@ -107,6 +107,71 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     });
 });
+//모달_스킬_1_피그마
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.figma');
+    const popup = document.querySelector('.modal');
+    const close = document.querySelector('.mClose1');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
+
+//모달_스킬_1_html
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.js');
+    const popup = document.querySelector('.modal2');
+    const close = document.querySelector('.mClose2');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
+
+//모달_스킬_1_css
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.css');
+    const popup = document.querySelector('.modal3');
+    const close = document.querySelector('.mClose3');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
 
 //팝업_스킬_1_일러스트 
 document.addEventListener('DOMContentLoaded', (event) => {

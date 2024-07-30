@@ -1,0 +1,369 @@
+/* moFigma */
+.modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal__inner {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ffe5e5;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #FFB49B;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #5D2836;
+}
+
+.modal__h3 {
+    font-family: var(--fontG);
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.modalImg {
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model__close {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.progress {
+    width: 220px;
+    height: 12px;
+    background-color: #f3c6b9;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+.mop {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.modalP {
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 90%;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.progress::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainR);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text {
+    color: var(--mainR);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start {
+    margin-right: 10px;
+}
+
+/* html */
+.skillWrap .skill .click {
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    z-index: 10000;
+    background-color: #ffffffcf;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: block;
+}
+
+.skillWrap .skill .click span {
+    border: 4px solid #ffffffcf;
+    width: 0px;
+    height: 0px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transform-origin: center;
+    border-radius: 50px;
+    animation: scale 1.2s infinite ease-in;
+}
+
+.modal__inner2 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ECF7FC;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span2 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #85DAFF;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #284C5D;
+}
+
+.modal__h32 {
+    font-family: var(--fontG);
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.modalImg {
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model__close {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+}
+
+.progress-container2 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.progress2 {
+    width: 220px;
+    height: 12px;
+    background-color: #98DDFB;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+.mop {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.modalP {
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 90%;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.progress2::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainB);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text2 {
+    color: var(--mainB);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start2 {
+    margin-right: 10px;
+}
+
+/* css */
+.modal3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal__inner3 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ECF7FC;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span3 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #85DAFF;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #284C5D;
+}
+
+.modal__h33 {
+    font-family: var(--fontG);
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.modalImg {
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model__close {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+}
+
+.progress-container3 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.progress3 {
+    width: 220px;
+    height: 12px;
+    background-color: #98DDFB;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+.mop {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.modalP {
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 90%;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.progress3::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainB);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text3 {
+    color: var(--mainB);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start3 {
+    margin-right: 10px;
+}
