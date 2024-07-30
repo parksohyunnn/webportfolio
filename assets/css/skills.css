@@ -1,5 +1,6 @@
 #skillBg {
-    background-color: #FFB3BA;
+    background-color: var(--mainR);
+    /* background-color: #FFB3BA; */
     width: 100%;
     height: 100vh;
     padding: 30px;

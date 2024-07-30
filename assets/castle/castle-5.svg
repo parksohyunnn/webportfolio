@@ -12,7 +12,16 @@
 
       .cls-2 {
         fill: #ff6a37;
+      animation: fillColorChange 2s infinite alternate;
+    }
+    @keyframes fillColorChange {
+      0% {
+        fill: #FFAE00;
       }
+      100% {
+        fill: #FFEC2D;
+      }
+    }
     </style>
   </defs>
   <g>

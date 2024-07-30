@@ -1,0 +1,433 @@
+#skiilMain {
+    width: 1920px;
+    height: 70vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+}
+
+.skillWrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.skillWrap .skill {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    perspective: 600px;
+}
+
+/* 메인 성 이미지 */
+.skillWrap .s1 {
+    width: 700px;
+    right: 3%;
+    top: -10%;
+    transform: translateY(-40%);
+    animation: moveUpDown 2s infinite alternate ease-in-out;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0%);
+    }
+
+    25% {
+        transform: translateY(-0.6%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    75% {
+        transform: translateY(-0.6%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+
+/* 스킬 아이콘 */
+.skillWrap .skill .icon {
+    width: 7%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.skillWrap .skill .js {
+    left: 24%;
+    top: 12%;
+    animation: updown 1s infinite ease-in-out;
+}
+
+.skillWrap .skill .css {
+    left: 36%;
+    top: 18%;
+    animation: updown 2s infinite ease-in-out;
+}
+
+.skillWrap .skill .figma {
+    left: auto;
+    top: auto;
+    right: 38%;
+    bottom: 28%;
+    animation: updown 4s infinite ease-in-out;
+}
+
+.skillWrap .skill .ja {
+    left: 28%;
+    top: 42%;
+    animation: updown 4s infinite ease-in-out;
+}
+
+.skillWrap .skill .git {
+    left: 21.5%;
+    top: 49%;
+    animation: updown 4s infinite ease-in-out;
+}
+
+.skillWrap .skill .ai {
+    left: 57.5%;
+    top: 45%;
+    animation: updown 4s infinite ease-in-out;
+}
+
+.skillWrap .skill .br {
+    left: 53.5%;
+    top: 8%;
+    animation: updown 2s infinite ease-in-out;
+}
+
+.skillWrap .skill .id {
+    left: 83%;
+    top: 27%;
+    animation: updown 2s infinite ease-in-out;
+}
+
+.skillWrap .skill .ps {
+    left: 84.5%;
+    top: 71%;
+    animation: updown 2s infinite ease-in-out;
+}
+
+.skillWrap .skill .mysql {
+    left: 92%;
+    top: 64%;
+    animation: updown 2s infinite ease-in-out;
+}
+
+.skillWrap .skill .notion {
+    left: 77%;
+    top: 48%;
+    animation: updown 2s infinite ease-in-out;
+}
+
+.skillWrap .skill .slack {
+    left: 11%;
+    top: 80%;
+    animation: updown 2s infinite ease-in-out;
+}
+
+.skillWrap .skill .ball {
+    width: 4%;
+    left: 2%;
+    top: 22%;
+    animation: updown 1s infinite ease-in-out;
+}
+
+.skillWrap .skill .window1 {
+    width: 2.5%;
+    left: 5%;
+    top: 52.5%;
+
+}
+
+.skillWrap .skill .window2 {
+    width: 2%;
+    left: 5.5%;
+    top: 47%;
+    animation: fillColorChangeReverse 2s infinite alternate;
+}
+
+.skillWrap .skill .window3 {
+    width: 1.8%;
+    left: 6%;
+    top: 41%;
+}
+
+.skillWrap .skill .window4 {
+    width: 1.8%;
+    left: 89%;
+    top: 49.5%;
+}
+
+.skillWrap .skill .window5 {
+    width: 2.5%;
+    left: 68%;
+    top: 20%;
+}
+
+.skillWrap .skill .window6 {
+    width: 2.5%;
+    left: 69%;
+    top: 34.5%;
+}
+
+.skillWrap .skill .window7 {
+    width: 5%;
+    left: 36%;
+    top: 52.4%;
+}
+
+.skillWrap .skill .window8 {
+    width: 4%;
+    left: 72%;
+    top: 69.8%;
+}
+
+.skillWrap .skill .ball {
+    width: 4%;
+    left: 2%;
+    top: 22%;
+    animation: updown 1s infinite ease-in-out;
+}
+
+.skillWrap .skill .ball2 {
+    width: 5%;
+    left: 10%;
+    top: 27%;
+    animation: updown 1s infinite ease-in-out;
+}
+
+.skillWrap .skill .ball3 {
+    width: 3%;
+    left: 6%;
+    top: 68%;
+    animation: updown2 1s infinite ease-in-out;
+}
+
+.skillWrap .skill .click {
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    z-index: 10000;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: block;
+}
+
+.skillWrap .skill .click span {
+    border: 4px solid #fff;
+    width: 0px;
+    height: 0px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transform-origin: center;
+    border-radius: 50px;
+    animation: scale 2s infinite ease-in;
+}
+
+.skillWrap .s2 {
+    width: 200px;
+    transform: rotateY(180deg) translateY(-180%);
+    left: 3%;
+}
+
+@keyframes scale {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(10);
+        opacity: 0;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    50% {
+        transform: rotate(35deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-15%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes updown2 {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-4%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@media (max-width: 1940px) {
+    #skiilMain {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1700px) {
+    .skillWrap .skill.s1 {
+        width: 650px;
+    }
+
+    .skillWrap .skill.s2 {
+        width: 190px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .skillWrap .skill.s1 {
+        width: 550px;
+    }
+
+    .skillWrap .skill.s2 {
+        width: 170px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .skillWrap .skill.s1 {
+        width: 450px;
+    }
+
+    .skillWrap .skill.s2 {
+        width: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skillWrap .skill.s1 {
+        width: 350px;
+    }
+
+    .skillWrap .skill.s2 {
+        width: 110px;
+    }
+}
+
+@media (max-width: 600px) {
+    .tty {
+        display: none;
+    }
+
+    .skillWrap .skill.s1 {
+        width: 350px;
+    }
+
+    .skillWrap .skill.s2 {
+        width: 110px;
+    }
+}
+
+@media (max-width: 400px) {
+    .skillWrap .skill.s1 {
+        width: 300px;
+    }
+
+    .skillWrap .skill.s2 {
+        width: 90px;
+    }
+}
+
+
+.modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal__inner {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ffe5e5;
+    position: relative;
+    color: #fff;
+    padding: 3%;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #FFB49B;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #5D2836;
+}
+
+.modal__h3 {
+    font-family: var(--fontG);
+    font-size: 40px;
+    padding: 40px 30px;
+}
+
+.modalImg {
+    width: 6%;
+    margin-top: 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+}
