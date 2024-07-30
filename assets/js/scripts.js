@@ -173,6 +173,28 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
+//모달_스킬_1_br
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.br');
+    const popup = document.querySelector('.modal4');
+    const close = document.querySelector('.mClose4');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
+
 //팝업_스킬_1_일러스트 
 document.addEventListener('DOMContentLoaded', (event) => {
     const button = document.querySelector('.button_sk1');
