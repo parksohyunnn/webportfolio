@@ -12,74 +12,88 @@
 
 /* projectSection1 */
 .projectSection1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    width: 1920px;
+    height: 70vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.skillWrap {
     width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.skillWrap .prGachaBg {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    perspective: 600px;
 }
 
 /* 가차배경워랩 */
-.prGachaBg {
-    width: 580px;
+.gachaBg {
+    width: 690px;
     position: absolute;
-    top: -26px;
-    left: 30%;
-    margin-top: -40px;
+    left: 25%;
+    top: -10%;
+    transform: rotateY(45deg);
 }
 
 /*  배경 뽑기 공 */
 .prGacha2 {
     position: absolute;
-    width: 310px;
+    width: 360px;
     top: 15%;
-    left: 39%;
+    left: 40%;
 }
 
 .prGacha3 {
     position: absolute;
-    width: 320px;
-    top: 110px;
+    width: 350px;
+    top: 19%;
     left: 41%;
 }
 
 /* balloon */
 .pr-Img1 {
-    width: 150px;
+    width: 160px;
     position: absolute;
-    top: 16%;
-    left: 15%;
+    top: 2%;
+    left: -20%;
 
 }
 
 /* 가차2-right */
 .pr-Img2 {
-    width: 190px;
+    width: 240px;
     position: absolute;
-    top: 17%;
-    left: 70%;
+    top: -4%;
+    right: -55%;
 }
 
 .pr-Img5 {
-    width: 30px;
+    width: 40px;
     position: absolute;
-    top: 23%;
-    left: 62%;
+    top: 20%;
+    left: 11%;
 }
 
 .pr-Img6 {
-    width: 22px;
+    width: 30px;
     position: absolute;
-    top: 40%;
-    left: 67%;
+    top: 7%;
+    right: -10%;
 }
 
 .pr-Img7 {
-    width: 1280px;
+    width: 1950px;
     position: absolute;
-    top: -8%;
-    z-index: 0;
-    left: -42%;
+    top: -20%;
+    left: -75%;
     /* background-color: aqua; */
 }
 
@@ -87,13 +101,281 @@
 .pr-Img3 {
     width: 30px;
     position: absolute;
-    top: 34%;
-    left: 26%;
+    top: 26%;
+    right: -17%;
 }
 
 .pr-Img4 {
-    width: 30px;
+    width: 40px;
     position: absolute;
-    top: 30%;
-    left: 34%;
+    top: 6%;
+    left: 25%;
+}
+
+@media (max-width: 1620px) {
+
+    .gachaBg {
+        width: 540px;
+        left: 32%;
+    }
+
+    .prGacha2 {
+        width: 285px;
+        top: 15%;
+        left: 40%;
+    }
+
+    .prGacha3 {
+        width: 280px;
+        top: 19%;
+        left: 41%;
+    }
+
+    .pr-Img1 {
+        width: 120px;
+        top: 8%;
+        left: -20%;
+    }
+
+    .pr-Img2 {
+        width: 190px;
+        top: -4%;
+        right: -60%;
+    }
+
+    .pr-Img5 {
+        width: 30px;
+        top: 20%;
+        left: 11%;
+    }
+
+    .pr-Img6 {
+        width: 22px;
+        top: 7%;
+        right: -10%;
+    }
+
+    .pr-Img7 {
+        width: 1400px;
+        top: -25%;
+        left: -58%;
+    }
+
+    .pr-Img3 {
+        width: 25px;
+        top: 26%;
+        right: -17%;
+    }
+
+    .pr-Img4 {
+        width: 32px;
+        position: absolute;
+        top: 4%;
+        left: 18%;
+    }
+}
+
+@media (max-width: 1220px) {
+
+    .gachaBg {
+        width: 440px;
+        left: 34%;
+    }
+
+    .prGacha2 {
+        width: 230px;
+        top: 15%;
+        left: 40%;
+    }
+
+    .prGacha3 {
+        width: 230px;
+        top: 18%;
+        left: 41%;
+    }
+
+    .pr-Img1 {
+        width: 95px;
+        top: 8%;
+        /* background-color: antiquewhite; */
+        left: -20%;
+    }
+
+    .pr-Img2 {
+        width: 150px;
+        top: -4%;
+        right: -52%;
+    }
+
+    .pr-Img5 {
+        width: 20px;
+        top: 20%;
+        /* background-color: antiquewhite; */
+        left: 11%;
+    }
+
+    .pr-Img6 {
+        width: 18px;
+        top: 7%;
+        /* background-color: antiquewhite; */
+        right: -10%;
+    }
+
+    .pr-Img7 {
+        width: 1100px;
+        top: -25%;
+        left: -58%;
+    }
+
+    .pr-Img3 {
+        width: 20px;
+        top: 26%;
+        /* background-color: aqua; */
+        right: -17%;
+    }
+
+    .pr-Img4 {
+        width: 28px;
+        position: absolute;
+        top: 6%;
+        left: 18%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .gachaBg {
+        width: 360px;
+        left: 37%;
+        margin-top: 1%;
+    }
+
+    .prGacha2 {
+        width: 190px;
+        top: 15%;
+        /* background-color: antiquewhite; */
+        left: 40%;
+    }
+
+    .prGacha3 {
+        width: 190px;
+        top: 18%;
+        left: 41%;
+    }
+
+    .pr-Img1 {
+        width: 75px;
+        top: 9%;
+        /* background-color: antiquewhite; */
+        left: -18%;
+    }
+
+    .pr-Img2 {
+        width: 120px;
+        top: 0%;
+        right: -52%;
+    }
+
+    .pr-Img5 {
+        width: 20px;
+        top: 20%;
+        /* background-color: antiquewhite; */
+        left: 11%;
+    }
+
+    .pr-Img6 {
+        width: 14px;
+        top: 18%;
+        /* background-color: antiquewhite; */
+        right: -10%;
+    }
+
+    .pr-Img7 {
+        width: 1000px;
+        top: -25%;
+        left: -60%;
+    }
+
+    .pr-Img3 {
+        width: 16px;
+        top: 26%;
+        /* background-color: aqua; */
+        right: -17%;
+    }
+
+    .pr-Img4 {
+        width: 20px;
+        position: absolute;
+        top: 6%;
+        left: 18%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .gachaBg {
+        width: 320px;
+        left: 39%;
+        margin-top: 1%;
+    }
+
+    .prGacha2 {
+        width: 170px;
+        top: 15%;
+        /* background-color: antiquewhite; */
+        left: 40%;
+    }
+
+    .prGacha3 {
+        width: 170px;
+        top: 18%;
+        left: 41%;
+    }
+
+    .pr-Img1 {
+        width: 55px;
+        top: 9%;
+        /* background-color: antiquewhite; */
+        left: 0%;
+    }
+
+    .pr-Img2 {
+        width: 106px;
+        top: 0%;
+        right: -40%;
+    }
+
+    .pr-Img5 {
+        width: 17px;
+        top: 24%;
+        /* background-color: antiquewhite; */
+        left: 23%;
+    }
+
+    .pr-Img6 {
+        width: 12px;
+        top: 7%;
+        /* background-color: antiquewhite; */
+        right: -5%;
+    }
+
+    .pr-Img7 {
+        width: 800px;
+        top: -25%;
+        left: -60%;
+    }
+
+    .pr-Img3 {
+        width: 14px;
+        top: 26%;
+        /* background-color: aqua; */
+        right: -7%;
+    }
+
+    .pr-Img4 {
+        width: 18px;
+        position: absolute;
+        top: 6%;
+        left: 28%;
+    }
 }
