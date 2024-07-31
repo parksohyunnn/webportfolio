@@ -2,67 +2,80 @@
 <svg id="main-bigBall" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 451.27 362.46">
   <defs>
     <style>
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
-        stroke: #000;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
 
-      .cls-1, .cls-7 {
-        fill: #d793ff;
-      }
+.cls-1, .cls-7 {
+  fill: #d793ff;
+}
 
-      .cls-8, .cls-3 {
-        fill: #00b2ff;
-      }
+.cls-8, .cls-3 {
+  fill: #00b2ff;
+}
 
-      .cls-9, .cls-2, .cls-10 {
-        fill: #ff97b5;
-      }
+.cls-9, .cls-2, .cls-10 {
+  fill: #ff97b5;
+}
 
-      .cls-9, .cls-11, .cls-7, .cls-12, .cls-13, .cls-14 {
-        stroke-width: 0px;
-      }
+.cls-11, .cls-4 {
+  fill: #ffec2d;
+}
 
-      .cls-15 {
-        clip-path: url(#clippath);
-      }
+.cls-5, .cls-12 {
+  fill: #00d675;
+}
 
-      .cls-11, .cls-4 {
-        fill: #ffec2d;
-      }
+.cls-13 {
+  fill: #000;
+}
 
-      .cls-5, .cls-12 {
-        fill: #00d675;
-      }
+.cls-14 {
+  fill: #ff6a37;
+}
 
-      .cls-6 {
-        fill: none;
-      }
+.cls-9, .cls-11, .cls-7, .cls-12, .cls-13, .cls-14 {
+  stroke-width: 0px;
+}
 
-      .cls-16 {
-        clip-path: url(#clippath-1);
-      }
+.cls-15 {
+  clip-path: url(#clippath);
+}
 
-      .cls-13 {
-        fill: #000;
-      }
+.cls-16 {
+  clip-path: url(#clippath-1);
+}
 
-      .cls-14 {
-        fill: #ff6a37;
-      }
+.cls-6 {
+  fill: none;
+}
 
-      .cls-8 {
-      animation: fillColorChange 2s infinite alternate;
-    }
+.cls-8 {
+  animation: fillColorChange 2s infinite alternate;
+}
 
-    @keyframes fillColorChange {
-      0% {
-        fill: #FF6A37;
-      }
-      100% {
-        fill: #00D675;
-      }
+@keyframes fillColorChange {
+  0% {
+    fill: #FF6A37;
+  }
+  100% {
+    fill: #00D675;
+  }
+}
+
+.cls-10 {
+  animation: fillColorChang2 .5s infinite alternate;
+}
+
+@keyframes fillColorChang2 {
+  0% {
+    fill: #FF6A37;
+  }
+  100% {
+    fill: #BD54FA;
+  }
 }
     </style>
     <clipPath id="clippath">

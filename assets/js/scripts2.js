@@ -34,16 +34,16 @@ document.addEventListener('DOMContentLoaded', function () {
     // skill
     // 메인 성 이미지
     setTimeout(() => {
-        tl.to(".skill .skillImg", { opacity: 1, y: 0, stagger: 1, duration: 2, ease: "power4.out" });
+        tl.to(".skill .skillImg", { opacity: 1, y: 0, stagger: 1, duration: 2, delay: 2, ease: "power4.out" });
         // 메인 성 오브제
-        tl.to(".skill .window1", { opacity: 1, stagger: 0.5, duration: 0.5 });
-        tl.to(".skill .window2", { opacity: 1, stagger: 0.5, duration: 0.5 });
-        tl.to(".skill .window3", { opacity: 1, stagger: 0.5, duration: 0.5 });
-        tl.to(".skill .window4", { opacity: 1, stagger: 0.5, duration: 0.5 });
-        tl.to(".skill .window5", { opacity: 1, stagger: 0.5, duration: 0.5 });
-        tl.to(".skill .window6", { opacity: 1, stagger: 0.5, duration: 0.5 });
-        tl.to(".skill .window7", { opacity: 1, stagger: 0.5, duration: 0.5 });
-        tl.to(".skill .window8", { opacity: 1, stagger: 0.5, duration: 0.5 });
+        tl.to(".skill .window1", { opacity: 1, stagger: 0.5, duration: 0.3 });
+        tl.to(".skill .window2", { opacity: 1, stagger: 0.5, duration: 0.3 });
+        tl.to(".skill .window3", { opacity: 1, stagger: 0.5, duration: 0.3 });
+        tl.to(".skill .window4", { opacity: 1, stagger: 0.5, duration: 0.3 });
+        tl.to(".skill .window5", { opacity: 1, stagger: 0.5, duration: 0.3 });
+        tl.to(".skill .window6", { opacity: 1, stagger: 0.5, duration: 0.3 });
+        tl.to(".skill .window7", { opacity: 1, stagger: 0.5, duration: 0.3 });
+        tl.to(".skill .window8", { opacity: 1, stagger: 0.5, duration: 0.3 });
         tl.to(".skill .ball", { opacity: 1, stagger: 0.5, duration: 0.3 });
         tl.to(".skill .ball2", { opacity: 1, stagger: 0.5, duration: 0.3 });
         tl.to(".skill .ball3", { opacity: 1, stagger: 0.5, duration: 0.3 });
