@@ -51,6 +51,19 @@
       .cls-14 {
         fill: #ff6a37;
       }
+
+      .cls-8 {
+      animation: fillColorChange 2s infinite alternate;
+    }
+
+    @keyframes fillColorChange {
+      0% {
+        fill: #FF6A37;
+      }
+      100% {
+        fill: #00D675;
+      }
+}
     </style>
     <clipPath id="clippath">
       <circle class="cls-3" cx="346.76" cy="252.12" r="46.78"/>
