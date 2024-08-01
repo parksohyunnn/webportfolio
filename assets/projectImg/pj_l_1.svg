@@ -25,7 +25,18 @@
 
       .cls-14 {
         fill: #ffec2d;
-      }
+  animation: fillColorChang7 8s infinite alternate;
+}
+
+@keyframes fillColorChang7 {
+  0%,
+  100% {
+    fill: #FFEC2D;
+  }
+  50% {
+    fill: #FFAE00;
+  }
+}
 
       .cls-14, .cls-15 {
         stroke-width: 0px;
@@ -49,7 +60,18 @@
 
       .cls-4, .cls-6, .cls-13 {
         fill: #ff6a37;
-      }
+  animation: fillColorChang2 .5s infinite alternate;
+}
+
+@keyframes fillColorChang2 {
+  0% {
+    fill: #FF6A37;
+  }
+  100% {
+    fill: #FF97B5;
+  }
+}
+
 
       .cls-5 {
         stroke-width: 5.13px;

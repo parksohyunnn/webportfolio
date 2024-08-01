@@ -27,10 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
         tl.to(".prGachaBg .pr-Img1", { opacity: 1, stagger: 0.5, duration: 0.3 });
         tl.to(".prGachaBg .pr-Img2", { opacity: 1, stagger: 0.5, duration: 0.3 });
         // 양 옆 작은 오브제
-        tl.to(".prGachaBg .pr-Img3", { opacity: 1, stagger: 0.5, duration: 0.1, y: 0 });
-        tl.to(".prGachaBg .pr-Img4", { opacity: 1, stagger: 0.5, duration: 0.1, y: 0 });
-        tl.to(".prGachaBg .pr-Img5", { opacity: 1, stagger: 0.5, duration: 0.1, y: 0 });
-        tl.to(".prGachaBg .pr-Img6", { opacity: 1, stagger: 0.5, duration: 0.1, y: 0 });
-        tl.to(".prGachaBg .pr-Img7", { opacity: 1, stagger: 0.5, duration: 0.1, y: 0 });
+        tl.to(".prGachaBg .pr-Img3", { opacity: 1, stagger: 0.5, duration: 0.2, y: 0 });
+        tl.to(".prGachaBg .pr-Img4", { opacity: 1, stagger: 0.5, duration: 0.2, y: 0 });
+        tl.to(".prGachaBg .pr-Img5", { opacity: 1, stagger: 0.5, duration: 0.2, y: 0 });
+        tl.to(".prGachaBg .pr-Img6", { opacity: 1, stagger: 0.5, duration: 0.2, y: 0 });
+        tl.to(".prGachaBg .pr-Img7", { opacity: 1, stagger: 0.5, duration: 0.2, y: 0 });
     }, 1000);
 });

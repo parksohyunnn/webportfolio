@@ -37,7 +37,17 @@
 
       .cls-4, .cls-6, .cls-10 {
         fill: #ff6a37;
-      }
+   animation: fillColorChang2 .5s infinite alternate;
+}
+
+@keyframes fillColorChang2 {
+  0% {
+    fill: #FF6A37;
+  }
+  100% {
+    fill: #FF97B5;
+  }
+}
 
       .cls-5 {
         stroke-width: 1.6px;

@@ -12,21 +12,96 @@
         stroke-width: 1.4px;
       }
 
-      .cls-2 {
-        fill: #d793ff;
-      }
+.cls-2 {
+  fill: #d793ff;
+  animation: fillColorChang10 1s infinite alternate, bounce 0.5s infinite alternate;
+}
 
-      .cls-3 {
-        fill: #ff97b5;
-      }
+@keyframes fillColorChang10 {
+  0% {
+    fill: #FF97B5;
+  }
+  50% {
+    fill: #FF6A37;
+  }
+  100% {
+    fill: #D793FF;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+.cls-3 {
+  fill: #2974FF;
+  animation: fillColorChang11 1s ease-in-out infinite alternate, bounce 0.8s infinite alternate;
+}
+
+@keyframes fillColorChang11 {
+  0% {
+    fill: #00D675;
+  }
+  50% {
+    fill: #0AA8C8;
+  }
+  100% {
+    fill: #2974FF;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+}
 
       .cls-4 {
-        fill: #00d675;
-      }
+        fill: #00D675;
+  animation: fillColorChang12 2s infinite alternate, bounce 0.2s infinite alternate;
+}
+
+@keyframes fillColorChang12 {
+  0% {
+    fill: #FFEC2D;
+  }
+  }
+  100% {
+    fill: #00D675;
+  }
+
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1px);
+  }
+}
 
       .cls-5 {
-        fill: #ffec2d;
-      }
+        fill: #ED80E9;
+  animation: fillColorChang16 1s ease-in-out infinite alternate;
+}
+
+@keyframes fillColorChang16 {
+  0% {
+    fill: #FF97B5;
+  }
+  }
+  100% {
+    fill: #ED80E9;
+  }
+
     </style>
   </defs>
   <circle id="circleR3" class="cls-1" cx="417.39" cy="237.02" r="39.73"/>

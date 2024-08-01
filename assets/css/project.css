@@ -41,6 +41,7 @@
     left: 25%;
     top: -10%;
     transform: rotateY(45deg);
+    z-index: 1000;
 }
 
 /*  배경 뽑기 공 */
@@ -134,6 +135,7 @@
     position: absolute;
     top: -20%;
     left: -52%;
+    z-index: 0;
     /* background-color: aqua; */
 }
 
