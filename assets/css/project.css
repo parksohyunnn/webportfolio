@@ -59,6 +59,42 @@
     left: 41%;
 }
 
+/* 뽑기 공 */
+.GachaBigbal1 {
+    position: absolute;
+    width: 90px;
+    top: 31%;
+    left: 41%;
+}
+
+.GachaBigbal2 {
+    position: absolute;
+    width: 98px;
+    top: 21%;
+    left: 61%;
+}
+
+.GachaBigbal3 {
+    position: absolute;
+    width: 90px;
+    top: 38%;
+    left: 53%;
+}
+
+.GachaBigbal4 {
+    position: absolute;
+    width: 90px;
+    top: 39%;
+    left: 77%;
+}
+
+.GachaBigbal5 {
+    position: absolute;
+    width: 90px;
+    top: 24%;
+    left: 79%;
+}
+
 /* balloon */
 .pr-Img1 {
     width: 160px;

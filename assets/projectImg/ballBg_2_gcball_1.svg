@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="main-bigBall" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 98.78 98.32">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #ffec2d;
+      }
+
+      .cls-4 {
+        fill: #00b2ff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+
+      #ballDeco1{  
+        animation: leap-rotation 8s linear infinite;
+        transform-origin: 49.28px 48.85px;
+        }
+@keyframes leap-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#ballColor1{
+    fill: #d793ff;
+    animation: fillColorChange 4s ease-in-out infinite;
+  }
+
+  @keyframes fillColorChange {
+    0% {
+      fill: #d793ff;
+    }
+    33% {
+      fill: #00B2FF;
+    }
+    66% {
+      fill: #00D675;
+    }
+    100% {
+      fill: #BD54FA;
+    }
+  }
+  #gcBall1 {
+  animation: bounceScale 2s infinite ease-in-out;
+  transform-origin: center;
+  
+}
+
+@keyframes bounceScale {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-3px) scale(0.9);
+  }
+}
+
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-2" cx="49.28" cy="48.85" r="45.69"/>
+    </clipPath>
+  </defs>
+  <g id="gcBall1">
+    <circle id="ballColor1" class="cls-4" cx="49.28" cy="48.85" r="46.78"/>
+    <g id="ballDeco1">
+      <g class="cls-1">
+        <g>
+          <path class="cls-3" d="M93.43,35.32c-23.76,14.7-44.98,39.22-35.53,68.98,1.88,5.91,11.36,3.91,9.48-2.04-8.07-25.44,10.15-45.74,30.46-58.31,5.28-3.26.9-11.91-4.41-8.64h0Z"/>
+          <path class="cls-3" d="M93.39,13.11c-24.44,4.29-45.58,19.75-59.47,40.01-13.89,20.26-20.44,45.08-22.33,69.54-.48,6.24,9.2,6.65,9.69.43,1.72-22.33,7.48-44.65,19.97-63.49,12.48-18.84,31.73-33.07,54.19-37.02,6.16-1.08,4.09-10.55-2.04-9.48h0Z"/>
+          <path class="cls-3" d="M74.32-3.5C36.76,13.55,5.06,42.19-15.72,77.83c-3.14,5.37,5.05,10.56,8.21,5.16C12.47,48.73,42.62,21.53,78.73,5.14c5.7-2.59,1.25-11.21-4.41-8.64h0Z"/>
+          <path class="cls-3" d="M122.57,83.45c-14.34-13.49-27.32-28.45-38.33-44.79-9.93-14.73-19.87-30.8-21.77-48.83-.66-6.2-10.12-4.11-9.48,2.04,1.99,18.83,12.24,35.79,22.61,51.2,11.51,17.09,24.82,32.8,39.82,46.93,4.51,4.25,11.7-2.26,7.15-6.54h0Z"/>
+          <path class="cls-3" d="M100.1,77.2C65.52,51.46,37.64,17.58,18.8-21.19c-2.41-4.95-10.25-2.14-9.06,3.23.39,1.71.77,3.42,1.15,5.13,1.37,6.1,10.84,4.05,9.48-2.04-.39-1.71-.77-3.42-1.15-5.13l-9.06,3.23C29.78,23.59,58.96,58.63,94.94,85.41c5,3.71,10.14-4.5,5.16-8.21h0Z"/>
+          <path class="cls-3" d="M88.74,93.12C53.91,70.49,25.48,39.15,6.33,2.29,3.45-3.25-5.18,1.15-2.31,6.69c19.94,38.38,49.63,71.07,85.89,94.63,5.23,3.4,10.41-4.8,5.16-8.21h0Z"/>
+          <path class="cls-3" d="M60.3,98.71C35.35,78.62,13.77,54.47-3.45,27.46c-3.33-5.22-11.99-.85-8.64,4.41C6.14,60.45,28.73,85.65,55.13,106.91c4.84,3.9,9.98-4.33,5.16-8.21h0Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
