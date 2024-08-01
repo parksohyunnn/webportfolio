@@ -32,13 +32,45 @@
         fill: #00d675;
       }
 
-      .cls-3 {
-        fill: #000;
-      }
+.cls-3 {
+  fill: #000;
+  animation: colorChange2 5s infinite alternate;
+}
+
+@keyframes colorChange2 {
+  0% {
+    fill: #000;
+  }
+  25% {
+    fill: #FF0000;
+  }
+  50% {
+    fill: #00FF00;
+  }
+  75% {
+    fill: #0000FF;
+  }
+  100% {
+    fill: #000;
+  }
+}
 
       .cls-6 {
         fill: #d793ff;
       }
+
+      .cls-2 {
+  animation: fillColorChang2 .5s infinite alternate;
+}
+
+@keyframes fillColorChang2 {
+  0% {
+    fill: #FF6A37;
+  }
+  100% {
+    fill: #BD54FA;
+  }
+}
     </style>
   </defs>
   <g>

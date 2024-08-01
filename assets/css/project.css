@@ -64,7 +64,19 @@
     position: absolute;
     top: 2%;
     left: -20%;
+    animation: float 3s ease-in-out infinite;
+}
 
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
 }
 
 /* 가차2-right */
@@ -80,14 +92,42 @@
     position: absolute;
     top: 20%;
     left: 11%;
+    animation: float 3s ease-in-out infinite;
 }
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
 
 .pr-Img6 {
     width: 30px;
     position: absolute;
     top: 7%;
     right: -10%;
+    animation: float2 1s ease-in-out infinite;
 }
+
+@keyframes float2 {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
+}
+
 
 .pr-Img7 {
     width: 1750px;
@@ -103,6 +143,19 @@
     position: absolute;
     top: 26%;
     right: -17%;
+    animation: float2 1s ease-in-out infinite;
+}
+
+@keyframes float2 {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
 }
 
 .pr-Img4 {
@@ -110,6 +163,29 @@
     position: absolute;
     top: 6%;
     left: 25%;
+    animation: float3 2s ease-in-out infinite, rotate 2s linear infinite;
+}
+
+@keyframes float3 {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-4px);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @media (max-width: 1620px) {
