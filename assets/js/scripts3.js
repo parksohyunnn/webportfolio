@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', function () {
     gsap.set(".prGachaBg .pr-Img5", { opacity: 0, x: 15 });
     gsap.set(".prGachaBg .pr-Img6", { opacity: 0, x: 15 });
     gsap.set(".prGachaBg .pr-Img7", { opacity: 0, x: 15 });
+    gsap.set(".prGachaBg .pr-Img8", { opacity: 0 });
+    gsap.set(".prGachaBg .pr-Img9", { opacity: 0 });
     const tl = gsap.timeline();
 
     // skill
@@ -27,10 +29,12 @@ document.addEventListener('DOMContentLoaded', function () {
         tl.to(".prGachaBg .pr-Img1", { opacity: 1, stagger: 0.5, duration: 0.3 });
         tl.to(".prGachaBg .pr-Img2", { opacity: 1, stagger: 0.5, duration: 0.3 });
         // 양 옆 작은 오브제
-        tl.to(".prGachaBg .pr-Img3", { opacity: 1, stagger: 0.5, duration: 0.2, y: 0 });
-        tl.to(".prGachaBg .pr-Img4", { opacity: 1, stagger: 0.5, duration: 0.2, y: 0 });
-        tl.to(".prGachaBg .pr-Img5", { opacity: 1, stagger: 0.5, duration: 0.2, y: 0 });
-        tl.to(".prGachaBg .pr-Img6", { opacity: 1, stagger: 0.5, duration: 0.2, y: 0 });
-        tl.to(".prGachaBg .pr-Img7", { opacity: 1, stagger: 0.5, duration: 0.2, y: 0 });
+        tl.to(".prGachaBg .pr-Img3", { opacity: 1, stagger: 0.5, duration: 0.2, x: 0 });
+        tl.to(".prGachaBg .pr-Img4", { opacity: 1, stagger: 0.5, duration: 0.2, x: 0 });
+        tl.to(".prGachaBg .pr-Img5", { opacity: 1, stagger: 0.5, duration: 0.2, x: 0 });
+        tl.to(".prGachaBg .pr-Img6", { opacity: 1, stagger: 0.5, duration: 0.2, x: 0 });
+        tl.to(".prGachaBg .pr-Img7", { opacity: 1, stagger: 0.5, duration: 0.2, x: 0 });
+        tl.to(".prGachaBg .pr-Img8", { opacity: 1, stagger: 0.5, duration: 0.2 });
+        tl.to(".prGachaBg .pr-Img9", { opacity: 1, stagger: 0.5, duration: 0.2 });
     }, 1000);
 });

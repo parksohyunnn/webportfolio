@@ -243,6 +243,170 @@
       .cls-79 {
         stroke-width: 1.4px;
       }
+
+      #btn6,
+      #btn2-2,
+      #btn4
+      {
+ animation: ColorChange 1s infinite linear;
+}
+
+@keyframes ColorChange {
+  0% {
+    fill: #00D675;
+  }
+  100% {
+    fill: #FF6A37;
+  }
+
+}
+#gachaline5,
+#gachaline2
+{
+ animation: ColorChange51 1s infinite linear;
+}
+
+@keyframes ColorChange51 {
+  0% {
+    fill: #00D675;
+  }
+  100% {
+    fill: #ED80E9;
+  }
+}
+#gachaline4,
+#gachaline1
+{
+ animation: ColorChange50 2s infinite linear;
+}
+
+@keyframes ColorChange50 {
+  0% {
+    fill: #FF6A37;
+  }
+  100% {
+    fill: #BD54FA;
+  }
+}
+#btnBox,
+#btnBox-5,
+#btnBox-7,
+#btnBox-9,
+#btnBox-11,
+#btnBox-3
+{
+ animation: ColorChange53 0.5s infinite linear;
+}
+
+@keyframes ColorChange53 {
+  0% {
+    fill: #00B2FF;
+  }
+  100% {
+    fill: #BD54FA;
+  }
+}
+#ballbox
+{
+ animation: ColorChange53 0.1s infinite linear;
+}
+
+@keyframes ColorChange53 {
+  0% {
+    fill: #D793FF;
+  }
+  100% {
+    fill: #FF6A37;
+  }
+}
+#ball6,
+#ball6-2
+{
+ animation: ColorChange54 2s infinite linear;
+}
+
+@keyframes ColorChange54 {
+  0% {
+    fill: #00D675;
+  }
+  100% {
+    fill: #FF6A37;
+  }
+}
+#rotate2{
+  animation: swayRotate 0.5s infinite ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes swayRotate {
+  0%{
+    transform: translateX(0) rotate(0deg);
+  }
+
+100% {
+    transform: translateX(0.4px) rotate(0.4deg);
+  }
+}
+      .cls-81,
+      .cls-74
+       {
+ animation: ColorChange55 2s infinite linear;
+}
+
+@keyframes ColorChange55 {
+  0% {
+    fill: #FFE800;
+  }
+  100% {
+    fill: #FF6A37;
+  }
+}
+#gachaP,
+#b3,
+#b3-2,
+#gachaP-2
+       {
+ animation: ColorChange56 1s infinite linear;
+}
+
+@keyframes ColorChange56 {
+  0% {
+    fill: #D793FF;
+  }
+  100% {
+    fill: #FFAE00;
+  }
+}
+#gachaB-2,
+#gachaBb,
+#ball2,
+#gachaBb-2,
+#gachaB
+       {
+ animation: ColorChange57 1s infinite linear;
+}
+
+@keyframes ColorChange57 {
+  0% {
+    fill: #FF6A37;
+  }
+  100% {
+    fill: #FFAE00;
+  }
+}
+.cls-88
+       {
+ animation: ColorChange58 1s infinite linear;
+}
+
+@keyframes ColorChange58 {
+  0% {
+    fill: #00D675;
+  }
+  100% {
+    fill: #FF97B5;
+  }
+}
     </style>
     <clipPath id="clippath">
       <rect class="cls-85" x="539.9" y="650" width="111.3" height="157.3" rx="9.2" ry="9.2"/>

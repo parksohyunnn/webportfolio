@@ -40,7 +40,7 @@
 
 .cls-3 {
   fill: #2974FF;
-  animation: fillColorChang11 1s ease-in-out infinite alternate, bounce 0.8s infinite alternate;
+  animation: fillColorChang11 1s ease-in-out infinite alternate, bounce4 0.8s infinite alternate;
 }
 
 @keyframes fillColorChang11 {
@@ -54,19 +54,18 @@
     fill: #2974FF;
   }
 }
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(3px);
-  }
-}
+          @keyframes bounce4 {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-5px);
+      }
+          }
 
       .cls-4 {
         fill: #00D675;
-  animation: fillColorChang12 2s infinite alternate, bounce 0.2s infinite alternate;
+  animation: fillColorChang12 2s infinite alternate, bounce47 0.4s infinite alternate;
 }
 
 @keyframes fillColorChang12 {
@@ -77,16 +76,14 @@
   100% {
     fill: #00D675;
   }
-
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(-1px);
-  }
-}
+          @keyframes bounce47 {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(6px);
+      }
+          }
 
       .cls-5 {
         fill: #ED80E9;
