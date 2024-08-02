@@ -17,7 +17,7 @@
 .prModal__inner1 {
     width: 500px;
     aspect-ratio: 4/6;
-    background-color: #ffe5e5;
+    background-color: #F7ECFC;
     position: relative;
     color: #fff;
     padding: 60px 40px;
@@ -29,12 +29,12 @@
 .prModal__span1 {
     display: inline-block;
     padding: 8px 20px;
-    background-color: #FFB49B;
+    background-color: #ECB2FF;
     border-radius: 20px;
     font-family: var(--fontp);
     letter-spacing: 1.4;
-    font-weight: 600;
-    color: #5D2836;
+    font-weight: 400;
+    color: #621D7F;
 }
 
 .prModal__h3 {
@@ -50,11 +50,44 @@
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* transition: filter 0.3s ease; */
+}
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(215, 147, 255, 0.8);
+    color: #4B1064;
+    /* 배경색에 투명도 추가 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    /* 텍스트 크기 조정 */
+    text-align: center;
+    /* 텍스트 가운데 정렬 */
+    border-radius: 20px;
+    /* 이미지와 일치하도록 추가 */
+    box-sizing: border-box;
+    /* 패딩을 포함하도록 박스 크기 조정 */
+    font-family: var(--fontK);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.prModalImg:hover .overlay1 {
+    opacity: 1;
 }
 
 .prMoImg1 {
     border-radius: 10px;
-    border: 5px solid var(--mainR);
+    border: 7px solid var(--mainV);
+
 }
 
 .prModel__close {
@@ -84,15 +117,16 @@
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 20px;
+    transition: background-color 0.5s ease, colord 0.5s ease;
 }
 
 .prLink1__1:hover {
     padding: 5px 20px;
     display: inline-block;
     box-sizing: border-box;
-    background-color: var(--mainR);
+    background-color: var(--mainV);
     border-radius: 20px;
-    color: #fff;
+    color: #4B1064;
 }
 
 .prLi1__2 {}
@@ -103,6 +137,7 @@
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 20px;
+    transition: background-color 0.5s ease, colord 0.5s ease;
 
 }
 
@@ -110,9 +145,9 @@
     padding: 5px 20px;
     display: inline-block;
     box-sizing: border-box;
-    background-color: var(--mainR);
+    background-color: var(--mainV);
     border-radius: 20px;
-    color: #fff;
+    color: #4B1064;
 }
 
 .prmoWrap {
@@ -148,7 +183,7 @@
 .prModal__inner2 {
     width: 500px;
     aspect-ratio: 4/6;
-    background-color: #ffe5e5;
+    background-color: #FCECED;
     position: relative;
     color: #fff;
     padding: 60px 40px;
@@ -160,17 +195,48 @@
 .prModal__span2 {
     display: inline-block;
     padding: 8px 20px;
-    background-color: #FFB49B;
+    background-color: #FFBEE4;
     border-radius: 20px;
     font-family: var(--fontp);
     letter-spacing: 1.4;
-    font-weight: 600;
-    color: #5D2836;
+    font-weight: 400;
+    color: #761947;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 151, 181, 0.8);
+    color: #690F42;
+    /* 배경색에 투명도 추가 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    /* 텍스트 크기 조정 */
+    text-align: center;
+    /* 텍스트 가운데 정렬 */
+    border-radius: 20px;
+    /* 이미지와 일치하도록 추가 */
+    box-sizing: border-box;
+    /* 패딩을 포함하도록 박스 크기 조정 */
+    font-family: var(--fontK);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.prModalImg:hover .overlay2 {
+    opacity: 1;
 }
 
 .prMoImg2 {
     border-radius: 10px;
-    border: 5px solid var(--mainR);
+    border: 5px solid var(--mainP);
 }
 
 /* prUl2 */
@@ -192,15 +258,16 @@
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 20px;
+    transition: background-color 0.5s ease, colord 0.5s ease;
 }
 
 .prLink2__1:hover {
     padding: 5px 20px;
     display: inline-block;
     box-sizing: border-box;
-    background-color: var(--mainR);
+    background-color: var(--mainP);
     border-radius: 20px;
-    color: #fff;
+    color: #690F42;
 }
 
 .prLi2__2 {}
@@ -211,6 +278,7 @@
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 20px;
+    transition: background-color 0.5s ease, colord 0.5s ease;
 
 }
 
@@ -218,9 +286,61 @@
     padding: 5px 20px;
     display: inline-block;
     box-sizing: border-box;
+    background-color: var(--mainP);
+    border-radius: 20px;
+    color: #690F42;
+}
+
+/* prUl3 */
+.prUl3 {
+    display: flex;
+    align-items: center;
+    top: 68%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    gap: 10px;
+}
+
+.prLi3__1 {}
+
+.prLink3__1 {
+    padding: 5px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.5s ease, colord 0.5s ease;
+}
+
+.prLink3__1:hover {
+    padding: 5px 20px;
+    display: inline-block;
+    box-sizing: border-box;
     background-color: var(--mainR);
     border-radius: 20px;
-    color: #fff;
+    color: #511B07;
+}
+
+.prLi3__2 {}
+
+.prLink3__2 {
+    padding: 5px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.5s ease, colord 0.5s ease;
+
+}
+
+.prLink3__2:hover {
+    padding: 5px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: var(--mainR);
+    border-radius: 20px;
+    color: #511B07;
 }
 
 /* prModal3 */
@@ -242,7 +362,7 @@
 .prModal__inner3 {
     width: 500px;
     aspect-ratio: 4/6;
-    background-color: #ffe5e5;
+    background-color: #FCECF1;
     position: relative;
     color: #fff;
     padding: 60px 40px;
@@ -258,106 +378,37 @@
     border-radius: 20px;
     font-family: var(--fontp);
     letter-spacing: 1.4;
-    font-weight: 600;
+    font-weight: 400;
     color: #5D2836;
 }
 
-.prMoImg3 {
-    border-radius: 10px;
-    border: 5px solid var(--mainR);
-}
-
-
-/* prUl3 */
-.prUl3 {
-    display: flex;
-    align-items: center;
-    top: 68%;
-    left: 50%;
+.overlay3 {
     position: absolute;
-    transform: translate(-50%, -50%);
-    gap: 10px;
-}
-
-.prLi3__1 {}
-
-.prLink3__1 {
-    padding: 5px 20px;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: #fff;
-    border-radius: 20px;
-}
-
-.prLink3__1:hover {
-    padding: 5px 20px;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: var(--mainR);
-    border-radius: 20px;
-    color: #fff;
-}
-
-.prLi3__2 {}
-
-.prLink3__2 {
-    padding: 5px 20px;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: #fff;
-    border-radius: 20px;
-
-}
-
-.prLink3__2:hover {
-    padding: 5px 20px;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: var(--mainR);
-    border-radius: 20px;
-    color: #fff;
-}
-
-/* prModal4 */
-.prModal4 {
-    position: absolute;
-    left: 0;
     top: 0;
-    z-index: 100000;
-    width: 100vw;
-    height: 100vh;
-    background-color: #00000045;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 106, 55, 0.8);
+    color: #511B07;
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
-}
-
-
-.prModal__inner4 {
-    width: 500px;
-    aspect-ratio: 4/6;
-    background-color: #ffe5e5;
-    position: relative;
-    color: #fff;
-    padding: 60px 40px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
     text-align: center;
-    color: #000;
-    border-radius: 10px;
-}
-
-.prModal__span4 {
-    display: inline-block;
-    padding: 8px 20px;
-    background-color: #FFB49B;
     border-radius: 20px;
-    font-family: var(--fontp);
-    letter-spacing: 1.4;
-    font-weight: 600;
-    color: #5D2836;
+    /* 패딩을 포함하도록 박스 크기 조정 */
+    font-family: var(--fontK);
+    font-weight: 500;
+    font-size: 18px;
 }
 
-.prMoImg4 {
+.prModalImg:hover .overlay3 {
+    opacity: 1;
+}
+
+.prMoImg3 {
     border-radius: 10px;
     border: 5px solid var(--mainR);
 }
@@ -381,15 +432,16 @@
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 20px;
+    transition: background-color 0.5s ease, colord 0.5s ease;
 }
 
 .prLink4__1:hover {
     padding: 5px 20px;
     display: inline-block;
     box-sizing: border-box;
-    background-color: var(--mainR);
+    background-color: var(--mainG);
     border-radius: 20px;
-    color: #fff;
+    color: #07511D;
 }
 
 .prLi4__2 {}
@@ -400,6 +452,7 @@
     box-sizing: border-box;
     background-color: #fff;
     border-radius: 20px;
+    transition: background-color 0.5s ease, colord 0.5s ease;
 
 }
 
@@ -407,9 +460,132 @@
     padding: 5px 20px;
     display: inline-block;
     box-sizing: border-box;
-    background-color: var(--mainR);
+    background-color: var(--mainG);
     border-radius: 20px;
+    color: #07511D;
+}
+
+/* prModal4 */
+.prModal4 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+
+.prModal__inner4 {
+    width: 500px;
+    aspect-ratio: 4/6;
+    background-color: #ECFCF2;
+    position: relative;
     color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.prModal__span4 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #9EF6BD;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 400;
+    color: #227A51;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 214, 117, 0.8);
+    color: #07511D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    /* 패딩을 포함하도록 박스 크기 조정 */
+    font-family: var(--fontK);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.prModalImg:hover .overlay4 {
+    opacity: 1;
+}
+
+.prMoImg4 {
+    border-radius: 10px;
+    border: 5px solid var(--mainG);
+}
+
+
+/* prU5 */
+.prUl5 {
+    display: flex;
+    align-items: center;
+    top: 68%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    gap: 10px;
+}
+
+.prLi5__1 {}
+
+.prLink5__1 {
+    padding: 5px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.5s ease, colord 0.5s ease;
+}
+
+.prLink5__1:hover {
+    padding: 5px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: var(--mainB);
+    border-radius: 20px;
+    color: #051D48;
+}
+
+.prLi5__2 {}
+
+.prLink5__2 {
+    padding: 5px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: background-color 0.5s ease, colord 0.5s ease;
+
+}
+
+.prLink5__2:hover {
+    padding: 5px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: var(--mainB);
+    border-radius: 20px;
+    color: #051D48;
 }
 
 /* prModal5 */
@@ -431,7 +607,7 @@
 .prModal__inner5 {
     width: 500px;
     aspect-ratio: 4/6;
-    background-color: #ffe5e5;
+    background-color: #ECF7FC;
     position: relative;
     color: #fff;
     padding: 60px 40px;
@@ -443,65 +619,279 @@
 .prModal__span5 {
     display: inline-block;
     padding: 8px 20px;
-    background-color: #FFB49B;
+    background-color: #85DAFF;
     border-radius: 20px;
     font-family: var(--fontp);
     letter-spacing: 1.4;
-    font-weight: 600;
-    color: #5D2836;
+    font-weight: 400;
+    color: #284C5D;
+}
+
+.overlay5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 178, 255, 0.8);
+    color: #051D48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    /* 패딩을 포함하도록 박스 크기 조정 */
+    font-family: var(--fontK);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.prModalImg:hover .overlay5 {
+    opacity: 1;
 }
 
 .prMoImg5 {
     border-radius: 10px;
-    border: 5px solid var(--mainR);
+    border: 5px solid var(--mainB);
 }
 
-/* prUl5 */
-.prUl5 {
+/* 클릭유도버튼1 */
+.prModal6 {
     display: flex;
+    justify-content: center;
     align-items: center;
-    top: 68%;
-    left: 50%;
+    width: 100%;
+    display: none;
+}
+
+.prModalImg6 {
+    width: 60%;
     position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    gap: 10px;
+    z-index: 100000;
+    border-radius: 10px;
 }
 
-.prLi5__1 {}
-
-.prLink5__1 {
-    padding: 5px 20px;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: #fff;
-    border-radius: 20px;
+.pr-button-container1 {
+    position: absolute;
+    top: 15%;
+    left: -70%;
+    z-index: 100000;
 }
 
-.prLink5__1:hover {
-    padding: 5px 20px;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: var(--mainR);
-    border-radius: 20px;
+.pr-button1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pr-button1::after {
+    content: "profile✨";
+    position: absolute;
+    top: -40px;
+    /* 버튼 아래에 텍스트를 위치시킴 */
+    left: 30%;
+    transform: translateX(-50%) rotate(-20deg);
+    /* background-color: rgba(0, 0, 0, 0.7); */
     color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    font-family: var(--fontp);
+    font-weight: 400;
+    letter-spacing: 2;
 }
 
-.prLi5__2 {}
+.pr-button1:hover::after {
+    opacity: 1;
+}
 
-.prLink5__2 {
-    padding: 5px 20px;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: #fff;
-    border-radius: 20px;
+.pr-inner-circle1 {
+    width: 6px;
+    height: 6px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite;
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.pr-outer-circle1 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
 
 }
 
-.prLink5__2:hover {
-    padding: 5px 20px;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: var(--mainR);
-    border-radius: 20px;
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+/* 클릭유도버튼2 */
+.prModal7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: none;
+}
+
+.prModalImg7 {
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    border-radius: 10px;
+    animation: moveUpDownPr 1.5s ease-in-out infinite;
+}
+
+@keyframes moveUpDownPr {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%);
+    }
+
+    50% {
+        transform: translate(-50%, -51%);
+    }
+}
+
+
+.pr-button-container2 {
+    position: absolute;
+    top: 48%;
+    left: 0;
+    z-index: 100000;
+}
+
+.pr-button2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pr-button2::after {
+    content: "Contect✨";
+    position: absolute;
+    top: -40px;
+    /* 버튼 아래에 텍스트를 위치시킴 */
+    left: 30%;
+    transform: translateX(-50%) rotate(-20deg);
+    /* background-color: rgba(0, 0, 0, 0.7); */
     color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    font-family: var(--fontp);
+    font-weight: 400;
+    letter-spacing: 2;
+}
+
+.pr-button2:hover::after {
+    opacity: 1;
+}
+
+.pr-inner-circle2 {
+    width: 6px;
+    height: 6px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite;
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.pr-outer-circle2 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
 }

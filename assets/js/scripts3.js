@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
     gsap.set(".prGachaBg .GachaBigbal3", { opacity: 0, x: 15 });
     gsap.set(".prGachaBg .GachaBigbal4", { opacity: 0, x: -15 });
     gsap.set(".prGachaBg .GachaBigbal5", { opacity: 0, x: 15 });
+    gsap.set(".pr-button-container2 .pr-button2", { opacity: 0, x: 15 });
     const tl = gsap.timeline();
 
     // skill
@@ -46,9 +47,53 @@ document.addEventListener('DOMContentLoaded', function () {
         tl.to(".prGachaBg .GachaBigbal3", { opacity: 1, stagger: 0.5, duration: 0.8, x: 0 });
         tl.to(".prGachaBg .GachaBigbal4", { opacity: 1, stagger: 0.5, duration: 0.8, x: 0 });
         tl.to(".prGachaBg .GachaBigbal5", { opacity: 1, stagger: 0.5, duration: 0.8, x: 0 });
+        tl.to(".pr-button-container2 .pr-button2", { opacity: 1, stagger: 0.5, duration: 0.8, x: 0 });
     }, 1000);
 });
 
+//팝업__1_왼쪽 디자인 부분
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.pr-button1');
+    const popup = document.querySelector('.prModal6');
+    const close = document.querySelector('.close6');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
+
+//팝업__1_왼쪽 contect
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.pr-button2');
+    const popup = document.querySelector('.prModal7');
+    const close = document.querySelector('.close7');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
 
 //모달_pr_1
 document.addEventListener('DOMContentLoaded', (event) => {
