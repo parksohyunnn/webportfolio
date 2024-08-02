@@ -8,29 +8,38 @@
     box-sizing: border-box;
 }
 
-
-.flowerBg {
-    width: 100%;
-    height: 1080px;
+#flowerMain {
+    width: 2500px;
+    height: 70vh;
     position: absolute;
-    top: -40px;
-    /* background-image: url(../flower-left/flower-bg-01.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
 }
 
-.leftFlowerBg {
-    overflow: hidden;
+.flWrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
+.flWrap .mainFlower {
+    position: absolute;
+    left: 12%;
+    bottom: -10%;
+}
+
+.flWrap .s1 {
+    width: 2500px;
+
+}
 
 /* 1번꽃 */
 .flower1 {
     position: absolute;
-    top: 255px;
-    left: 140px;
+    bottom: 43%;
+    left: 5%;
     width: 80px;
     z-index: 5;
     animation: flower1 2.5s infinite;
@@ -55,9 +64,9 @@
 /* 2번꽃 */
 .flower2 {
     position: absolute;
-    left: 170px;
-    top: 103px;
-    width: 150px;
+    left: 28%;
+    top: 22%;
+    width: 180px;
     animation: flower2-2 2.5s infinite;
 }
 
@@ -1745,5 +1754,69 @@
 
     100% {
         transform: translateX(0) rotate(0deg);
+    }
+}
+
+@media (max-width: 1920px) {
+
+    .flWrap .mainFlower.f1 {
+        width: 1700px;
+        left: 16%;
+        position: absolute;
+    }
+}
+
+
+@media (max-width: 1640px) {
+
+    .flWrap .mainFlower.f1 {
+        width: 1500px;
+        left: 20%;
+        position: absolute;
+    }
+}
+
+@media (max-width: 1490px) {
+
+    .flWrap .mainFlower.f1 {
+        width: 1350px;
+        left: 23%;
+        position: absolute;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .flWrap .mainFlower.f1 {
+        width: 1250px;
+        left: 25%;
+        position: absolute;
+    }
+}
+
+@media (max-width: 1230px) {
+
+    .flWrap .mainFlower.f1 {
+        width: 1150px;
+        left: 27%;
+        position: absolute;
+    }
+}
+
+@media (max-width: 1090px) {
+
+    .flWrap .mainFlower.f1 {
+        width: 1050px;
+        left: 30%;
+        position: absolute;
+    }
+}
+
+@media (max-width: 970px) {
+
+    .flWrap .mainFlower.f1 {
+        width: 900px;
+        left: 32%;
+        position: absolute;
     }
 }
