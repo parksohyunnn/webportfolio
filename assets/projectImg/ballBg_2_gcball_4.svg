@@ -2,13 +2,14 @@
 <svg id="main-bigBall" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 99.43 99.43">
   <defs>
     <style>
-      .cls-1 {
-        clip-path: url(#clippath);
-      }
 
       .cls-2 {
-        fill: none;
+        fill: #00d675;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2.5px;
       }
+
 
       .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
         stroke-width: 0px;
@@ -29,18 +30,45 @@
       .cls-6 {
         fill: #ff6a37;
       }
+                        #ballDeco4{  
+                                          fill: #CD77FF;
+        animation: leap-rotation2 4s linear infinite,fillColorChange2 2s ease-in-out infinite;
+        transform-origin: 49.72px 49.72px;
+        }
+@keyframes leap-rotation2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(280deg);
+  }
+}
+  @keyframes fillColorChange2 {
+    0% {
+      fill: #CD77FF;
+    }
+    100% {
+      fill: #ED80E9;
+    }
+  }
+#ballColor4{
+    fill: #00D675;
+    animation: fillColorChange2 2s ease-in-out infinite;
+  }
+
+  @keyframes fillColorChange2 {
+    0% {
+      fill: #CD77FF;
+    }
+    100% {
+      fill: #ED80E9;
+    }
+  }
     </style>
     <clipPath id="clippath">
       <circle class="cls-2" cx="49.28" cy="-69.47" r="45.69"/>
     </clipPath>
   </defs>
-  <g id="gcBall1">
-    <g id="ballDeco1">
-      <g class="cls-1">
-        <path class="cls-3" d="M93.39-105.21c-24.44,4.29-45.58,19.75-59.47,40.01C20.04-44.94,13.49-20.11,11.59,4.35c-.48,6.24,9.2,6.65,9.69.43,1.72-22.33,7.48-44.65,19.97-63.49,12.48-18.84,31.73-33.07,54.19-37.02,6.16-1.08,4.09-10.55-2.04-9.48h0Z"/>
-      </g>
-    </g>
-  </g>
   <g id="gcBall4">
     <g id="ballColor4">
       <circle class="cls-4" cx="49.72" cy="49.72" r="48.71"/>

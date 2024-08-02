@@ -23,6 +23,7 @@
         stroke: #000;
         stroke-miterlimit: 10;
         stroke-width: 3.5px;
+        
       }
 
 
@@ -57,7 +58,7 @@
       fill: #BD54FA;
     }
   }
-  #gcBall1 {
+  <!-- #gcBall1 {
   animation: bounceScale 2s infinite ease-in-out;
   transform-origin: center;
   
@@ -70,7 +71,7 @@
   50% {
     transform: translateY(-3px) scale(0.9);
   }
-}
+} -->
 
     </style>
     <clipPath id="clippath">

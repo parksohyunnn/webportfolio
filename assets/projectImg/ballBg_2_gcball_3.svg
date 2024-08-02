@@ -11,8 +11,36 @@
         fill: #00d675;
         stroke: #000;
         stroke-miterlimit: 10;
-        stroke-width: 2px;
+        stroke-width: 2.5px;
       }
+
+                  #ballDeco2{  
+        animation: leap-rotation2 4s linear infinite;
+        transform-origin: 46.55px 46.55px;
+        }
+@keyframes leap-rotation2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(280deg);
+  }
+}
+
+#ballColor2{
+    fill: #d793ff;
+    animation: fillColorChange2 2s ease-in-out infinite;
+  }
+
+  @keyframes fillColorChange2 {
+    0% {
+      fill: #CD77FF;
+    }
+    100% {
+      fill: #FF7C50;
+    }
+  }
+
     </style>
   </defs>
   <g id="gcBall2">

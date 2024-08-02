@@ -62,9 +62,13 @@
 /* 뽑기 공 */
 .GachaBigbal1 {
     position: absolute;
-    width: 90px;
-    top: 31%;
+    width: 98px;
+    top: 30%;
     left: 41%;
+    border: 5px solid white;
+    /* 흰색 테두리를 추가 */
+    border-radius: 50%;
+    /* 테두리를 원형으로 만듦 */
 }
 
 .GachaBigbal2 {
@@ -72,20 +76,85 @@
     width: 98px;
     top: 21%;
     left: 61%;
+    animation: bounceBall2 0.4s infinite alternate;
+    border: 5px solid white;
+    /* 흰색 테두리를 추가 */
+    border-radius: 50%;
+    /* 테두리를 원형으로 만듦 */
+}
+
+@keyframes bounceBall2 {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(6px);
+    }
 }
 
 .GachaBigbal3 {
     position: absolute;
-    width: 90px;
+    width: 98px;
     top: 38%;
     left: 53%;
+    z-index: 1;
+    animation: bounceScale33 2s infinite ease-in-out;
+    transform-origin: center;
+    border: 5px solid white;
+    /* 흰색 테두리를 추가 */
+    border-radius: 50%;
+    /* 테두리를 원형으로 만듦 */
 }
+
+@keyframes bounceScale33 {
+
+    0%,
+    100% {
+        transform: translateY(0) translateX(0);
+    }
+
+    50% {
+        transform: translateY(-3px) translateX(30px);
+    }
+}
+
 
 .GachaBigbal4 {
     position: absolute;
     width: 90px;
-    top: 39%;
-    left: 77%;
+    top: 40%;
+    left: 74%;
+    border: 5px solid white;
+    /* 흰색 테두리를 추가 */
+    border-radius: 50%;
+    /* 테두리를 원형으로 만듦 */
+    animation: moveX 1s infinite alternate, bounceBall 0.4s infinite alternate;
+}
+
+
+@keyframes moveX {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+@keyframes bounceBall {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
 }
 
 .GachaBigbal5 {
