@@ -63,6 +63,6 @@ document.addEventListener('DOMContentLoaded', function () {
         tl.to(".skill .slack", { opacity: 1, y: 0, stagger: 0.5, duration: 0.2, ease: "power2.out" });
         tl.to(".skill .click", { opacity: 1, stagger: 0.5, duration: 0.1, ease: "power2.out" });
         // 매인 새
-        tl.to(".skill .skillImg2", { opacity: 1, y: 0, stagger: 0.5, duration: 0.6, ease: "power2.out" });
+        tl.to(".skill .skillImg2", { opacity: 1, y: 0, stagger: 0.5, duration: 0.3, ease: "power2.out" });
     }, 1000);
 });

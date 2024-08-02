@@ -710,34 +710,35 @@
         width: 50px;
         top: 30%;
         left: 44%;
-        border: 3.5px solid white;
+        border: 2.5px solid white;
     }
 
     .GachaBigbal2 {
         width: 50px;
         top: 21%;
         left: 61%;
-        border: 4px solid rgba(255, 255, 255, 1);
+        border: 3px solid rgba(255, 255, 255, 1);
     }
 
     .GachaBigbal3 {
         width: 50px;
         top: 38%;
         left: 50%;
-        border: 4px solid rgba(255, 255, 255, 1);
+        border: 3px solid rgba(255, 255, 255, 1);
     }
 
     .GachaBigbal4 {
         width: 48px;
         top: 40%;
         left: 74%;
-        border: 4px solid white;
+        border: 3px solid rgba(255, 255, 255, 1);
     }
 
     .GachaBigbal5 {
         width: 50px;
         top: 24%;
         left: 76%;
+        border: 3px solid rgba(255, 255, 255, 1);
     }
 }
 
@@ -820,166 +821,421 @@
         top: 69%;
         left: 120%;
     }
-}
 
-@media (max-width: 480px) {
-
-    .gachaBg {
-        width: 270px;
-        left: 40%;
-        margin-top: 1%;
-    }
-
-    .prGacha2 {
-        width: 140px;
-        top: 14%;
-        /* background-color: antiquewhite; */
-        left: 40%;
-    }
-
-    .prGacha3 {
-        width: 140px;
-        top: 18%;
-        left: 41%;
-    }
-
-    .pr-Img1 {
-        width: 45px;
-        top: -9%;
-        /* background-color: antiquewhite; */
-        left: 10%;
-    }
-
-    .pr-Img2 {
-        width: 95px;
-        top: -10%;
-        right: -40%;
-    }
-
-    .pr-Img5 {
-        width: 17px;
-        top: 10%;
-        /* background-color: antiquewhite; */
-        left: 24%;
-    }
-
-    .pr-Img6 {
-        width: 12px;
-        top: -10%;
-        /* background-color: antiquewhite; */
-        right: -3%;
-    }
-
-    .pr-Img7 {
-        width: 650px;
-        top: -8%;
-        left: -42%;
-    }
-
-    .pr-Img3 {
-        width: 12px;
-        top: 12%;
-        /* background-color: aqua; */
-        right: -7%;
-    }
-
-    .pr-Img4 {
-        width: 18px;
-        position: absolute;
-        top: -3%;
-        left: 34%;
-    }
-
-    .pr-Img8 {
-        width: 30px;
-        top: 62%;
-        left: 15.5%;
-    }
-
-    .pr-Img9 {
-        width: 30px;
-        top: 64%;
-        left: 120%;
-    }
-}
-
-@media (max-width: 370px) {
-
-    .gachaBg {
-        width: 220px;
-        left: 43%;
-        margin-top: 1%;
-    }
-
-    .prGacha2 {
-        width: 110px;
-        top: 16%;
-        /* background-color: antiquewhite; */
-        left: 40%;
-    }
-
-    .prGacha3 {
-        width: 110px;
-        top: 19%;
+    .GachaBigbal1 {
+        width: 44px;
+        top: 30%;
         left: 44%;
+        border: 2.5px solid white;
     }
 
-    .pr-Img1 {
-        width: 40px;
-        top: -9%;
-        /* background-color: antiquewhite; */
-        left: 10%;
+    .GachaBigbal2 {
+        width: 44px;
+        top: 21%;
+        left: 61%;
+        border: 3px solid rgba(255, 255, 255, 1);
     }
 
-    .pr-Img2 {
-        width: 74px;
-        top: 0%;
-        right: -33%;
+    .GachaBigbal3 {
+        width: 44px;
+        top: 38%;
+        left: 54%;
+        border: 3px solid rgba(255, 255, 255, 1);
+        animation: bounceScale33 2s infinite ease-in-out;
     }
 
-    .pr-Img5 {
-        width: 13px;
-        top: 20%;
-        /* background-color: antiquewhite; */
-        left: 24%;
+    @keyframes bounceScale33 {
+
+        0%,
+        100% {
+            transform: translateY(0) translateX(0);
+        }
+
+        50% {
+            transform: translateY(-3px) translateX(16px);
+        }
     }
 
-    .pr-Img6 {
-        width: 10px;
-        top: -13%;
-        /* background-color: antiquewhite; */
-        right: -10%;
+    .GachaBigbal4 {
+        width: 44px;
+        top: 40%;
+        left: 74%;
+        border: 3px solid rgba(255, 255, 255, 1);
+        animation: moveX 1s infinite alternate, bounceBall 0.4s infinite alternate;
     }
 
-    .pr-Img7 {
-        width: 550px;
-        top: 6%;
-        left: -49%;
+
+    @keyframes moveX {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(30px);
+        }
     }
 
-    .pr-Img3 {
-        width: 12px;
-        top: -5%;
-        /* background-color: aqua; */
-        right: 1%;
+    @keyframes bounceBall {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-18px);
+        }
     }
 
-    .pr-Img4 {
-        width: 14px;
-        position: absolute;
-        top: -3%;
-        left: 36%;
+    .GachaBigbal5 {
+        width: 44px;
+        top: 24%;
+        left: 76%;
+        border: 3px solid rgba(255, 255, 255, 1);
+        animation: bounceScale40 1s infinite ease-in-out, borderWave40 0.8s infinite ease-in-out;
     }
 
-    .pr-Img8 {
-        width: 27px;
-        top: 62%;
-        left: 15.5%;
+    @keyframes bounceScale40 {
+
+        0%,
+        100% {
+            transform: translateY(-11px) translateX(2px);
+        }
+
+        50% {
+            transform: translateY(0) translateX(0);
+        }
     }
 
-    .pr-Img9 {
-        width: 27px;
-        top: 70%;
-        left: 113%;
+    @media (max-width: 480px) {
+
+        .gachaBg {
+            width: 270px;
+            left: 40%;
+            margin-top: 1%;
+        }
+
+        .prGacha2 {
+            width: 140px;
+            top: 14%;
+            /* background-color: antiquewhite; */
+            left: 40%;
+        }
+
+        .prGacha3 {
+            width: 140px;
+            top: 18%;
+            left: 41%;
+        }
+
+        .pr-Img1 {
+            width: 45px;
+            top: -9%;
+            /* background-color: antiquewhite; */
+            left: 10%;
+        }
+
+        .pr-Img2 {
+            width: 95px;
+            top: -10%;
+            right: -40%;
+        }
+
+        .pr-Img5 {
+            width: 17px;
+            top: 10%;
+            /* background-color: antiquewhite; */
+            left: 24%;
+        }
+
+        .pr-Img6 {
+            width: 12px;
+            top: -10%;
+            /* background-color: antiquewhite; */
+            right: -3%;
+        }
+
+        .pr-Img7 {
+            width: 650px;
+            top: -8%;
+            left: -42%;
+        }
+
+        .pr-Img3 {
+            width: 12px;
+            top: 12%;
+            /* background-color: aqua; */
+            right: -7%;
+        }
+
+        .pr-Img4 {
+            width: 18px;
+            position: absolute;
+            top: -3%;
+            left: 34%;
+        }
+
+        .pr-Img8 {
+            width: 30px;
+            top: 62%;
+            left: 15.5%;
+        }
+
+        .pr-Img9 {
+            width: 30px;
+            top: 64%;
+            left: 120%;
+        }
+
+        .GachaBigbal1 {
+            width: 38px;
+            top: 30%;
+            left: 44%;
+            border: 2px solid white;
+        }
+
+        .GachaBigbal2 {
+            width: 38px;
+            top: 21%;
+            left: 61%;
+            border: 2px solid rgba(255, 255, 255, 1);
+        }
+
+        .GachaBigbal3 {
+            width: 38px;
+            top: 38%;
+            left: 54%;
+            border: 2px solid rgba(255, 255, 255, 1);
+            animation: bounceScale33 2s infinite ease-in-out;
+        }
+
+        @keyframes bounceScale33 {
+
+            0%,
+            100% {
+                transform: translateY(0) translateX(0);
+            }
+
+            50% {
+                transform: translateY(-3px) translateX(16px);
+            }
+        }
+
+        .GachaBigbal4 {
+            width: 38px;
+            top: 40%;
+            left: 74%;
+            border: 2px solid rgba(255, 255, 255, 1);
+            animation: moveX 1s infinite alternate, bounceBall 0.4s infinite alternate;
+        }
+
+
+        @keyframes moveX {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(30px);
+            }
+        }
+
+        @keyframes bounceBall {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-18px);
+            }
+        }
+
+        .GachaBigbal5 {
+            width: 38px;
+            top: 24%;
+            left: 76%;
+            border: 2px solid rgba(255, 255, 255, 1);
+            animation: bounceScale40 1s infinite ease-in-out, borderWave40 0.8s infinite ease-in-out;
+        }
+
+        @keyframes bounceScale40 {
+
+            0%,
+            100% {
+                transform: translateY(-11px) translateX(2px);
+            }
+
+            50% {
+                transform: translateY(0) translateX(0);
+            }
+        }
+    }
+
+    @media (max-width: 370px) {
+
+        .gachaBg {
+            width: 220px;
+            left: 43%;
+            margin-top: 1%;
+        }
+
+        .prGacha2 {
+            width: 110px;
+            top: 16%;
+            /* background-color: antiquewhite; */
+            left: 40%;
+        }
+
+        .prGacha3 {
+            width: 110px;
+            top: 19%;
+            left: 44%;
+        }
+
+        .pr-Img1 {
+            width: 40px;
+            top: -9%;
+            /* background-color: antiquewhite; */
+            left: 10%;
+        }
+
+        .pr-Img2 {
+            width: 74px;
+            top: 0%;
+            right: -33%;
+        }
+
+        .pr-Img5 {
+            width: 13px;
+            top: 20%;
+            /* background-color: antiquewhite; */
+            left: 24%;
+        }
+
+        .pr-Img6 {
+            width: 10px;
+            top: -13%;
+            /* background-color: antiquewhite; */
+            right: -10%;
+        }
+
+        .pr-Img7 {
+            width: 550px;
+            top: 6%;
+            left: -49%;
+        }
+
+        .pr-Img3 {
+            width: 12px;
+            top: -5%;
+            /* background-color: aqua; */
+            right: 1%;
+        }
+
+        .pr-Img4 {
+            width: 14px;
+            position: absolute;
+            top: -3%;
+            left: 36%;
+        }
+
+        .pr-Img8 {
+            width: 27px;
+            top: 62%;
+            left: 15.5%;
+        }
+
+        .pr-Img9 {
+            width: 27px;
+            top: 70%;
+            left: 113%;
+        }
+
+        .GachaBigbal1 {
+            width: 30px;
+            top: 30%;
+            left: 44%;
+            border: 2px solid white;
+        }
+
+        .GachaBigbal2 {
+            width: 30px;
+            top: 21%;
+            left: 61%;
+            border: 2px solid rgba(255, 255, 255, 1);
+        }
+
+        .GachaBigbal3 {
+            width: 30px;
+            top: 38%;
+            left: 54%;
+            border: 2px solid rgba(255, 255, 255, 1);
+            animation: bounceScale33 2s infinite ease-in-out;
+        }
+
+        @keyframes bounceScale33 {
+
+            0%,
+            100% {
+                transform: translateY(0) translateX(0);
+            }
+
+            50% {
+                transform: translateY(-3px) translateX(12px);
+            }
+        }
+
+        .GachaBigbal4 {
+            width: 28px;
+            top: 40%;
+            left: 74%;
+            border: 2px solid rgba(255, 255, 255, 1);
+            animation: moveX 1s infinite alternate, bounceBall 0.4s infinite alternate;
+        }
+
+
+        @keyframes moveX {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(20px);
+            }
+        }
+
+        @keyframes bounceBall {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-12px);
+            }
+        }
+
+        .GachaBigbal5 {
+            width: 30px;
+            top: 24%;
+            left: 76%;
+            border: 2px solid rgba(255, 255, 255, 1);
+            animation: bounceScale40 1s infinite ease-in-out, borderWave40 0.8s infinite ease-in-out;
+        }
+
+        @keyframes bounceScale40 {
+
+            0%,
+            100% {
+                transform: translateY(-8px) translateX(2px);
+            }
+
+            50% {
+                transform: translateY(0) translateX(0);
+            }
+        }
     }
 }
