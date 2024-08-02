@@ -45,11 +45,12 @@
 }
 
 .prModalImg {
-    width: 70%;
+    width: 80%;
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
 }
 
 .prModel__close {
@@ -68,15 +69,28 @@
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    gap: 10px;
 }
 
 .prLi1 {}
 
-.prLink1 {}
+.prLink1 {
+    padding: 5px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 20px;
+}
 
 .prLi2 {}
 
-.prLink2 {}
+.prLink2 {
+    padding: 5px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 20px;
+}
 
 .progress {
     width: 220px;
