@@ -65,10 +65,36 @@
     width: 98px;
     top: 30%;
     left: 41%;
-    border: 5px solid white;
+    border: 4px solid white;
     /* 흰색 테두리를 추가 */
     border-radius: 50%;
-    /* 테두리를 원형으로 만듦 */
+    animation: bounceScale40 1.4s infinite ease-in-out, borderWave40 0.8s infinite ease-in-out;
+}
+
+@keyframes bounceScale40 {
+
+    0%,
+    100% {
+        transform: translateY(-30px) translateX(3px);
+    }
+
+    50% {
+        transform: translateY(0) translateX(0);
+    }
+}
+
+@keyframes borderWave40 {
+
+    0%,
+    100% {
+        border-color: rgba(255, 255, 255, 1);
+        /* 불투명한 흰색 */
+    }
+
+    50% {
+        border-color: rgba(255, 255, 255, 0.6);
+        /* 투명도 70% */
+    }
 }
 
 .GachaBigbal2 {
@@ -76,11 +102,9 @@
     width: 98px;
     top: 21%;
     left: 61%;
-    animation: bounceBall2 0.4s infinite alternate;
-    border: 5px solid white;
-    /* 흰색 테두리를 추가 */
+    animation: bounceBall2 0.4s infinite alternate, borderWave2 0.7s infinite ease-in-out;
+    border: 4px solid rgba(255, 255, 255, 1);
     border-radius: 50%;
-    /* 테두리를 원형으로 만듦 */
 }
 
 @keyframes bounceBall2 {
@@ -95,18 +119,30 @@
     }
 }
 
+@keyframes borderWave2 {
+
+    0%,
+    100% {
+        border-color: rgba(255, 255, 255, 1);
+        /* 불투명한 흰색 */
+    }
+
+    50% {
+        border-color: rgba(255, 255, 255, 0.6);
+        /* 투명도 70% */
+    }
+}
+
 .GachaBigbal3 {
     position: absolute;
     width: 98px;
     top: 38%;
     left: 53%;
     z-index: 1;
-    animation: bounceScale33 2s infinite ease-in-out;
     transform-origin: center;
-    border: 5px solid white;
-    /* 흰색 테두리를 추가 */
+    border: 4px solid rgba(255, 255, 255, 1);
     border-radius: 50%;
-    /* 테두리를 원형으로 만듦 */
+    animation: bounceScale33 2s infinite ease-in-out, borderWave 1s infinite ease-in-out;
 }
 
 @keyframes bounceScale33 {
@@ -121,17 +157,30 @@
     }
 }
 
+@keyframes borderWave {
+
+    0%,
+    100% {
+        border-color: rgba(255, 255, 255, 1);
+        /* 불투명한 흰색 */
+    }
+
+    50% {
+        border-color: rgba(255, 255, 255, 0.8);
+        /* 투명도 70% */
+    }
+}
 
 .GachaBigbal4 {
     position: absolute;
     width: 90px;
     top: 40%;
     left: 74%;
-    border: 5px solid white;
+    border: 4px solid white;
     /* 흰색 테두리를 추가 */
     border-radius: 50%;
     /* 테두리를 원형으로 만듦 */
-    animation: moveX 1s infinite alternate, bounceBall 0.4s infinite alternate;
+    animation: moveX 1s infinite alternate, bounceBall 0.4s infinite alternate, borderWave40 0.8s infinite ease-in-out;
 }
 
 
@@ -157,11 +206,55 @@
     }
 }
 
+@keyframes borderWave40 {
+
+    0%,
+    100% {
+        border-color: rgba(255, 255, 255, 1);
+        /* 불투명한 흰색 */
+    }
+
+    50% {
+        border-color: rgba(255, 255, 255, 0.6);
+        /* 투명도 70% */
+    }
+}
+
 .GachaBigbal5 {
     position: absolute;
     width: 90px;
     top: 24%;
     left: 79%;
+    border: 4px solid white;
+    /* 흰색 테두리를 추가 */
+    border-radius: 50%;
+    animation: bounceScale40 1s infinite ease-in-out, borderWave40 0.8s infinite ease-in-out;
+}
+
+@keyframes bounceScale40 {
+
+    0%,
+    100% {
+        transform: translateY(-31px) translateX(2px);
+    }
+
+    50% {
+        transform: translateY(0) translateX(0);
+    }
+}
+
+@keyframes borderWave40 {
+
+    0%,
+    100% {
+        border-color: rgba(255, 255, 255, 1);
+        /* 불투명한 흰색 */
+    }
+
+    50% {
+        border-color: rgba(255, 255, 255, 0.6);
+        /* 투명도 70% */
+    }
 }
 
 /* balloon */
