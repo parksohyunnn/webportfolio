@@ -3,10 +3,10 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #d793ff;
+        fill: #d79FF97B53ff;
         stroke: #000;
         stroke-miterlimit: 10;
-        stroke-width: 2px;
+        stroke-width: 2.5px;
       }
 
       .cls-2 {
@@ -26,8 +26,35 @@
       }
 
       .cls-5 {
-        fill: #ff6a37;
+        fill: #FF97B5;
       }
+
+            #ballDeco3{  
+        animation: leap-rotation3 7s linear infinite;
+        transform-origin: 46.55px 46.55px;
+        }
+@keyframes leap-rotation3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+#ballColor3{
+    fill: #d793ff;
+    animation: fillColorChange3 2s ease-in-out infinite, bounce47 0.4s infinite alternate;
+  }
+
+  @keyframes fillColorChange3 {
+    0% {
+      fill: #4044FF;
+    }
+    100% {
+      fill: #00FE8B;
+    }
+  }
     </style>
     <clipPath id="clippath">
       <circle class="cls-3" cx="-69.51" cy="48.85" r="45.69"/>
@@ -35,9 +62,9 @@
   </defs>
   <g id="gcBall1">
     <g id="ballDeco1">
-      <g class="cls-2">
+      <!-- <g class="cls-2">
         <path class="cls-4" d="M3.79,83.45c-14.34-13.49-27.32-28.45-38.33-44.79-9.93-14.73-19.87-30.8-21.77-48.83-.66-6.2-10.12-4.11-9.48,2.04,1.99,18.83,12.24,35.79,22.61,51.2,11.51,17.09,24.82,32.8,39.82,46.93,4.51,4.25,11.7-2.26,7.15-6.54h0Z"/>
-      </g>
+      </g> -->
     </g>
   </g>
   <g id="gcBall3">

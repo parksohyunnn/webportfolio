@@ -22,7 +22,7 @@
         fill: #00b2ff;
         stroke: #000;
         stroke-miterlimit: 10;
-        stroke-width: 3px;
+        stroke-width: 3.5px;
       }
 
 
