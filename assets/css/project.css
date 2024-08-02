@@ -65,7 +65,7 @@
     width: 98px;
     top: 30%;
     left: 41%;
-    border: 4px solid white;
+    border: 3.5px solid white;
     /* 흰색 테두리를 추가 */
     border-radius: 50%;
     animation: bounceScale40 1.4s infinite ease-in-out, borderWave40 0.8s infinite ease-in-out;
@@ -477,6 +477,40 @@
         top: 68.5%;
         left: 140%;
     }
+
+    .GachaBigbal1 {
+        width: 78px;
+        top: 30%;
+        left: 44%;
+        border: 3.5px solid white;
+    }
+
+    .GachaBigbal2 {
+        width: 78px;
+        top: 21%;
+        left: 61%;
+        border: 4px solid rgba(255, 255, 255, 1);
+    }
+
+    .GachaBigbal3 {
+        width: 78px;
+        top: 38%;
+        left: 53%;
+        border: 4px solid rgba(255, 255, 255, 1);
+    }
+
+    .GachaBigbal4 {
+        width: 75px;
+        top: 40%;
+        left: 74%;
+        border: 4px solid white;
+    }
+
+    .GachaBigbal5 {
+        width: 78px;
+        top: 24%;
+        left: 79%;
+    }
 }
 
 @media (max-width: 1220px) {
@@ -555,6 +589,40 @@
         width: 55px;
         top: 66%;
         left: 132%;
+    }
+
+    .GachaBigbal1 {
+        width: 65px;
+        top: 30%;
+        left: 44%;
+        border: 3.5px solid white;
+    }
+
+    .GachaBigbal2 {
+        width: 65px;
+        top: 21%;
+        left: 61%;
+        border: 4px solid rgba(255, 255, 255, 1);
+    }
+
+    .GachaBigbal3 {
+        width: 65px;
+        top: 38%;
+        left: 53%;
+        border: 4px solid rgba(255, 255, 255, 1);
+    }
+
+    .GachaBigbal4 {
+        width: 62px;
+        top: 40%;
+        left: 74%;
+        border: 4px solid white;
+    }
+
+    .GachaBigbal5 {
+        width: 65px;
+        top: 24%;
+        left: 79%;
     }
 }
 
@@ -636,6 +704,40 @@
         width: 45px;
         top: 69%;
         left: 132%;
+    }
+
+    .GachaBigbal1 {
+        width: 50px;
+        top: 30%;
+        left: 44%;
+        border: 3.5px solid white;
+    }
+
+    .GachaBigbal2 {
+        width: 50px;
+        top: 21%;
+        left: 61%;
+        border: 4px solid rgba(255, 255, 255, 1);
+    }
+
+    .GachaBigbal3 {
+        width: 50px;
+        top: 38%;
+        left: 50%;
+        border: 4px solid rgba(255, 255, 255, 1);
+    }
+
+    .GachaBigbal4 {
+        width: 48px;
+        top: 40%;
+        left: 74%;
+        border: 4px solid white;
+    }
+
+    .GachaBigbal5 {
+        width: 50px;
+        top: 24%;
+        left: 76%;
     }
 }
 

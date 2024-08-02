@@ -28,7 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
     gsap.set(".skill .notion", { opacity: 0, y: -15 });
     gsap.set(".skill .slack", { opacity: 0, y: -15 });
     gsap.set(".skill .click", { opacity: 0 });
-
+    // 메인 새
+    gsap.set(".skill .skillImg2", { opacity: 0, y: 45 });
     const tl = gsap.timeline();
 
     // skill
@@ -61,5 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
         tl.to(".skill .notion", { opacity: 1, y: 0, stagger: 0.5, duration: 0.2, ease: "power2.out" });
         tl.to(".skill .slack", { opacity: 1, y: 0, stagger: 0.5, duration: 0.2, ease: "power2.out" });
         tl.to(".skill .click", { opacity: 1, stagger: 0.5, duration: 0.1, ease: "power2.out" });
+        // 매인 새
+        tl.to(".skill .skillImg2", { opacity: 1, y: 0, stagger: 0.5, duration: 0.6, ease: "power2.out" });
     }, 1000);
 });

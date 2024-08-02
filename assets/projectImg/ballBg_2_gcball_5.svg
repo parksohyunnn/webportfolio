@@ -20,6 +20,37 @@
         stroke-miterlimit: 10;
         stroke-width: 2px;
       }
+            #ballDeco5{  
+        animation: leap-rotation 3s linear infinite;
+        transform-origin: 46.55px 46.55px;
+        }
+@keyframes leap-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#ballColor5{
+    fill: #d793ff;
+    animation: fillColorChange 4s ease-in-out infinite;
+  }
+
+  @keyframes fillColorChange {
+    0% {
+      fill: #FFEC2D;
+    }
+    33% {
+      fill: #99FF2D;
+    }
+    66% {
+      fill: #2DF8FF;
+    }
+    100% {
+      fill: #99FF2D;
+    }
+  }
     </style>
     <clipPath id="clippath">
       <circle class="cls-1" cx="-70.16" cy="-69.47" r="45.69"/>
