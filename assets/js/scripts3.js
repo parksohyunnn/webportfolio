@@ -48,3 +48,26 @@ document.addEventListener('DOMContentLoaded', function () {
         tl.to(".prGachaBg .GachaBigbal5", { opacity: 1, stagger: 0.5, duration: 0.8, x: 0 });
     }, 1000);
 });
+
+
+//모달_pr_1
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.GachaBigbal1');
+    const popup = document.querySelector('.prModal1');
+    const close = document.querySelector('.prClose1');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
