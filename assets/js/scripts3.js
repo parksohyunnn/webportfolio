@@ -71,3 +71,91 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     });
 });
+
+//모달_pr_2
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.GachaBigbal2');
+    const popup = document.querySelector('.prModal2');
+    const close = document.querySelector('.prClose2');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
+
+//모달_pr_3
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.GachaBigbal3');
+    const popup = document.querySelector('.prModal3');
+    const close = document.querySelector('.prClose3');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
+
+//모달_pr_4
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.GachaBigbal4');
+    const popup = document.querySelector('.prModal4');
+    const close = document.querySelector('.prClose4');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
+
+//모달_pr_5
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.GachaBigbal5');
+    const popup = document.querySelector('.prModal5');
+    const close = document.querySelector('.prClose5');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
