@@ -95,6 +95,28 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 });
 
+//팝업__1_right skill
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.querySelector('.pr-button3');
+    const popup = document.querySelector('.prModal8');
+    const close = document.querySelector('.close8');
+
+    button.addEventListener('click', () => {
+        popup.style.display = 'flex';
+    });
+
+    close.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // 팝업창 외부를 클릭하면 팝업창을 닫음
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
+
 //모달_pr_1
 document.addEventListener('DOMContentLoaded', (event) => {
     const button = document.querySelector('.GachaBigbal1');

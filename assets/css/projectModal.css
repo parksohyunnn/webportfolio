@@ -660,21 +660,40 @@
 
 /* 클릭유도버튼1 */
 .prModal6 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 100%;
+    justify-content: center;
     display: none;
 }
 
 .prModalImg6 {
-    width: 60%;
+    width: 35%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 100000;
     border-radius: 10px;
+    animation: moveUpDownPr 1.5s ease-in-out infinite;
+}
+
+@keyframes moveUpDownPr {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%);
+    }
+
+    50% {
+        transform: translate(-50%, -51%);
+    }
 }
 
 .pr-button-container1 {
@@ -772,10 +791,16 @@
 
 /* 클릭유도버튼2 */
 .prModal7 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 100%;
+    justify-content: center;
     display: none;
 }
 
@@ -893,5 +918,206 @@
     70% {
         transform: scale(2.2);
         opacity: 0;
+    }
+}
+
+/* 클릭유도버튼3 */
+.prModal8 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.prModalImg8 {
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+    border-radius: 10px;
+    animation: moveUpDownPr 1.5s ease-in-out infinite;
+}
+
+@keyframes moveUpDownPr {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%);
+    }
+
+    50% {
+        transform: translate(-50%, -51%);
+    }
+}
+
+
+.pr-button-container3 {
+    position: absolute;
+    top: 48%;
+    left: 0;
+    z-index: 100000;
+}
+
+.pr-button3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.pr-button3::after {
+    content: "Skill✨";
+    position: absolute;
+    top: 67px;
+    /* 버튼 아래에 텍스트를 위치시킴 */
+    left: 30%;
+    transform: translateX(-50%) rotate(20deg);
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    font-size: 18px;
+    font-family: var(--fontp);
+    font-weight: 400;
+    letter-spacing: 2;
+}
+
+.pr-button3:hover::after {
+    opacity: 1;
+}
+
+.pr-inner-circle3 {
+    width: 6px;
+    height: 6px;
+    background-color: var(--white);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    animation: bounce-opacity 2.5s infinite;
+}
+
+@keyframes bounce-opacity {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.pr-outer-circle3 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 1.5s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50%,
+    70% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+/* modelClose1 */
+.modelClose1 {
+    position: absolute;
+    top: 20.5%;
+    right: 33.8%;
+    width: 30px;
+    height: 30px;
+    z-index: 100000;
+    animation: moveUpDownPr 1.5s ease-in-out infinite;
+}
+
+@keyframes moveUpDownPr {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%);
+    }
+
+    50% {
+        transform: translate(-50%, -51%);
+    }
+}
+
+/* modelClose2 */
+.modelClose2 {
+    position: absolute;
+    top: 25%;
+    right: 28.5%;
+    width: 30px;
+    height: 30px;
+    z-index: 100000;
+    animation: moveUpDownPr 1.5s ease-in-out infinite;
+}
+
+@keyframes moveUpDownPr {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%);
+    }
+
+    50% {
+        transform: translate(-50%, -51%);
+    }
+}
+
+/* modelClose3 */
+.modelClose3 {
+    position: absolute;
+    top: 22%;
+    right: 33.8%;
+    width: 30px;
+    height: 30px;
+    z-index: 100000;
+    animation: moveUpDownPr 1.5s ease-in-out infinite;
+}
+
+@keyframes moveUpDownPr {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%);
+    }
+
+    50% {
+        transform: translate(-50%, -51%);
     }
 }

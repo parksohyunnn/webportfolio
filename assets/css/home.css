@@ -9,8 +9,9 @@
 }
 
 #flowerMain {
-    width: 2500px;
-    height: 70vh;
+    width: 2000px;
+    /* background-color: aqua; */
+    height: 80vh;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -26,21 +27,46 @@
 
 .flWrap .mainFlower {
     position: absolute;
-    left: 12%;
-    bottom: -10%;
+    left: 3%;
+    bottom: -7%;
 }
 
-.flWrap .s1 {
-    width: 2500px;
+.flWrap .f1 {
+    width: 1920px;
+    animation: moveUpDown 5s infinite alternate ease-in-out;
+}
 
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0%) translateX(0%);
+    }
+
+    25% {
+        transform: translateY(-0.3%) translateX(-0.3%);
+    }
+
+    50% {
+        transform: translateY(0%) translateX(0%);
+    }
+
+    75% {
+        transform: translateY(-0.3%) translateX(-0.3%);
+    }
+
+    100% {
+        transform: translateY(0%) translateX(0%);
+    }
+}
+
+.flWrap .mainFlower .fls {
+    position: absolute;
 }
 
 /* 1번꽃 */
 .flower1 {
-    position: absolute;
-    bottom: 43%;
-    left: 5%;
-    width: 80px;
+    bottom: 62%;
+    left: 63.45%;
+    width: 6%;
     z-index: 5;
     animation: flower1 2.5s infinite;
 }
@@ -63,10 +89,9 @@
 
 /* 2번꽃 */
 .flower2 {
-    position: absolute;
-    left: 28%;
-    top: 22%;
-    width: 180px;
+    left: 66%;
+    top: 10%;
+    width: 12%;
     animation: flower2-2 2.5s infinite;
 }
 
@@ -1759,11 +1784,11 @@
 
 @media (max-width: 1920px) {
 
-    .flWrap .mainFlower.f1 {
+    /* .flWrap .mainFlower.f1 {
         width: 1700px;
         left: 16%;
         position: absolute;
-    }
+    } */
 }
 
 
