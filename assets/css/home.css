@@ -119,10 +119,9 @@
 
 /* 3번꽃 */
 .flower3 {
-    position: absolute;
-    top: 135px;
-    left: -30px;
-    width: 164px;
+    left: 52%;
+    top: 18%;
+    width: 11%;
     animation: flower3 4s ease-in-out infinite;
 }
 
@@ -150,10 +149,9 @@
 
 /* 4번꽃 */
 .flower21 {
-    position: absolute;
-    width: 140px;
-    top: 330px;
-    left: 80px;
+    left: 60%;
+    top: 38%;
+    width: 9%;
     animation: flower4 3s ease-in-out infinite;
 }
 
@@ -182,10 +180,9 @@
 
 /* 5번꽃 */
 .flower5 {
-    position: absolute;
-    width: 98px;
-    top: 240px;
-    left: 270px;
+    left: 74%;
+    top: 30%;
+    width: 6.5%;
     animation: flower5 3s ease-in-out infinite;
 }
 
@@ -210,10 +207,9 @@
 
 /* 6번꽃 */
 .flower6 {
-    position: absolute;
-    width: 110px;
-    top: 370px;
-    left: -30px;
+    left: 53.4%;
+    top: 45%;
+    width: 6.6%;
     animation: flower6 3s infinite;
 }
 
@@ -235,10 +231,10 @@
 
 /* 7번꽃 */
 .flower7 {
-    position: absolute;
-    width: 90px;
-    top: 380px;
-    left: 210px;
+    left: 70%;
+    top: 48%;
+    /* background-color: aqua; */
+    width: 6.6%;
     animation: flower6 3s infinite;
 }
 
@@ -260,10 +256,9 @@
 
 /* 8번꽃 */
 .flower8 {
-    position: absolute;
-    width: 94px;
-    top: 358px;
-    left: 335px;
+    left: 77%;
+    top: 46%;
+    width: 7%;
     animation: flower8 3s ease-in-out infinite;
 }
 
@@ -291,10 +286,9 @@
 
 /* 9번꽃 */
 .flower9 {
-    position: absolute;
-    width: 70px;
+    left: 85%;
     top: 50%;
-    left: 30%;
+    width: 5.5%;
     animation: flower17 5s ease-in-out infinite;
 }
 
@@ -322,10 +316,9 @@
 
 /* 10번꽃 */
 .flower10 {
-    position: absolute;
-    width: 140px;
-    top: 63%;
-    left: 5%;
+    left: 59%;
+    top: 55%;
+    width: 10%;
     animation: flower17 5s ease-in-out infinite;
 }
 
