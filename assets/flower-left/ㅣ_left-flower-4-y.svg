@@ -39,7 +39,17 @@
 
       .cls-9 {
         fill: #d793ff;
-      }
+    animation: colorChange2 1s infinite alternate;
+  }
+
+  @keyframes colorChange2 {
+    0% {
+      fill: #d793ff;
+    }
+    100% {
+      fill: #FFA537;
+    }
+  }
     </style>
   </defs>
   <g>

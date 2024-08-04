@@ -4,7 +4,16 @@
     <style>
       .cls-1 {
         fill: #ffec2d;
-      }
+    animation: colorChange2 2s infinite alternate;
+  }
+
+  @keyframes colorChange2 {
+    0% {
+      fill: #FFEC2D;
+    }
+    100% {
+      fill: #FFA537;
+    }}
 
       .cls-1, .cls-2, .cls-3 {
         stroke: #000;
@@ -27,7 +36,16 @@
 
       .cls-5 {
         fill: #ff6a37;
-      }
+    animation: colorChange 1.5s infinite alternate;
+  }
+
+  @keyframes colorChange {
+    0% {
+      fill: #FF6390;
+    }
+    100% {
+      fill: #ff6a37;
+    }}
 
       .cls-3 {
         fill: none;

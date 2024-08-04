@@ -22,7 +22,17 @@
 
       .cls-6 {
         fill: #00b2ff;
-      }
+    animation: colorChange 2s infinite alternate;
+  }
+
+  @keyframes colorChange {
+    0% {
+      fill: #00B2FF;
+    }
+    100% {
+      fill: #FF97B5;
+    }
+  }
 
       .cls-6, .cls-7 {
         stroke-width: 0px;
@@ -30,7 +40,17 @@
 
       .cls-3 {
         fill: #d793ff;
-      }
+    animation: colorChange2 0.2s infinite alternate;
+  }
+
+  @keyframes colorChange2 {
+    0% {
+      fill: #D4FF37;
+    }
+    100% {
+      fill: #FFEC2D;
+    }
+  }
 
       .cls-4 {
         stroke: #ff6a37;

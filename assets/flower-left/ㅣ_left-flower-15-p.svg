@@ -4,7 +4,17 @@
     <style>
       .cls-1 {
         fill: #ff97b5;
-      }
+    animation: colorChange 1.8s infinite alternate;
+  }
+
+  @keyframes colorChange {
+    0% {
+      fill: #FF97B5;
+    }
+    100% {
+      fill: #00B2FF;
+    }
+  }
 
       .cls-1, .cls-2, .cls-3 {
         stroke: #111114;
@@ -24,7 +34,17 @@
 
       .cls-3 {
         fill: #ffec2d;
-      }
+    animation: colorChange1 0.4s infinite alternate;
+  }
+
+  @keyframes colorChange1 {
+    0% {
+      fill: #FFEC2D;
+    }
+    100% {
+      fill: #FFD504;
+    }
+  }
     </style>
   </defs>
   <g>
