@@ -22,20 +22,7 @@
 
       .cls-7 {
         fill: #ff6a37;
-    animation: colorChange 1.5s infinite alternate;
-  }
-
-  @keyframes colorChange {
-    0% {
-      fill: #FF6A37;
-    }
-    50% {
-      fill: #FFA537;
-    }
-    100% {
-      fill: #FF412C;
-    }
-  }
+}
 
       .cls-7, .cls-8 {
         stroke-width: 0px;

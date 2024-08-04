@@ -237,10 +237,10 @@
 
 /* 7번꽃 */
 .flower7 {
-    left: 71%;
-    top: 47.5%;
+    left: 72%;
+    top: 49.5%;
     /* background-color: aqua; */
-    width: 5.5%;
+    width: 5%;
     animation: flower6 3s infinite;
 }
 
@@ -324,9 +324,9 @@
 
 /* 10번꽃 */
 .flower10 {
-    left: 61%;
+    left: 60%;
     top: 57%;
-    width: 8%;
+    width: 9.3%;
     animation: flower17 5s ease-in-out infinite;
 }
 
@@ -410,7 +410,7 @@
     position: absolute;
     left: 51%;
     top: 66%;
-    width: 9%;
+    width: 10%;
     animation: flower13 5s ease-in-out infinite;
 }
 
@@ -465,9 +465,9 @@
 /* 15번 꽃 */
 .flower15 {
     position: absolute;
-    left: 72.8%;
+    left: 72%;
     top: 63%;
-    width: 9.8%;
+    width: 10.3%;
     animation: flower15 5s ease-in-out infinite;
 }
 
@@ -496,32 +496,24 @@
 /* 16번 꽃 */
 .flower16 {
     position: absolute;
-    left: 70%;
+    left: 69%;
     top: 59%;
     /* background-color: aliceblue; */
-    width: 4.5%;
-    animation: flower16 5s ease-in-out infinite;
+    width: 6%;
+    animation: flower162 3s ease-in-out infinite;
 }
 
-@keyframes flower16 {
+@keyframes flower162 {
     0% {
-        transform: translateX(0) rotate(0deg);
+        transform: rotate(0deg);
     }
 
-    25% {
-        transform: translateX(2px) rotate(1deg);
-    }
-
-    50% {
-        transform: translateX(-2px) rotate(-1deg);
-    }
-
-    75% {
-        transform: translateX(2px) rotate(1deg);
+    0% {
+        transform: rotate(-20deg);
     }
 
     100% {
-        transform: translateX(0) rotate(0deg);
+        transform: rotate(50deg);
     }
 }
 
@@ -685,6 +677,38 @@
     }
 }
 
+/* 23번 꽃 */
+.flower23 {
+    position: absolute;
+    left: 68%;
+    top: 38%;
+    z-index: 0;
+    width: 6.3%;
+    animation: flower15 5s ease-in-out infinite;
+}
+
+@keyframes flower15 {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-5px) rotate(-2deg);
+    }
+
+    75% {
+        transform: translateX(5px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
 /* 오른쪽_ 1번 꽃 */
 .flowers1 {
     position: absolute;
@@ -712,9 +736,9 @@
 /* 2번 꽃 */
 .flowers2 {
     position: absolute;
-    left: 47.5%;
-    top: 92%;
-    width: 3%;
+    left: 55%;
+    top: 56.5%;
+    width: 4.6%;
     z-index: 1000;
     animation: rotate1 4s infinite;
 }
@@ -1224,7 +1248,7 @@
 /* 20번 꽃 */
 .flowers20 {
     position: absolute;
-    left: 85%;
+    left: 40%;
     top: 76%;
     width: 6.7%;
     z-index: 1000;
@@ -1256,7 +1280,7 @@
 /* 21번 꽃 */
 .flowers21 {
     position: absolute;
-    left: 85%;
+    left: 28%;
     top: 76%;
     width: 6.7%;
     z-index: 1000;
@@ -1288,10 +1312,11 @@
 /* 22번 꽃 */
 .flowers22 {
     position: absolute;
-    left: 85%;
-    top: 76%;
+    /* background-color: aliceblue; */
+    left: 47%;
+    top: 78%;
     width: 6.7%;
-    z-index: 1000;
+    z-index: 1000000;
     animation: rightleft1 4s ease-in-out infinite;
 }
 
@@ -1320,9 +1345,9 @@
 /* 23번 꽃 */
 .flowers23 {
     position: absolute;
-    left: 85%;
-    top: 76%;
-    width: 6.7%;
+    left: 6%;
+    top: 57%;
+    width: 4.7%;
     z-index: 1000;
     animation: rightleft 5s ease-in-out infinite;
 }
@@ -1352,10 +1377,10 @@
 /* 24번 꽃 */
 .flowers24 {
     position: absolute;
-    left: 85%;
-    top: 76%;
+    left: 23.4%;
+    top: 73%;
     width: 6.7%;
-    z-index: 1000;
+    z-index: 100000;
     animation: rightleft1 4s ease-in-out infinite;
 }
 
@@ -1384,9 +1409,9 @@
 /* 25번 꽃 */
 .flowers25 {
     position: absolute;
-    left: 85%;
-    top: 76%;
-    width: 6.7%;
+    left: 8%;
+    top: 79%;
+    width: 2.9%;
     z-index: 1000;
     animation: rightleft 5s ease-in-out infinite;
 }
@@ -1416,7 +1441,7 @@
 /* 26번 꽃 */
 .flowers26 {
     position: absolute;
-    left: 85%;
+    left: 11.3%;
     top: 76%;
     width: 6.7%;
     z-index: 1000;
@@ -1440,16 +1465,16 @@
 /* 27번 꽃 */
 .flowers27 {
     position: absolute;
-    left: 85%;
-    top: 76%;
-    width: 6.7%;
-    z-index: 1000;
-    animation: rightleft 5s ease-in-out infinite;
+    left: 6.2%;
+    top: 70%;
+    width: 4.2%;
+    z-index: 10000;
+    animation: rightleft33 5s ease-in-out infinite;
 }
 
-@keyframes rightleft {
+@keyframes rightleft33 {
     0% {
-        transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(40deg);
     }
 
     25% {
@@ -1457,7 +1482,7 @@
     }
 
     50% {
-        transform: translateX(-3px) rotate(-1deg);
+        transform: translateX(-3px) rotate(-10deg);
     }
 
     75% {
@@ -1465,17 +1490,17 @@
     }
 
     100% {
-        transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(40deg);
     }
 }
 
 /* 28번 꽃 */
 .flowers28 {
     position: absolute;
-    left: 85%;
-    top: 76%;
-    width: 6.7%;
-    z-index: 1000;
+    left: 18.6%;
+    top: 69%;
+    width: 8.2%;
+    z-index: 100000;
     animation: rightleft1 4s ease-in-out infinite;
 }
 
@@ -1504,10 +1529,10 @@
 /* 29번 꽃 */
 .flowers29 {
     position: absolute;
-    left: 85%;
-    top: 76%;
-    width: 6.7%;
-    z-index: 1000;
+    left: 57.4%;
+    top: 89%;
+    width: 3.8%;
+    z-index: 100000;
     animation: rightleft 5s ease-in-out infinite;
 }
 
@@ -1528,10 +1553,10 @@
 /* 30번 꽃 */
 .flowers30 {
     position: absolute;
-    left: 85%;
-    top: 76%;
-    width: 6.7%;
-    z-index: 1000;
+    left: 27%;
+    top: 86%;
+    width: 3.7%;
+    z-index: 1000000;
     animation: rightleft1 6s ease-in-out infinite;
 }
 
@@ -1560,9 +1585,9 @@
 /* 31번 꽃 */
 .flowers31 {
     position: absolute;
-    left: 85%;
-    top: 76%;
-    width: 6.7%;
+    left: 93%;
+    top: 88%;
+    width: 3%;
     z-index: 1000;
     animation: rightleft 5s ease-in-out infinite;
 }
@@ -1592,9 +1617,9 @@
 /* 32번 꽃 */
 .flowers32 {
     position: absolute;
-    left: 85%;
-    top: 76%;
-    width: 6.7%;
+    left: 50%;
+    top: 51%;
+    width: 3%;
     z-index: 1000;
     animation: rotate1 4s infinite;
 }
@@ -1616,16 +1641,16 @@
 /* 33번 꽃 */
 .flowers33 {
     position: absolute;
-    left: 85%;
-    top: 76%;
-    width: 6.7%;
+    left: 52%;
+    top: 82%;
+    width: 3.2%;
     z-index: 1000;
-    animation: rightleft 5s ease-in-out infinite;
+    animation: rightleft112 5s ease-in-out infinite;
 }
 
-@keyframes rightleft {
+@keyframes rightleft112 {
     0% {
-        transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(-20deg);
     }
 
     25% {
@@ -1633,7 +1658,7 @@
     }
 
     50% {
-        transform: translateX(-3px) rotate(-1deg);
+        transform: translateX(-3px) rotate(80deg);
     }
 
     75% {
@@ -1641,15 +1666,15 @@
     }
 
     100% {
-        transform: translateX(0) rotate(0deg);
+        transform: translateX(0) rotate(-20deg);
     }
 }
 
 /* 34번 꽃 */
 .flowers34 {
     position: absolute;
-    left: 85%;
-    top: 76%;
+    left: 64%;
+    top: 84%;
     width: 6.7%;
     z-index: 1000;
     animation: rightleft1 4s ease-in-out infinite;

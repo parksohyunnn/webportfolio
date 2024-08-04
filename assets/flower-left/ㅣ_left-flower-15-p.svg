@@ -4,15 +4,18 @@
     <style>
       .cls-1 {
         fill: #ff97b5;
-    animation: colorChange 1.8s infinite alternate;
+    animation: colorChange 7.8s infinite alternate;
   }
 
   @keyframes colorChange {
     0% {
       fill: #FF97B5;
     }
-    100% {
+    50% {
       fill: #00B2FF;
+    }
+    100% {
+      fill: #FF97B5;
     }
   }
 

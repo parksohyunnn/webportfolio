@@ -4,44 +4,19 @@
     <style>
       .cls-1 {
         fill: #ff97b5;
-    animation: colorChange2 0.6s infinite alternate;
-  }
-
-  @keyframes colorChange2 {
-    0% {
-      fill: #ff97b5;
-    }
-    100% {
-      fill: #FFD504;
-    }
-  }
+ }
 
       .cls-1, .cls-2 {
         stroke: #111114;
         stroke-linecap: round;
         stroke-linejoin: round;
-        stroke-width: 0.9px;
+        stroke-width: 0.6px;
       }
 
       .cls-3 {
-        fill: #00b2ff;
-    animation: colorChange 3s infinite alternate;
-  }
+        fill: #FFEC2D;
+}
 
-  @keyframes colorChange {
-    0% {
-      fill: #00B2FF;
-    }
-    25% {
-      fill: #32EFE9;
-    }
-    50% {
-      fill: #32C6EF;
-    }
-    100% {
-      fill: #00B2FF;
-    }
-  }
 
       .cls-3, .cls-4 {
         stroke-width: 0px;
