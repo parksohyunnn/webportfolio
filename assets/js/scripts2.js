@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", function () {
+    var path = document.querySelector('#animatedLine path');
+    path.style.strokeDashoffset = '0';
+});
+
 document.addEventListener('DOMContentLoaded', function () {
     // skill
     // 메인 성 이미지
@@ -28,6 +33,11 @@ document.addEventListener('DOMContentLoaded', function () {
     gsap.set(".skill .notion", { opacity: 0, y: -15 });
     gsap.set(".skill .slack", { opacity: 0, y: -15 });
     gsap.set(".skill .click", { opacity: 0 });
+    // 메인 구름
+    gsap.set(".skill .sky1", { opacity: 0, y: 25 });
+    gsap.set(".skill .sky2", { opacity: 0, y: 25 });
+    gsap.set(".skill .sky3", { opacity: 0, y: 25 });
+    gsap.set(".skill .sky4", { opacity: 0, y: 25 });
     // 메인 새
     gsap.set(".skill .skillImg2", { opacity: 0, y: 45 });
     const tl = gsap.timeline();
@@ -61,7 +71,12 @@ document.addEventListener('DOMContentLoaded', function () {
         tl.to(".skill .mysql", { opacity: 1, y: 0, stagger: 0.5, duration: 0.2, ease: "power2.out" });
         tl.to(".skill .notion", { opacity: 1, y: 0, stagger: 0.5, duration: 0.2, ease: "power2.out" });
         tl.to(".skill .slack", { opacity: 1, y: 0, stagger: 0.5, duration: 0.2, ease: "power2.out" });
-        tl.to(".skill .click", { opacity: 1, stagger: 0.5, duration: 0.1, ease: "power2.out" });
+        tl.to(".skill .click", { opacity: 1, duration: 0.1, ease: "power2.out" });
+        // 매인 구름
+        tl.to(".skill .sky1", { opacity: 1, y: 0, stagger: 0.3, duration: 0.3, ease: "power3.out" });
+        tl.to(".skill .sky2", { opacity: 1, y: 0, stagger: 0.3, duration: 0.3, ease: "power3.out" });
+        tl.to(".skill .sky3", { opacity: 1, y: 0, stagger: 0.3, duration: 0.3, ease: "power3.out" });
+        tl.to(".skill .sky4", { opacity: 1, y: 0, stagger: 0.3, duration: 0.3, ease: "power3.out" });
         // 매인 새
         tl.to(".skill .skillImg2", { opacity: 1, y: 0, stagger: 0.5, duration: 0.3, ease: "power2.out" });
     }, 1000);

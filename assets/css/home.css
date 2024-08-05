@@ -240,7 +240,7 @@
     left: 72%;
     top: 49.5%;
     /* background-color: aqua; */
-    width: 5%;
+    width: 5.5%;
     animation: flower6 3s infinite;
 }
 
@@ -680,10 +680,10 @@
 /* 23번 꽃 */
 .flower23 {
     position: absolute;
-    left: 68%;
+    left: 69%;
     top: 38%;
     z-index: 0;
-    width: 6.3%;
+    width: 8.3%;
     animation: flower15 5s ease-in-out infinite;
 }
 

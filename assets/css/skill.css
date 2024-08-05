@@ -231,6 +231,52 @@
     animation: updown2 1s infinite ease-in-out;
 }
 
+.skillWrap .skill .sky1 {
+    width: 13.4%;
+    left: -18%;
+    top: 42%;
+    animation: updown2 1s infinite ease-in-out;
+}
+
+.skillWrap .skill .sky2 {
+    width: 24%;
+    left: -38%;
+    top: 67%;
+    animation: updown2 1s infinite ease-in-out;
+}
+
+.skillWrap .skill .sky3 {
+    width: 8%;
+    left: 22%;
+    top: 28%;
+    animation: updown2 1s infinite ease-in-out;
+}
+
+.skillWrap .skill .sky4 {
+    width: 13%;
+    left: 80%;
+    top: 82%;
+    animation: updown2 1s infinite ease-in-out;
+}
+
+.skLine {
+    position: absolute;
+    width: 110%;
+    left: -4%;
+    top: 0%;
+}
+
+#animatedLine path {
+    stroke-dasharray: 4000;
+    /* 경로의 전체 길이를 두 배로 크게 설정 */
+    stroke-dashoffset: 4000;
+    /* 시작점에서 전체 길이만큼의 오프셋 */
+    opacity: 1;
+    transition: stroke-dashoffset 8s ease-out;
+    /* 10초 동안 애니메이션 */
+    stroke-width: 0.5;
+}
+
 .skillWrap .s2 {
     width: 200px;
     transform: rotateY(180deg) translateY(-180%);
@@ -296,6 +342,17 @@
         width: 850px;
     }
 
+    .skLine {
+        width: 200%;
+        left: -24%;
+        top: -15%;
+    }
+
+    #animatedLine {
+        width: 72%;
+        height: auto;
+    }
+
 }
 
 @media (max-width: 2100px) {
@@ -308,6 +365,17 @@
 @media (max-width: 1940px) {
     #skiilMain {
         width: 100%;
+    }
+
+    .skLine {
+        width: 200%;
+        left: -24%;
+        top: -23%;
+    }
+
+    #animatedLine {
+        width: 72%;
+        height: auto;
     }
 }
 
