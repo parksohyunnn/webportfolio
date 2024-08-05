@@ -1,923 +1,1184 @@
-/* 클릭유도버튼 container_ai */
-.button-container_ai {
+/* moFigma */
+.modal {
     position: absolute;
-    top: 500px;
-    left: -70px;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal__inner {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ffe5e5;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #FFB49B;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #5D2836;
+}
+
+.modal__h3 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.modalImg {
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model__close {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.progress {
+    width: 220px;
+    height: 12px;
+    background-color: #f3c6b9;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+.mop {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.modalP {
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 90%;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.progress::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainR);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text {
+    color: var(--mainR);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start {
+    margin-right: 10px;
+}
+
+/* html */
+.skillWrap .skill .click {
+    width: 3px;
+    height: 3px;
+    position: absolute;
     z-index: 10000;
+    background-color: #ffffffcf;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: block;
 }
 
-.button_sk1 {
+.skillWrap .skill .click span {
+    border: 4px solid #ffffffcf;
+    width: 0px;
+    height: 0px;
+    display: block;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transform-origin: center;
+    border-radius: 50px;
+    animation: scale 1.2s infinite ease-in;
+}
+
+.modal__inner2 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ECF7FC;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span2 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #85DAFF;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #284C5D;
+}
+
+.modal__h32 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.modalImg {
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model__close {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+}
+
+.progress-container2 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.progress2 {
+    width: 220px;
+    height: 12px;
+    background-color: #98DDFB;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+.mop {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
-.inner-circle_sk1 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
+.modalP {
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 90%;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.progress2::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainB);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text2 {
+    color: var(--mainB);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start2 {
+    margin-right: 10px;
+}
+
+/* css */
+.modal3 {
     position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
-}
-
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
-}
-
-.outer-circle_sk1 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
-
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
-}
-
-.sk__popup1 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
-    display: none;
-}
-
-/* 클릭유도버튼 container_ps */
-.button-container_ps {
-    position: absolute;
-    top: 54.5%;
-    left: 47%;
+    left: 0;
+    top: 0;
     z-index: 100000;
-}
-
-.button_sk2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.inner-circle_sk2 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
-}
-
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
-}
-
-.outer-circle_sk2 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
-
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
-}
-
-.sk__popup2 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
+    justify-content: center;
     display: none;
 }
 
-/* 클릭유도버튼 container_figma */
-.button-container_figma {
+.modal__inner3 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ECF7FC;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span3 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #85DAFF;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #284C5D;
+}
+
+.modal__h33 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+
+.progress-container3 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
     position: absolute;
-    top: 25.5%;
-    left: 19%;
+    transform: translate(-50%, -50%);
+}
+
+.progress3 {
+    width: 220px;
+    height: 12px;
+    background-color: #98DDFB;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+
+.progress3::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainB);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text3 {
+    color: var(--mainB);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start3 {
+    margin-right: 10px;
+}
+
+/* br */
+.modal4 {
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 100000;
-}
-
-.button_sk3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.inner-circle_sk3 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
-}
-
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
-}
-
-.outer-circle_sk3 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
-
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
-}
-
-.sk__popup3 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
+    justify-content: center;
     display: none;
 }
 
-/* 클릭유도버튼 container_br */
-.button-container_br {
+.modal__inner4 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ffe5e5;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span4 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #FFB49B;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #5D2836;
+}
+
+.modal__h34 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.modalImg4 {
+    width: 30%;
     position: absolute;
-    top: 35.5%;
-    left: 57%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model__close {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    width: 30px;
+    height: 30px;
+}
+
+.progress-container4 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.progress4 {
+    width: 220px;
+    height: 12px;
+    background-color: #f3c6b9;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+.progress4::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainR);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text4 {
+    color: var(--mainR);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start4 {
+    margin-right: 10px;
+}
+
+/* Id */
+.modal5 {
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 100000;
-}
-
-.button_sk4 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.inner-circle_sk4 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
-}
-
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
-}
-
-.outer-circle_sk4 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
-
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
-}
-
-.sk__popup4 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
+    justify-content: center;
     display: none;
 }
 
-/* 클릭유도버튼 container_js */
-.button-container_js {
+.modal__inner5 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ffe5e5;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span5 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #FFB49B;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #5D2836;
+}
+
+.modal__h35 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.modalImg5 {
+    width: 30%;
     position: absolute;
-    top: 14%;
-    left: 25%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress-container5 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.progress5 {
+    width: 220px;
+    height: 12px;
+    background-color: #f3c6b9;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+
+.progress5::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainR);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text5 {
+    color: var(--mainR);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start5 {
+    margin-right: 10px;
+}
+
+/* js */
+.modal6 {
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 100000;
-}
-
-.button_sk5 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.inner-circle_sk5 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
-}
-
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
-}
-
-.outer-circle_sk5 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
-
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
-}
-
-.sk__popup5 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
+    justify-content: center;
     display: none;
 }
 
-/* 클릭유도버튼 container_id */
-.button-container_id {
+.modal__inner6 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ECF7FC;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span6 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #85DAFF;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #284C5D;
+}
+
+.modal__h36 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+
+.progress-container6 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
     position: absolute;
-    top: 47%;
-    left: 88%;
+    transform: translate(-50%, -50%);
+}
+
+.progress6 {
+    width: 220px;
+    height: 12px;
+    background-color: #98DDFB;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+
+.progress6::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainB);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text6 {
+    color: var(--mainB);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start6 {
+    margin-right: 10px;
+}
+
+/* ai */
+.modal7 {
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 100000;
-}
-
-.button_sk6 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.inner-circle_sk6 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
-}
-
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
-}
-
-.outer-circle_sk6 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
-
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
-}
-
-.sk__popup6 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
+    justify-content: center;
     display: none;
 }
 
-/* 클릭유도버튼 container_css */
-.button-container_css {
+.modal__inner7 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ffe5e5;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span7 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #FFB49B;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #5D2836;
+}
+
+.modal__h37 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.modalImg7 {
+    width: 30%;
     position: absolute;
-    top: 9.5%;
-    left: 57.5%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress-container7 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.progress7 {
+    width: 220px;
+    height: 12px;
+    background-color: #f3c6b9;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+
+.progress7::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainR);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text7 {
+    color: var(--mainR);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start7 {
+    margin-right: 10px;
+}
+
+/* git */
+.modal8 {
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 100000;
-}
-
-.button_sk7 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.inner-circle_sk7 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
-}
-
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
-}
-
-.outer-circle_sk7 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
-
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
-}
-
-.sk__popup7 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
+    justify-content: center;
     display: none;
 }
 
-/* 클릭유도버튼 container_html*/
-.button-container_html {
+.modal__inner8 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ECF7FC;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span8 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #85DAFF;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #284C5D;
+}
+
+.modal__h38 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+
+.progress-container8 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
     position: absolute;
-    top: 4.5%;
-    left: 44.5%;
+    transform: translate(-50%, -50%);
+}
+
+.progress8 {
+    width: 220px;
+    height: 12px;
+    background-color: #98DDFB;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+
+.progress8::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainB);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text8 {
+    color: var(--mainB);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start8 {
+    margin-right: 10px;
+}
+
+/* moMysql */
+.modal9 {
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 100000;
-}
-
-.button_sk8 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.inner-circle_sk8 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
-}
-
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
-}
-
-.outer-circle_sk8 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
-
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
-}
-
-.sk__popup8 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
+    justify-content: center;
     display: none;
 }
 
-/* 클릭유도버튼 container_git*/
-.button-container_git {
+.modal__inner9 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ECF7FC;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span9 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #85DAFF;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #284C5D;
+}
+
+.modal__h39 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+
+.progress-container9 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
     position: absolute;
-    top: 25%;
-    left: 83%;
+    transform: translate(-50%, -50%);
+}
+
+.progress9 {
+    width: 220px;
+    height: 12px;
+    background-color: #98DDFB;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+
+.progress9::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainB);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text9 {
+    color: var(--mainB);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start9 {
+    margin-right: 10px;
+}
+
+/* ps */
+.modal10 {
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 100000;
-}
-
-.button_sk9 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.inner-circle_sk9 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
-}
-
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
-}
-
-.outer-circle_sk9 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
-
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
-}
-
-.sk__popup9 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
+    justify-content: center;
     display: none;
 }
 
-/* 클릭유도버튼 container_notion*/
-.button-container_notion {
+.modal__inner10 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ffe5e5;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span10 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #FFB49B;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #5D2836;
+}
+
+.modal__h310 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.modalImg10 {
+    width: 30%;
     position: absolute;
-    top: 46.5%;
-    left: 66.5%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress-container10 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.progress10 {
+    width: 220px;
+    height: 12px;
+    background-color: #f3c6b9;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+
+.progress10::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainR);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text10 {
+    color: var(--mainR);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start10 {
+    margin-right: 10px;
+}
+
+/* moSlack */
+.modal11 {
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 100000;
-}
-
-.button_sk10 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.inner-circle_sk10 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
-}
-
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
-}
-
-.outer-circle_sk10 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
-
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
-}
-
-.sk__popup10 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
+    justify-content: center;
     display: none;
 }
 
-/* 클릭유도버튼 container_slack*/
-.button-container_slack {
+.modal__inner11 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ECFCF2;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+}
+
+.modal__span11 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #9EF6BD;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #227A51;
+}
+
+.modal__h311 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.modalImg11 {
+    width: 30%;
     position: absolute;
-    top: 41%;
-    left: 27.5%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress-container11 {
+    display: flex;
+    align-items: center;
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.progress11 {
+    width: 220px;
+    height: 12px;
+    background-color: #9EF3BA;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+
+.progress11::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainG);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
+}
+
+.progress-text11 {
+    color: var(--mainG);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress-start11 {
+    margin-right: 10px;
+}
+
+/* moNotion */
+.modal12 {
+    position: absolute;
+    left: 0;
+    top: 0;
     z-index: 100000;
-}
-
-.button_sk11 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000045;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.inner-circle_sk11 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
-}
-
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
-}
-
-.outer-circle_sk11 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
-
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
-}
-
-.sk__popup11 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
+    justify-content: center;
     display: none;
 }
 
-/* 클릭유도버튼 container_mysql*/
-.button-container_mysql {
-    position: absolute;
-    top: 70%;
-    left: 44.5%;
-    z-index: 100000;
+.modal__inner12 {
+    width: 400px;
+    aspect-ratio: 4/6;
+    background-color: #ECFCF2;
+    position: relative;
+    color: #fff;
+    padding: 60px 40px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
 }
 
-.button_sk12 {
+.modal__span12 {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #9EF6BD;
+    border-radius: 20px;
+    font-family: var(--fontp);
+    letter-spacing: 1.4;
+    font-weight: 600;
+    color: #227A51;
+}
+
+.modal__h312 {
+    font-family: var(--fontG);
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.modalImg12 {
+    width: 30%;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: 50px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress-container12 {
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.inner-circle_sk12 {
-    /* width: 8px;
-    height: 8px;
-    background-color: var(--white);
-    border-radius: 50%;
+    top: 65%;
+    left: 50%;
     position: absolute;
-    z-index: 2;
-    animation: bounce-opacity 2.5s infinite; */
+    transform: translate(-50%, -50%);
 }
 
-@keyframes bounce-opacity {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.5;
-        transform: scale(1.2);
-    }
+.progress12 {
+    width: 220px;
+    height: 12px;
+    background-color: #9EF3BA;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
 }
 
-.outer-circle_sk12 {
-    width: 35px;
-    height: 35px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    animation: bounce 1.5s infinite;
 
+.progress12::after {
+    content: '';
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: var(--mainG);
+    border-radius: 6px 0 0 6px;
+    transition: width 0.4s ease;
 }
 
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: scale(1);
-        opacity: 0.8;
-    }
-
-    50%,
-    70% {
-        transform: scale(2.2);
-        opacity: 0;
-    }
+.progress-text12 {
+    color: var(--mainG);
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.sk__popup12 {
-    width: 330px;
-    position: absolute;
-    top: 22%;
-    left: 25%;
-    z-index: 1000;
-    display: none;
+.progress-start12 {
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .modal__inner3 {
+        width: 300px;
+    }
 }

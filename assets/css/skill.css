@@ -1,3 +1,21 @@
+#skillBg {
+    background-color: var(--mainR);
+    /* background-color: #FFB3BA; */
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+/* skillSection11 */
+.skillSection11 {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
 #skiilMain {
     width: 1920px;
     height: 70vh;
@@ -271,6 +289,20 @@
     100% {
         transform: translateY(0%);
     }
+}
+
+@media (max-width: 2400px) {
+    .skillWrap .skill.s1 {
+        width: 850px;
+    }
+
+}
+
+@media (max-width: 2100px) {
+    .skillWrap .skill.s1 {
+        width: 750px;
+    }
+
 }
 
 @media (max-width: 1940px) {
