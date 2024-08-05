@@ -39,6 +39,7 @@
 
 .prModal__h3 {
     font-family: var(--fontG);
+    font-weight: 700;
     font-size: 40px;
     padding-top: 30px;
     box-sizing: border-box;

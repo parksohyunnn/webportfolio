@@ -118,8 +118,8 @@
 .aboutTittle {
     text-transform: uppercase;
     font-size: 110px;
-    font-family: 'gegant';
-    font-weight: 300;
+    font-family: var(--fontG);
+    font-weight: 700;
     /* line-height: 1; */
     text-align: center;
     /* letter-spacing: -0.3vw; */
